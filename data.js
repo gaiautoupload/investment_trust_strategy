@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-06-25T11:12:57.463109+08:00",
+  "generated_at": "2026-06-25T17:48:17.001264+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,25 +8,25 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-06-24",
-    "latest_chip_date": "2026-06-24",
+    "signal_date": "2026-06-25",
+    "latest_chip_date": "2026-06-25",
     "latest_price_date": "2026-06-25",
     "candidate_count": 1,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 672911.1000000001,
-    "cash": 30356.100000000035,
-    "total_return_pct": 124.30370000000002,
-    "annualized_return_pct": 539.6330165339144,
+    "final_value": 663551.1000000001,
+    "cash": 25161.100000000035,
+    "total_return_pct": 121.18370000000004,
+    "annualized_return_pct": 519.3789717366984,
     "start_date": "2026-01-16",
     "end_date": "2026-06-24",
     "closed_trade_count": 26,
     "entry_count": 31,
     "open_position_count": 5,
     "closed_trade_win_rate_pct": 50.0,
-    "average_closed_trade_return_pct": 18.566240609119763,
+    "average_closed_trade_return_pct": 18.266022608496904,
     "max_drawdown_pct": -10.036430098584692
   },
   "equity_curve": [
@@ -201,43 +201,43 @@ window.PUBLIC_FOLLOW_DATA = {
     {
       "date": "2026-06-12",
       "equity": 651695.9,
-      "cash": 76.70000000001164,
+      "cash": 356.70000000001164,
       "position_count": 5
     },
     {
       "date": "2026-06-16",
-      "equity": 697653.1000000001,
-      "cash": 38455.100000000035,
+      "equity": 688313.1000000001,
+      "cash": 33041.100000000035,
       "position_count": 5
     },
     {
       "date": "2026-06-17",
-      "equity": 688626.1000000001,
-      "cash": 38455.100000000035,
+      "equity": 679071.1000000001,
+      "cash": 33041.100000000035,
       "position_count": 5
     },
     {
       "date": "2026-06-18",
-      "equity": 702326.1000000001,
-      "cash": 38455.100000000035,
+      "equity": 692785.1000000001,
+      "cash": 33041.100000000035,
       "position_count": 5
     },
     {
       "date": "2026-06-22",
-      "equity": 707048.1000000001,
-      "cash": 38455.100000000035,
+      "equity": 697451.1000000001,
+      "cash": 33041.100000000035,
       "position_count": 5
     },
     {
       "date": "2026-06-23",
-      "equity": 697816.1000000001,
-      "cash": 38455.100000000035,
+      "equity": 688253.1000000001,
+      "cash": 33041.100000000035,
       "position_count": 5
     },
     {
       "date": "2026-06-24",
-      "equity": 672911.1000000001,
-      "cash": 30356.100000000035,
+      "equity": 663551.1000000001,
+      "cash": 25161.100000000035,
       "position_count": 5
     }
   ],
@@ -245,48 +245,48 @@ window.PUBLIC_FOLLOW_DATA = {
     {
       "stock_id": "6683",
       "company_name": "雍智科技",
-      "quantity": 85,
+      "quantity": 84,
       "entry_date": "2026-06-16",
       "entry_price": 1635.0,
       "current_price_date": "2026-06-24",
       "current_price": 1940.0,
-      "market_value": 164900.0,
+      "market_value": 162960.0,
       "unrealized_return_pct": 18.654434250764517,
       "holding_days": 8
     },
     {
       "stock_id": "4958",
       "company_name": "臻鼎-KY",
-      "quantity": 234,
+      "quantity": 230,
       "entry_date": "2026-06-16",
       "entry_price": 596.0,
       "current_price_date": "2026-06-24",
       "current_price": 587.0,
-      "market_value": 137358.0,
+      "market_value": 135010.0,
       "unrealized_return_pct": -1.5100671140939603,
       "holding_days": 8
     },
     {
       "stock_id": "6919",
       "company_name": "康霈*",
-      "quantity": 1257,
+      "quantity": 1240,
       "entry_date": "2026-06-24",
       "entry_price": 107.0,
       "current_price_date": "2026-06-24",
       "current_price": 104.0,
-      "market_value": 130728.0,
+      "market_value": 128960.0,
       "unrealized_return_pct": -2.8037383177570097,
       "holding_days": 0
     },
     {
       "stock_id": "6173",
       "company_name": "信昌電",
-      "quantity": 394,
+      "quantity": 400,
       "entry_date": "2026-06-16",
       "entry_price": 309.5,
       "current_price_date": "2026-06-24",
       "current_price": 305.0,
-      "market_value": 120170.0,
+      "market_value": 122000.0,
       "unrealized_return_pct": -1.4539579967689842,
       "holding_days": 8
     },
@@ -306,18 +306,16 @@ window.PUBLIC_FOLLOW_DATA = {
   "today_candidates": [
     {
       "rank": 1,
-      "signal_date": "2026-06-24",
-      "stock_id": "6548",
-      "company_name": "長科*",
+      "signal_date": "2026-06-25",
+      "stock_id": "2481",
+      "company_name": "強茂",
       "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "entry_date": "2026-06-25",
-      "entry_open": 93.69999694824219,
-      "reference_price": 93.69999694824219,
-      "target_amount": 134582.22000000003,
-      "suggested_quantity": 1436,
+      "reference_price": 199.0,
+      "target_amount": 132710.22000000003,
+      "suggested_quantity": 666,
       "sell_stock_id": "6919",
       "sell_company_name": "康霈*",
-      "sell_quantity": 1257,
+      "sell_quantity": 1240,
       "action_text": "換股買進"
     }
   ],
@@ -327,24 +325,24 @@ window.PUBLIC_FOLLOW_DATA = {
       "company_name": "瑞鼎",
       "entry_date": "2026-06-24",
       "entry_price": 280.0,
-      "quantity": 480,
-      "cost": 134400.0
+      "quantity": 473,
+      "cost": 132440.0
     },
     {
       "stock_id": "8114",
       "company_name": "振樺電",
       "entry_date": "2026-06-24",
       "entry_price": 207.5,
-      "quantity": 648,
-      "cost": 134460.0
+      "quantity": 639,
+      "cost": 132592.5
     },
     {
       "stock_id": "6919",
       "company_name": "康霈*",
       "entry_date": "2026-06-24",
       "entry_price": 107.0,
-      "quantity": 1257,
-      "cost": 134499.0
+      "quantity": 1240,
+      "cost": 132680.0
     },
     {
       "stock_id": "6515",
@@ -359,40 +357,40 @@ window.PUBLIC_FOLLOW_DATA = {
       "company_name": "禾伸堂",
       "entry_date": "2026-06-16",
       "entry_price": 882.0,
-      "quantity": 158,
-      "cost": 139356.0
+      "quantity": 156,
+      "cost": 137592.0
     },
     {
       "stock_id": "6173",
       "company_name": "信昌電",
       "entry_date": "2026-06-16",
       "entry_price": 309.5,
-      "quantity": 394,
-      "cost": 121943.0
+      "quantity": 400,
+      "cost": 123800.0
     },
     {
       "stock_id": "4958",
       "company_name": "臻鼎-KY",
       "entry_date": "2026-06-16",
       "entry_price": 596.0,
-      "quantity": 234,
-      "cost": 139464.0
+      "quantity": 230,
+      "cost": 137080.0
     },
     {
       "stock_id": "6683",
       "company_name": "雍智科技",
       "entry_date": "2026-06-16",
       "entry_price": 1635.0,
-      "quantity": 85,
-      "cost": 138975.0
+      "quantity": 84,
+      "cost": 137340.0
     },
     {
-      "stock_id": "1560",
-      "company_name": "中砂",
+      "stock_id": "2472",
+      "company_name": "立隆電",
       "entry_date": "2026-06-12",
-      "entry_price": 650.0,
-      "quantity": 184,
-      "cost": 119600.0
+      "entry_price": 380.0,
+      "quantity": 314,
+      "cost": 119320.0
     },
     {
       "stock_id": "3167",
@@ -425,7 +423,7 @@ window.PUBLIC_FOLLOW_DATA = {
       "company_name": "禾伸堂",
       "entry_date": "2026-06-16",
       "entry_price": 882.0,
-      "quantity": 158,
+      "quantity": 156,
       "exit_date": "2026-06-24",
       "exit_price": 800.0,
       "exit_reason": "移動停損",
@@ -437,7 +435,7 @@ window.PUBLIC_FOLLOW_DATA = {
       "company_name": "瑞鼎",
       "entry_date": "2026-06-24",
       "entry_price": 280.0,
-      "quantity": 480,
+      "quantity": 473,
       "exit_date": "2026-06-24",
       "exit_price": 280.0,
       "exit_reason": "換強股",
@@ -449,7 +447,7 @@ window.PUBLIC_FOLLOW_DATA = {
       "company_name": "振樺電",
       "entry_date": "2026-06-24",
       "entry_price": 207.5,
-      "quantity": 648,
+      "quantity": 639,
       "exit_date": "2026-06-24",
       "exit_price": 207.5,
       "exit_reason": "換強股",
@@ -505,15 +503,15 @@ window.PUBLIC_FOLLOW_DATA = {
       "holding_days": 14
     },
     {
-      "stock_id": "1560",
-      "company_name": "中砂",
+      "stock_id": "2472",
+      "company_name": "立隆電",
       "entry_date": "2026-06-12",
-      "entry_price": 650.0,
-      "quantity": 184,
+      "entry_price": 380.0,
+      "quantity": 314,
       "exit_date": "2026-06-16",
-      "exit_price": 711.0,
+      "exit_price": 386.0,
       "exit_reason": "換強股",
-      "return_pct": 9.38461538461539,
+      "return_pct": 1.5789473684210575,
       "holding_days": 4
     },
     {
