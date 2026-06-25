@@ -1,0 +1,11 @@
+# Public repo: static frontend only.
+# Do not put backend strategy scripts, DB files, caches, or webhooks here.
+*.py
+*.bat
+*.ps1
+*.sqlite
+*.db
+*.pkl
+.venv/
+__pycache__/
+project_data/

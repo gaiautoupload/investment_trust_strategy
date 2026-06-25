@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>投信跟單績效面板</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Daily Follow Dashboard</p>
+        <h1>投信跟單績效面板</h1>
+      </div>
+      <div class="meta" id="meta"></div>
+    </header>
+
+    <main class="layout">
+      <section class="summary-grid" id="summary"></section>
+
+      <section class="panel hero-panel">
+        <div class="panel-head">
+          <div>
+            <h2>資產曲線</h2>
+            <p>30 萬起算，顯示目前身家與回撤變化。</p>
+          </div>
+          <img class="chart-image" src="assets/equity_curve.png" alt="資產折線圖" />
+        </div>
+      </section>
+
+      <section class="grid-2">
+        <section class="panel accent">
+          <div class="panel-head">
+            <div>
+              <h2>今天怎麼買賣</h2>
+              <p id="dataStatus"></p>
+            </div>
+          </div>
+          <div id="todayActions" class="action-list"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>現在持股</h2>
+              <p>目前持倉、未實現報酬與市值。</p>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>股票</th>
+                  <th>股數</th>
+                  <th>現價</th>
+                  <th>未實現</th>
+                  <th>市值</th>
+                </tr>
+              </thead>
+              <tbody id="holdings"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+
+      <section class="grid-2">
+        <section class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>近期買進</h2>
+              <p>最近進場紀錄。</p>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>日期</th>
+                  <th>股票</th>
+                  <th>價格</th>
+                  <th>股數</th>
+                  <th>金額</th>
+                </tr>
+              </thead>
+              <tbody id="entries"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head">
+            <div>
+              <h2>近期出場</h2>
+              <p>已實現交易與原因。</p>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>日期</th>
+                  <th>股票</th>
+                  <th>原因</th>
+                  <th>報酬</th>
+                  <th>天數</th>
+                </tr>
+              </thead>
+              <tbody id="closedTrades"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
