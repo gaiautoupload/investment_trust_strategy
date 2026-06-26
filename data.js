@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-06-25T17:48:17.001264+08:00",
+  "generated_at": "2026-06-26T17:53:47.979020+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,25 +8,25 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-06-25",
-    "latest_chip_date": "2026-06-25",
-    "latest_price_date": "2026-06-25",
-    "candidate_count": 1,
+    "signal_date": "2026-06-26",
+    "latest_chip_date": "2026-06-26",
+    "latest_price_date": "2026-06-26",
+    "candidate_count": 12,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 663551.1000000001,
-    "cash": 25161.100000000035,
-    "total_return_pct": 121.18370000000004,
-    "annualized_return_pct": 519.3789717366984,
+    "final_value": 698491.1000000001,
+    "cash": 15748.104547119176,
+    "total_return_pct": 132.8303666666667,
+    "annualized_return_pct": 588.4662217575182,
     "start_date": "2026-01-16",
-    "end_date": "2026-06-24",
-    "closed_trade_count": 26,
-    "entry_count": 31,
+    "end_date": "2026-06-25",
+    "closed_trade_count": 27,
+    "entry_count": 32,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": 50.0,
-    "average_closed_trade_return_pct": 18.266022608496904,
+    "closed_trade_win_rate_pct": 48.148148148148145,
+    "average_closed_trade_return_pct": 17.520275146015365,
     "max_drawdown_pct": -10.036430098584692
   },
   "equity_curve": [
@@ -239,6 +239,12 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 663551.1000000001,
       "cash": 25161.100000000035,
       "position_count": 5
+    },
+    {
+      "date": "2026-06-25",
+      "equity": 698491.1000000001,
+      "cash": 15748.104547119176,
+      "position_count": 5
     }
   ],
   "holdings": [
@@ -248,11 +254,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 84,
       "entry_date": "2026-06-16",
       "entry_price": 1635.0,
-      "current_price_date": "2026-06-24",
+      "current_price_date": "2026-06-25",
       "current_price": 1940.0,
       "market_value": 162960.0,
       "unrealized_return_pct": 18.654434250764517,
-      "holding_days": 8
+      "holding_days": 9
     },
     {
       "stock_id": "4958",
@@ -260,22 +266,22 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 230,
       "entry_date": "2026-06-16",
       "entry_price": 596.0,
-      "current_price_date": "2026-06-24",
-      "current_price": 587.0,
-      "market_value": 135010.0,
-      "unrealized_return_pct": -1.5100671140939603,
-      "holding_days": 8
+      "current_price_date": "2026-06-25",
+      "current_price": 602.0,
+      "market_value": 138460.0,
+      "unrealized_return_pct": 1.0067114093959662,
+      "holding_days": 9
     },
     {
-      "stock_id": "6919",
-      "company_name": "康霈*",
-      "quantity": 1240,
-      "entry_date": "2026-06-24",
-      "entry_price": 107.0,
-      "current_price_date": "2026-06-24",
-      "current_price": 104.0,
-      "market_value": 128960.0,
-      "unrealized_return_pct": -2.8037383177570097,
+      "stock_id": "6548",
+      "company_name": "長科*",
+      "quantity": 1490,
+      "entry_date": "2026-06-25",
+      "entry_price": 93.69999694824219,
+      "current_price_date": "2026-06-25",
+      "current_price": 89.69999694824219,
+      "market_value": 133652.99545288086,
+      "unrealized_return_pct": -4.268943575536621,
       "holding_days": 0
     },
     {
@@ -284,11 +290,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 400,
       "entry_date": "2026-06-16",
       "entry_price": 309.5,
-      "current_price_date": "2026-06-24",
-      "current_price": 305.0,
-      "market_value": 122000.0,
-      "unrealized_return_pct": -1.4539579967689842,
-      "holding_days": 8
+      "current_price_date": "2026-06-25",
+      "current_price": 304.0,
+      "market_value": 121600.0,
+      "unrealized_return_pct": -1.7770597738287597,
+      "holding_days": 9
     },
     {
       "stock_id": "6515",
@@ -296,30 +302,171 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 12,
       "entry_date": "2026-06-16",
       "entry_price": 9955.0,
-      "current_price_date": "2026-06-24",
-      "current_price": 9500.0,
-      "market_value": 114000.0,
-      "unrealized_return_pct": -4.570567553992966,
-      "holding_days": 8
+      "current_price_date": "2026-06-25",
+      "current_price": 9400.0,
+      "market_value": 112800.0,
+      "unrealized_return_pct": -5.575087895529885,
+      "holding_days": 9
     }
   ],
   "today_candidates": [
     {
       "rank": 1,
-      "signal_date": "2026-06-25",
-      "stock_id": "2481",
-      "company_name": "強茂",
+      "signal_date": "2026-06-26",
+      "stock_id": "6691",
+      "company_name": "洋基工程",
       "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 199.0,
-      "target_amount": 132710.22000000003,
-      "suggested_quantity": 666,
-      "sell_stock_id": "6919",
-      "sell_company_name": "康霈*",
-      "sell_quantity": 1240,
+      "reference_price": 793.0,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 176,
+      "sell_stock_id": "6548",
+      "sell_company_name": "長科*",
+      "sell_quantity": 1490,
       "action_text": "換股買進"
+    },
+    {
+      "rank": 2,
+      "signal_date": "2026-06-26",
+      "stock_id": "6409",
+      "company_name": "旭隼",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 977.0,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 142,
+      "sell_stock_id": "6548",
+      "sell_company_name": "長科*",
+      "sell_quantity": 1490,
+      "action_text": "換股買進"
+    },
+    {
+      "rank": 3,
+      "signal_date": "2026-06-26",
+      "stock_id": "5434",
+      "company_name": "崇越",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 490.0,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 285,
+      "sell_stock_id": "6548",
+      "sell_company_name": "長科*",
+      "sell_quantity": 1490,
+      "action_text": "換股買進"
+    },
+    {
+      "rank": 4,
+      "signal_date": "2026-06-26",
+      "stock_id": "3023",
+      "company_name": "信邦",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 306.5,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 455,
+      "sell_stock_id": "6548",
+      "sell_company_name": "長科*",
+      "sell_quantity": 1490,
+      "action_text": "換股買進"
+    },
+    {
+      "rank": 5,
+      "signal_date": "2026-06-26",
+      "stock_id": "2379",
+      "company_name": "瑞昱",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 740.0,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 188,
+      "sell_stock_id": "6548",
+      "sell_company_name": "長科*",
+      "sell_quantity": 1490,
+      "action_text": "換股買進"
+    },
+    {
+      "rank": 6,
+      "signal_date": "2026-06-26",
+      "stock_id": "6191",
+      "company_name": "精成科",
+      "action": "WATCH",
+      "reference_price": 100.5,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 1390,
+      "action_text": "觀察"
+    },
+    {
+      "rank": 7,
+      "signal_date": "2026-06-26",
+      "stock_id": "5269",
+      "company_name": "祥碩",
+      "action": "WATCH",
+      "reference_price": 1365.0,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 102,
+      "action_text": "觀察"
+    },
+    {
+      "rank": 8,
+      "signal_date": "2026-06-26",
+      "stock_id": "5469",
+      "company_name": "瀚宇博",
+      "action": "WATCH",
+      "reference_price": 87.4000015258789,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 1598,
+      "action_text": "觀察"
+    },
+    {
+      "rank": 9,
+      "signal_date": "2026-06-26",
+      "stock_id": "2458",
+      "company_name": "義隆",
+      "action": "WATCH",
+      "reference_price": 172.0,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 812,
+      "action_text": "觀察"
+    },
+    {
+      "rank": 10,
+      "signal_date": "2026-06-26",
+      "stock_id": "8112",
+      "company_name": "至上",
+      "action": "WATCH",
+      "reference_price": 91.19999694824219,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 1531,
+      "action_text": "觀察"
+    },
+    {
+      "rank": 11,
+      "signal_date": "2026-06-26",
+      "stock_id": "2352",
+      "company_name": "佳世達",
+      "action": "WATCH",
+      "reference_price": 29.299999237060547,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 4767,
+      "action_text": "觀察"
+    },
+    {
+      "rank": 12,
+      "signal_date": "2026-06-26",
+      "stock_id": "8070",
+      "company_name": "長華*",
+      "action": "WATCH",
+      "reference_price": 53.70000076293945,
+      "target_amount": 139698.22000000003,
+      "suggested_quantity": 2601,
+      "action_text": "觀察"
     }
   ],
   "recent_entries": [
+    {
+      "stock_id": "6548",
+      "company_name": "長科*",
+      "entry_date": "2026-06-25",
+      "entry_price": 93.69999694824219,
+      "quantity": 1490,
+      "cost": 139612.99545288086
+    },
     {
       "stock_id": "3592",
       "company_name": "瑞鼎",
@@ -407,17 +554,21 @@ window.PUBLIC_FOLLOW_DATA = {
       "entry_price": 177.0,
       "quantity": 725,
       "cost": 128325.0
-    },
-    {
-      "stock_id": "1319",
-      "company_name": "東陽",
-      "entry_date": "2026-06-03",
-      "entry_price": 93.4,
-      "quantity": 1312,
-      "cost": 122540.8
     }
   ],
   "recent_closed_trades": [
+    {
+      "stock_id": "6919",
+      "company_name": "康霈*",
+      "entry_date": "2026-06-24",
+      "entry_price": 107.0,
+      "quantity": 1240,
+      "exit_date": "2026-06-25",
+      "exit_price": 105.0,
+      "exit_reason": "換強股",
+      "return_pct": -1.869158878504673,
+      "holding_days": 1
+    },
     {
       "stock_id": "3026",
       "company_name": "禾伸堂",
@@ -549,18 +700,6 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_reason": "換強股",
       "return_pct": 14.28571428571428,
       "holding_days": 16
-    },
-    {
-      "stock_id": "2492",
-      "company_name": "華新科",
-      "entry_date": "2026-05-13",
-      "entry_price": 184.5,
-      "quantity": 491,
-      "exit_date": "2026-06-03",
-      "exit_price": 446.0,
-      "exit_reason": "換強股",
-      "return_pct": 141.73441734417344,
-      "holding_days": 21
     }
   ]
 };
