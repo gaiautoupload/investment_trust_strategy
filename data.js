@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-06-29T16:52:31.976736+08:00",
+  "generated_at": "2026-06-29T17:43:08.195198+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,25 +8,25 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-06-26",
-    "latest_chip_date": "2026-06-26",
-    "latest_price_date": "2026-06-26",
-    "candidate_count": 12,
+    "signal_date": "2026-06-29",
+    "latest_chip_date": "2026-06-29",
+    "latest_price_date": "2026-06-29",
+    "candidate_count": 1,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 698491.1000000001,
-    "cash": 15748.104547119176,
-    "total_return_pct": 132.8303666666667,
-    "annualized_return_pct": 588.4662217575182,
+    "final_value": 660529.1068206788,
+    "cash": 10227.106820678746,
+    "total_return_pct": 120.17636894022625,
+    "annualized_return_pct": 499.26804264799216,
     "start_date": "2026-01-16",
-    "end_date": "2026-06-25",
-    "closed_trade_count": 27,
-    "entry_count": 32,
+    "end_date": "2026-06-26",
+    "closed_trade_count": 28,
+    "entry_count": 33,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": 48.148148148148145,
-    "average_closed_trade_return_pct": 17.520275146015365,
+    "closed_trade_win_rate_pct": 46.42857142857143,
+    "average_closed_trade_return_pct": 16.559134212916156,
     "max_drawdown_pct": -10.036430098584692
   },
   "equity_curve": [
@@ -245,6 +245,12 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 698491.1000000001,
       "cash": 15748.104547119176,
       "position_count": 5
+    },
+    {
+      "date": "2026-06-26",
+      "equity": 660529.1068206788,
+      "cash": 10227.106820678746,
+      "position_count": 5
     }
   ],
   "holdings": [
@@ -254,11 +260,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 84,
       "entry_date": "2026-06-16",
       "entry_price": 1635.0,
-      "current_price_date": "2026-06-25",
-      "current_price": 1940.0,
-      "market_value": 162960.0,
-      "unrealized_return_pct": 18.654434250764517,
-      "holding_days": 9
+      "current_price_date": "2026-06-26",
+      "current_price": 1700.0,
+      "market_value": 142800.0,
+      "unrealized_return_pct": 3.9755351681957096,
+      "holding_days": 10
     },
     {
       "stock_id": "4958",
@@ -266,22 +272,22 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 230,
       "entry_date": "2026-06-16",
       "entry_price": 596.0,
-      "current_price_date": "2026-06-25",
-      "current_price": 602.0,
-      "market_value": 138460.0,
-      "unrealized_return_pct": 1.0067114093959662,
-      "holding_days": 9
+      "current_price_date": "2026-06-26",
+      "current_price": 580.0,
+      "market_value": 133400.0,
+      "unrealized_return_pct": -2.684563758389258,
+      "holding_days": 10
     },
     {
-      "stock_id": "6548",
-      "company_name": "長科*",
-      "quantity": 1490,
-      "entry_date": "2026-06-25",
-      "entry_price": 93.69999694824219,
-      "current_price_date": "2026-06-25",
-      "current_price": 89.69999694824219,
-      "market_value": 133652.99545288086,
-      "unrealized_return_pct": -4.268943575536621,
+      "stock_id": "6213",
+      "company_name": "聯茂",
+      "quantity": 374,
+      "entry_date": "2026-06-26",
+      "entry_price": 353.0,
+      "current_price_date": "2026-06-26",
+      "current_price": 346.5,
+      "market_value": 129591.0,
+      "unrealized_return_pct": -1.8413597733711096,
       "holding_days": 0
     },
     {
@@ -290,11 +296,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 400,
       "entry_date": "2026-06-16",
       "entry_price": 309.5,
-      "current_price_date": "2026-06-25",
-      "current_price": 304.0,
-      "market_value": 121600.0,
-      "unrealized_return_pct": -1.7770597738287597,
-      "holding_days": 9
+      "current_price_date": "2026-06-26",
+      "current_price": 276.0,
+      "market_value": 110400.0,
+      "unrealized_return_pct": -10.823909531502418,
+      "holding_days": 10
     },
     {
       "stock_id": "6515",
@@ -302,194 +308,70 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 12,
       "entry_date": "2026-06-16",
       "entry_price": 9955.0,
-      "current_price_date": "2026-06-25",
-      "current_price": 9400.0,
-      "market_value": 112800.0,
-      "unrealized_return_pct": -5.575087895529885,
-      "holding_days": 9
+      "current_price_date": "2026-06-26",
+      "current_price": 8190.0,
+      "market_value": 98280.0,
+      "unrealized_return_pct": -17.729784028126574,
+      "holding_days": 10
     }
   ],
   "trade_plan": {
     "sell_orders": [
       {
-        "stock_id": "6548",
-        "company_name": "長科*",
-        "quantity": 1490,
-        "price": 89.69999694824219,
-        "amount": 133652.99545288086
+        "stock_id": "6213",
+        "company_name": "聯茂",
+        "quantity": 374,
+        "price": 346.5,
+        "amount": 129591.0
       }
     ],
     "buy_orders": [
       {
-        "stock_id": "6691",
-        "company_name": "洋基工程",
-        "quantity": 176,
-        "price": 793.0,
-        "amount": 139568.0,
+        "stock_id": "4966",
+        "company_name": "譜瑞-KY",
+        "quantity": 209,
+        "price": 631.0,
+        "amount": 131879.0,
         "action": "SELL_WEAKEST_BUY_CANDIDATE",
         "entry_date": null
       }
     ],
-    "total_sell_amount": 133652.99545288086,
-    "total_buy_amount": 139568.0,
-    "starting_cash": 15748.104547119176,
-    "net_cash_change": -5915.004547119141,
-    "cash_after_plan": 9833.100000000035,
+    "total_sell_amount": 129591.0,
+    "total_buy_amount": 131879.0,
+    "starting_cash": 10227.106820678746,
+    "net_cash_change": -2288.0,
+    "cash_after_plan": 7939.106820678746,
     "needs_extra_cash": 0.0,
-    "remaining_cash": 9833.100000000035
+    "remaining_cash": 7939.106820678746
   },
   "today_candidates": [
     {
       "rank": 1,
-      "signal_date": "2026-06-26",
-      "stock_id": "6691",
-      "company_name": "洋基工程",
+      "signal_date": "2026-06-29",
+      "stock_id": "4966",
+      "company_name": "譜瑞-KY",
       "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 793.0,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 176,
-      "buy_amount": 139568.0,
-      "sell_stock_id": "6548",
-      "sell_company_name": "長科*",
-      "sell_quantity": 1490,
-      "sell_current_price": 89.69999694824219,
-      "sell_market_value": 133652.99545288086,
+      "reference_price": 631.0,
+      "target_amount": 132105.82136413577,
+      "suggested_quantity": 209,
+      "buy_amount": 131879.0,
+      "sell_stock_id": "6213",
+      "sell_company_name": "聯茂",
+      "sell_quantity": 374,
+      "sell_current_price": 346.5,
+      "sell_market_value": 129591.0,
       "action_text": "換股買進"
-    },
-    {
-      "rank": 2,
-      "signal_date": "2026-06-26",
-      "stock_id": "6409",
-      "company_name": "旭隼",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 977.0,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 142,
-      "buy_amount": 138734.0,
-      "action_text": "觀察"
-    },
-    {
-      "rank": 3,
-      "signal_date": "2026-06-26",
-      "stock_id": "5434",
-      "company_name": "崇越",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 490.0,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 285,
-      "buy_amount": 139650.0,
-      "action_text": "觀察"
-    },
-    {
-      "rank": 4,
-      "signal_date": "2026-06-26",
-      "stock_id": "3023",
-      "company_name": "信邦",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 306.5,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 455,
-      "buy_amount": 139457.5,
-      "action_text": "觀察"
-    },
-    {
-      "rank": 5,
-      "signal_date": "2026-06-26",
-      "stock_id": "2379",
-      "company_name": "瑞昱",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 740.0,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 188,
-      "buy_amount": 139120.0,
-      "action_text": "觀察"
-    },
-    {
-      "rank": 6,
-      "signal_date": "2026-06-26",
-      "stock_id": "6191",
-      "company_name": "精成科",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 100.5,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 1390,
-      "buy_amount": 139695.0,
-      "action_text": "觀察"
-    },
-    {
-      "rank": 7,
-      "signal_date": "2026-06-26",
-      "stock_id": "5269",
-      "company_name": "祥碩",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 1365.0,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 102,
-      "buy_amount": 139230.0,
-      "action_text": "觀察"
-    },
-    {
-      "rank": 8,
-      "signal_date": "2026-06-26",
-      "stock_id": "5469",
-      "company_name": "瀚宇博",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 87.4000015258789,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 1598,
-      "buy_amount": 139665.2024383545,
-      "action_text": "觀察"
-    },
-    {
-      "rank": 9,
-      "signal_date": "2026-06-26",
-      "stock_id": "2458",
-      "company_name": "義隆",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 172.0,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 812,
-      "buy_amount": 139664.0,
-      "action_text": "觀察"
-    },
-    {
-      "rank": 10,
-      "signal_date": "2026-06-26",
-      "stock_id": "8112",
-      "company_name": "至上",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 91.19999694824219,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 1531,
-      "buy_amount": 139627.1953277588,
-      "action_text": "觀察"
-    },
-    {
-      "rank": 11,
-      "signal_date": "2026-06-26",
-      "stock_id": "2352",
-      "company_name": "佳世達",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 29.299999237060547,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 4767,
-      "buy_amount": 139673.09636306763,
-      "action_text": "觀察"
-    },
-    {
-      "rank": 12,
-      "signal_date": "2026-06-26",
-      "stock_id": "8070",
-      "company_name": "長華*",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 53.70000076293945,
-      "target_amount": 139698.22000000003,
-      "suggested_quantity": 2601,
-      "buy_amount": 139673.70198440552,
-      "action_text": "觀察"
     }
   ],
   "recent_entries": [
+    {
+      "stock_id": "6213",
+      "company_name": "聯茂",
+      "entry_date": "2026-06-26",
+      "entry_price": 353.0,
+      "quantity": 374,
+      "cost": 132022.0
+    },
     {
       "stock_id": "6548",
       "company_name": "長科*",
@@ -577,17 +459,21 @@ window.PUBLIC_FOLLOW_DATA = {
       "entry_price": 873.0,
       "quantity": 146,
       "cost": 127458.0
-    },
-    {
-      "stock_id": "2731",
-      "company_name": "雄獅",
-      "entry_date": "2026-06-05",
-      "entry_price": 177.0,
-      "quantity": 725,
-      "cost": 128325.0
     }
   ],
   "recent_closed_trades": [
+    {
+      "stock_id": "6548",
+      "company_name": "長科*",
+      "entry_date": "2026-06-25",
+      "entry_price": 93.69999694824219,
+      "quantity": 1490,
+      "exit_date": "2026-06-26",
+      "exit_price": 84.9000015258789,
+      "exit_reason": "換強股",
+      "return_pct": -9.391670980762367,
+      "holding_days": 1
+    },
     {
       "stock_id": "6919",
       "company_name": "康霈*",
@@ -719,18 +605,6 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_reason": "移動停損",
       "return_pct": -12.711864406779661,
       "holding_days": 6
-    },
-    {
-      "stock_id": "2421",
-      "company_name": "建準",
-      "entry_date": "2026-05-20",
-      "entry_price": 147.0,
-      "quantity": 676,
-      "exit_date": "2026-06-05",
-      "exit_price": 168.0,
-      "exit_reason": "換強股",
-      "return_pct": 14.28571428571428,
-      "holding_days": 16
     }
   ]
 };
