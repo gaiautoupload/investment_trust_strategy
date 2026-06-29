@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-06-26T17:53:47.979020+08:00",
+  "generated_at": "2026-06-29T16:52:31.976736+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -309,6 +309,35 @@ window.PUBLIC_FOLLOW_DATA = {
       "holding_days": 9
     }
   ],
+  "trade_plan": {
+    "sell_orders": [
+      {
+        "stock_id": "6548",
+        "company_name": "長科*",
+        "quantity": 1490,
+        "price": 89.69999694824219,
+        "amount": 133652.99545288086
+      }
+    ],
+    "buy_orders": [
+      {
+        "stock_id": "6691",
+        "company_name": "洋基工程",
+        "quantity": 176,
+        "price": 793.0,
+        "amount": 139568.0,
+        "action": "SELL_WEAKEST_BUY_CANDIDATE",
+        "entry_date": null
+      }
+    ],
+    "total_sell_amount": 133652.99545288086,
+    "total_buy_amount": 139568.0,
+    "starting_cash": 15748.104547119176,
+    "net_cash_change": -5915.004547119141,
+    "cash_after_plan": 9833.100000000035,
+    "needs_extra_cash": 0.0,
+    "remaining_cash": 9833.100000000035
+  },
   "today_candidates": [
     {
       "rank": 1,
@@ -319,9 +348,12 @@ window.PUBLIC_FOLLOW_DATA = {
       "reference_price": 793.0,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 176,
+      "buy_amount": 139568.0,
       "sell_stock_id": "6548",
       "sell_company_name": "長科*",
       "sell_quantity": 1490,
+      "sell_current_price": 89.69999694824219,
+      "sell_market_value": 133652.99545288086,
       "action_text": "換股買進"
     },
     {
@@ -329,66 +361,59 @@ window.PUBLIC_FOLLOW_DATA = {
       "signal_date": "2026-06-26",
       "stock_id": "6409",
       "company_name": "旭隼",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
       "reference_price": 977.0,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 142,
-      "sell_stock_id": "6548",
-      "sell_company_name": "長科*",
-      "sell_quantity": 1490,
-      "action_text": "換股買進"
+      "buy_amount": 138734.0,
+      "action_text": "觀察"
     },
     {
       "rank": 3,
       "signal_date": "2026-06-26",
       "stock_id": "5434",
       "company_name": "崇越",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
       "reference_price": 490.0,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 285,
-      "sell_stock_id": "6548",
-      "sell_company_name": "長科*",
-      "sell_quantity": 1490,
-      "action_text": "換股買進"
+      "buy_amount": 139650.0,
+      "action_text": "觀察"
     },
     {
       "rank": 4,
       "signal_date": "2026-06-26",
       "stock_id": "3023",
       "company_name": "信邦",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
       "reference_price": 306.5,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 455,
-      "sell_stock_id": "6548",
-      "sell_company_name": "長科*",
-      "sell_quantity": 1490,
-      "action_text": "換股買進"
+      "buy_amount": 139457.5,
+      "action_text": "觀察"
     },
     {
       "rank": 5,
       "signal_date": "2026-06-26",
       "stock_id": "2379",
       "company_name": "瑞昱",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
       "reference_price": 740.0,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 188,
-      "sell_stock_id": "6548",
-      "sell_company_name": "長科*",
-      "sell_quantity": 1490,
-      "action_text": "換股買進"
+      "buy_amount": 139120.0,
+      "action_text": "觀察"
     },
     {
       "rank": 6,
       "signal_date": "2026-06-26",
       "stock_id": "6191",
       "company_name": "精成科",
-      "action": "WATCH",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
       "reference_price": 100.5,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 1390,
+      "buy_amount": 139695.0,
       "action_text": "觀察"
     },
     {
@@ -396,10 +421,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "signal_date": "2026-06-26",
       "stock_id": "5269",
       "company_name": "祥碩",
-      "action": "WATCH",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
       "reference_price": 1365.0,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 102,
+      "buy_amount": 139230.0,
       "action_text": "觀察"
     },
     {
@@ -407,10 +433,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "signal_date": "2026-06-26",
       "stock_id": "5469",
       "company_name": "瀚宇博",
-      "action": "WATCH",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
       "reference_price": 87.4000015258789,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 1598,
+      "buy_amount": 139665.2024383545,
       "action_text": "觀察"
     },
     {
@@ -418,10 +445,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "signal_date": "2026-06-26",
       "stock_id": "2458",
       "company_name": "義隆",
-      "action": "WATCH",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
       "reference_price": 172.0,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 812,
+      "buy_amount": 139664.0,
       "action_text": "觀察"
     },
     {
@@ -429,10 +457,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "signal_date": "2026-06-26",
       "stock_id": "8112",
       "company_name": "至上",
-      "action": "WATCH",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
       "reference_price": 91.19999694824219,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 1531,
+      "buy_amount": 139627.1953277588,
       "action_text": "觀察"
     },
     {
@@ -440,10 +469,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "signal_date": "2026-06-26",
       "stock_id": "2352",
       "company_name": "佳世達",
-      "action": "WATCH",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
       "reference_price": 29.299999237060547,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 4767,
+      "buy_amount": 139673.09636306763,
       "action_text": "觀察"
     },
     {
@@ -451,10 +481,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "signal_date": "2026-06-26",
       "stock_id": "8070",
       "company_name": "長華*",
-      "action": "WATCH",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
       "reference_price": 53.70000076293945,
       "target_amount": 139698.22000000003,
       "suggested_quantity": 2601,
+      "buy_amount": 139673.70198440552,
       "action_text": "觀察"
     }
   ],

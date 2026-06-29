@@ -152,6 +152,63 @@ h2 {
   line-height: 1.5;
 }
 
+.trade-ledger {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px;
+}
+
+.ledger-column {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fbfcfb;
+  overflow: hidden;
+}
+
+.ledger-column h3 {
+  margin: 0;
+  padding: 12px;
+  border-bottom: 1px solid var(--line);
+  font-size: 16px;
+}
+
+.ledger-column.sell h3 {
+  color: var(--red);
+}
+
+.ledger-column.buy h3 {
+  color: var(--green);
+}
+
+.ledger-total {
+  padding: 10px 12px;
+  border-top: 1px solid var(--line);
+  font-weight: 700;
+  text-align: right;
+}
+
+.net-summary {
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.pos-bg {
+  background: #eaf5ee;
+  color: #17663a;
+}
+
+.neg-bg {
+  background: #fff1ee;
+  color: #a13d2d;
+}
+
+.center {
+  text-align: center !important;
+}
+
 .table-wrap {
   overflow: auto;
 }
@@ -199,6 +256,7 @@ th {
   }
 
   .grid-2,
+  .trade-ledger,
   .hero-panel .panel-head {
     grid-template-columns: 1fr;
   }

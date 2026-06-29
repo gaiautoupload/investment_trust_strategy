@@ -47,6 +47,10 @@ function reasonText(reason) {
   return reason || "-";
 }
 
+function stockName(row) {
+  return `${row.stock_id || ""} ${row.company_name || ""}`.trim();
+}
+
 function renderSummary() {
   const items = [
     ["起始資金", money(data.assumptions?.initial_capital || metrics.initial_capital), `起算 ${shortDate(metrics.start_date)}`],
@@ -75,25 +79,74 @@ function renderMeta() {
 }
 
 function renderActions() {
-  const rows = data.today_candidates || [];
+  const plan = data.trade_plan || {};
+  const sellRows = plan.sell_orders || [];
+  const buyRows = plan.buy_orders || [];
   const target = document.getElementById("todayActions");
-  if (!rows.length) {
+  if (!sellRows.length && !buyRows.length) {
     target.innerHTML = `<div class="action-card"><strong>今日無新買進</strong><p>照目前持股續抱，等下一次盤後訊號。</p></div>`;
     return;
   }
-  target.innerHTML = rows
-    .map((row) => {
-      const sellText = row.sell_stock_id
-        ? `先賣 ${esc(row.sell_stock_id)} ${esc(row.sell_company_name)}，${num(row.sell_quantity)} 股；`
-        : "";
-      return `
-        <div class="action-card">
-          <strong>${sellText}買 ${esc(row.stock_id)} ${esc(row.company_name)}</strong>
-          <p>${esc(row.action_text)}｜進場日 ${shortDate(row.entry_date)}｜參考價 ${money(row.reference_price)}｜建議 ${num(row.suggested_quantity)} 股</p>
+
+  const sellHtml = sellRows.length
+    ? sellRows
+        .map(
+          (row) => `
+          <tr>
+            <td>${esc(stockName(row))}</td>
+            <td>${num(row.quantity)}</td>
+            <td>${money(row.price)}</td>
+            <td>${money(row.amount)}</td>
+          </tr>`,
+        )
+        .join("")
+    : `<tr><td colspan="4" class="muted center">不賣股</td></tr>`;
+
+  const buyHtml = buyRows.length
+    ? buyRows
+        .map(
+          (row) => `
+          <tr>
+            <td>${esc(stockName(row))}<br><span class="muted">${row.action === "SELL_WEAKEST_BUY_CANDIDATE" ? "換股買進" : "新買進"}</span></td>
+            <td>${num(row.quantity)}</td>
+            <td>${money(row.price)}</td>
+            <td>${money(row.amount)}</td>
+          </tr>`,
+        )
+        .join("")
+    : `<tr><td colspan="4" class="muted center">不買股</td></tr>`;
+
+  const net = Number(plan.cash_after_plan);
+  const netText = Number.isFinite(net) && net >= 0
+    ? `買賣後預估剩餘現金 ${money(plan.remaining_cash)}`
+    : `買賣後預估還差 ${money(plan.needs_extra_cash)}`;
+
+  target.innerHTML = `
+    <div class="trade-ledger">
+      <div class="ledger-column sell">
+        <h3>左邊：先賣出</h3>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>股票</th><th>股數</th><th>參考價</th><th>騰出資金</th></tr></thead>
+            <tbody>${sellHtml}</tbody>
+          </table>
         </div>
-      `;
-    })
-    .join("");
+        <div class="ledger-total">賣出合計 ${money(plan.total_sell_amount)}</div>
+      </div>
+      <div class="ledger-column buy">
+        <h3>右邊：再買進</h3>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>股票</th><th>股數</th><th>參考價</th><th>需要資金</th></tr></thead>
+            <tbody>${buyHtml}</tbody>
+          </table>
+        </div>
+        <div class="ledger-total">買進合計 ${money(plan.total_buy_amount)}</div>
+      </div>
+    </div>
+    <div class="net-summary ${Number.isFinite(net) && net < 0 ? "neg-bg" : "pos-bg"}">
+      原現金 ${money(plan.starting_cash)} + 賣出 ${money(plan.total_sell_amount)} - 買進 ${money(plan.total_buy_amount)} = ${netText}
+    </div>`;
 }
 
 function renderHoldings() {
