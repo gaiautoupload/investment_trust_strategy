@@ -16,8 +16,8 @@ window.PUBLIC_FOLLOW_DATA = {
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 648605.0086227418,
-    "cash": 732.0086227417341,
+    "final_value": 638781.0007644654,
+    "cash": 4620.701188659703,
     "total_return_pct": 116.20166954091391,
     "annualized_return_pct": 445.49497770159866,
     "start_date": "2026-01-16",
@@ -278,105 +278,105 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 230,
       "entry_date": "2026-06-16",
       "entry_price": 596.0,
-      "current_price_date": "2026-07-01",
-      "current_price": 603.0,
-      "market_value": 138690.0,
-      "unrealized_return_pct": 1.1744966442952975,
-      "holding_days": 15
+      "current_price_date": "2026-07-02",
+      "current_price": 598.0,
+      "market_value": 137540.0,
+      "unrealized_return_pct": 0.3355704697986628,
+      "holding_days": 16
     },
     {
       "stock_id": "6669",
       "company_name": "緯穎",
-      "quantity": 27,
+      "quantity": 26,
       "entry_date": "2026-07-01",
       "entry_price": 4740.0,
-      "current_price_date": "2026-07-01",
-      "current_price": 5035.0,
-      "market_value": 135945.0,
-      "unrealized_return_pct": 6.2236286919831185,
-      "holding_days": 0
+      "current_price_date": "2026-07-02",
+      "current_price": 5200.0,
+      "market_value": 135200.0,
+      "unrealized_return_pct": 9.704641350210963,
+      "holding_days": 1
     },
     {
-      "stock_id": "5434",
-      "company_name": "崇越",
-      "quantity": 246,
-      "entry_date": "2026-06-29",
-      "entry_price": 507.0,
-      "current_price_date": "2026-07-01",
-      "current_price": 533.0,
-      "market_value": 131118.0,
-      "unrealized_return_pct": 5.128205128205132,
-      "holding_days": 2
+      "stock_id": "2610",
+      "company_name": "華航",
+      "quantity": 5190,
+      "entry_date": "2026-07-01",
+      "entry_price": 23.700000762939453,
+      "current_price_date": "2026-07-02",
+      "current_price": 22.850000381469727,
+      "market_value": 118591.50197982788,
+      "unrealized_return_pct": -3.58649938441733,
+      "holding_days": 1
     },
     {
-      "stock_id": "6691",
-      "company_name": "洋基工程",
-      "quantity": 154,
-      "entry_date": "2026-06-29",
-      "entry_price": 811.0,
-      "current_price_date": "2026-07-01",
-      "current_price": 750.0,
-      "market_value": 115500.0,
-      "unrealized_return_pct": -7.521578298397036,
-      "holding_days": 2
+      "stock_id": "2801",
+      "company_name": "彰銀",
+      "quantity": 5126,
+      "entry_date": "2026-07-01",
+      "entry_price": 24.0,
+      "current_price_date": "2026-07-02",
+      "current_price": 23.350000381469727,
+      "market_value": 119692.10195541382,
+      "unrealized_return_pct": -2.7083317438761356,
+      "holding_days": 1
     },
     {
-      "stock_id": "4966",
-      "company_name": "譜瑞-KY",
-      "quantity": 185,
-      "entry_date": "2026-06-30",
-      "entry_price": 643.0,
-      "current_price_date": "2026-07-01",
-      "current_price": 623.0,
-      "market_value": 115255.0,
-      "unrealized_return_pct": -3.1104199066874005,
+      "stock_id": "2542",
+      "company_name": "興富發",
+      "quantity": 2857,
+      "entry_date": "2026-07-01",
+      "entry_price": 43.0,
+      "current_price_date": "2026-07-02",
+      "current_price": 43.099998474121094,
+      "market_value": 123136.69564056396,
+      "unrealized_return_pct": 0.23255459097928366,
       "holding_days": 1
     }
   ],
   "trade_plan": {
     "sell_orders": [
       {
-        "stock_id": "5434",
-        "company_name": "崇越",
-        "quantity": 246,
-        "price": 533.0,
-        "amount": 131118.0
+        "stock_id": "2542",
+        "company_name": "興富發",
+        "quantity": 2857,
+        "price": 43.099998474121094,
+        "amount": 123136.69564056396
       },
       {
-        "stock_id": "6669",
-        "company_name": "緯穎",
-        "quantity": 27,
-        "price": 5035.0,
-        "amount": 135945.0
+        "stock_id": "2801",
+        "company_name": "彰銀",
+        "quantity": 5126,
+        "price": 23.350000381469727,
+        "amount": 119692.10195541382
       }
     ],
     "buy_orders": [
       {
         "stock_id": "5289",
         "company_name": "宜鼎",
-        "quantity": 75,
+        "quantity": 74,
         "price": 1715.0,
-        "amount": 128625.0,
+        "amount": 126910.0,
         "action": "SELL_WEAKEST_BUY_CANDIDATE",
         "entry_date": null
       },
       {
         "stock_id": "6442",
         "company_name": "光聖",
-        "quantity": 79,
+        "quantity": 78,
         "price": 1635.0,
-        "amount": 129165.0,
+        "amount": 127530.0,
         "action": "SELL_WEAKEST_BUY_CANDIDATE",
         "entry_date": null
       }
     ],
-    "total_sell_amount": 267063.0,
-    "total_buy_amount": 257790.0,
-    "starting_cash": 732.0086227417341,
-    "net_cash_change": 9273.0,
-    "cash_after_plan": 10005.008622741734,
-    "needs_extra_cash": 0.0,
-    "remaining_cash": 10005.008622741734
+    "total_sell_amount": 242828.79759597778,
+    "total_buy_amount": 254440.0,
+    "starting_cash": 4620.701188659703,
+    "net_cash_change": -11611.202404022217,
+    "cash_after_plan": -6990.501215362514,
+    "needs_extra_cash": 6990.501215362514,
+    "remaining_cash": 0.0
   },
   "today_candidates": [
     {
@@ -386,14 +386,14 @@ window.PUBLIC_FOLLOW_DATA = {
       "company_name": "宜鼎",
       "action": "SELL_WEAKEST_BUY_CANDIDATE",
       "reference_price": 1715.0,
-      "target_amount": 129721.00172454836,
-      "suggested_quantity": 75,
-      "buy_amount": 128625.0,
-      "sell_stock_id": "5434",
-      "sell_company_name": "崇越",
-      "sell_quantity": 246,
-      "sell_current_price": 533.0,
-      "sell_market_value": 131118.0,
+      "target_amount": 127756.20015289309,
+      "suggested_quantity": 74,
+      "buy_amount": 126910.0,
+      "sell_stock_id": "2542",
+      "sell_company_name": "興富發",
+      "sell_quantity": 2857,
+      "sell_current_price": 43.099998474121094,
+      "sell_market_value": 123136.69564056396,
       "action_text": "換股買進"
     },
     {
@@ -403,259 +403,17 @@ window.PUBLIC_FOLLOW_DATA = {
       "company_name": "光聖",
       "action": "SELL_WEAKEST_BUY_CANDIDATE",
       "reference_price": 1635.0,
-      "target_amount": 129721.00172454836,
-      "suggested_quantity": 79,
-      "buy_amount": 129165.0,
-      "sell_stock_id": "6669",
-      "sell_company_name": "緯穎",
-      "sell_quantity": 27,
-      "sell_current_price": 5035.0,
-      "sell_market_value": 135945.0,
+      "target_amount": 127756.20015289309,
+      "suggested_quantity": 78,
+      "buy_amount": 127530.0,
+      "sell_stock_id": "2801",
+      "sell_company_name": "彰銀",
+      "sell_quantity": 5126,
+      "sell_current_price": 23.350000381469727,
+      "sell_market_value": 119692.10195541382,
       "action_text": "換股買進"
     }
   ],
-  "recent_entries": [
-    {
-      "stock_id": "6669",
-      "company_name": "緯穎",
-      "entry_date": "2026-07-01",
-      "entry_price": 4740.0,
-      "quantity": 27,
-      "cost": 127980.0
-    },
-    {
-      "stock_id": "4966",
-      "company_name": "譜瑞-KY",
-      "entry_date": "2026-06-30",
-      "entry_price": 643.0,
-      "quantity": 185,
-      "cost": 118955.0
-    },
-    {
-      "stock_id": "6691",
-      "company_name": "洋基工程",
-      "entry_date": "2026-06-29",
-      "entry_price": 811.0,
-      "quantity": 154,
-      "cost": 124894.0
-    },
-    {
-      "stock_id": "5434",
-      "company_name": "崇越",
-      "entry_date": "2026-06-29",
-      "entry_price": 507.0,
-      "quantity": 246,
-      "cost": 124722.0
-    },
-    {
-      "stock_id": "3023",
-      "company_name": "信邦",
-      "entry_date": "2026-06-29",
-      "entry_price": 313.5,
-      "quantity": 384,
-      "cost": 120384.0
-    },
-    {
-      "stock_id": "6191",
-      "company_name": "精成科",
-      "entry_date": "2026-06-29",
-      "entry_price": 104.5,
-      "quantity": 1145,
-      "cost": 119652.5
-    },
-    {
-      "stock_id": "5469",
-      "company_name": "瀚宇博",
-      "entry_date": "2026-06-29",
-      "entry_price": 90.80000305175781,
-      "quantity": 1318,
-      "cost": 119674.4040222168
-    },
-    {
-      "stock_id": "8070",
-      "company_name": "長華*",
-      "entry_date": "2026-06-29",
-      "entry_price": 53.79999923706055,
-      "quantity": 2224,
-      "cost": 119651.19830322266
-    },
-    {
-      "stock_id": "2481",
-      "company_name": "強茂",
-      "entry_date": "2026-06-26",
-      "entry_price": 189.0,
-      "quantity": 710,
-      "cost": 134190.0
-    },
-    {
-      "stock_id": "6548",
-      "company_name": "長科*",
-      "entry_date": "2026-06-25",
-      "entry_price": 93.69999694824219,
-      "quantity": 1513,
-      "cost": 141768.09538269043
-    },
-    {
-      "stock_id": "6526",
-      "company_name": "達發",
-      "entry_date": "2026-06-24",
-      "entry_price": 690.0,
-      "quantity": 192,
-      "cost": 132480.0
-    },
-    {
-      "stock_id": "8114",
-      "company_name": "振樺電",
-      "entry_date": "2026-06-24",
-      "entry_price": 207.5,
-      "quantity": 639,
-      "cost": 132592.5
-    }
-  ],
-  "recent_closed_trades": [
-    {
-      "stock_id": "3023",
-      "company_name": "信邦",
-      "entry_date": "2026-06-29",
-      "entry_price": 313.5,
-      "quantity": 384,
-      "exit_date": "2026-07-01",
-      "exit_price": 335.0,
-      "exit_reason": "換強股",
-      "return_pct": 6.858054226475274,
-      "holding_days": 2
-    },
-    {
-      "stock_id": "8070",
-      "company_name": "長華*",
-      "entry_date": "2026-06-29",
-      "entry_price": 53.79999923706055,
-      "quantity": 2224,
-      "exit_date": "2026-06-30",
-      "exit_price": 53.5,
-      "exit_reason": "換強股",
-      "return_pct": -0.5576194076484131,
-      "holding_days": 1
-    },
-    {
-      "stock_id": "6515",
-      "company_name": "穎崴",
-      "entry_date": "2026-06-16",
-      "entry_price": 9955.0,
-      "quantity": 12,
-      "exit_date": "2026-06-29",
-      "exit_price": 8190.0,
-      "exit_reason": "移動停損",
-      "return_pct": -17.729784028126574,
-      "holding_days": 13
-    },
-    {
-      "stock_id": "6173",
-      "company_name": "信昌電",
-      "entry_date": "2026-06-16",
-      "entry_price": 309.5,
-      "quantity": 400,
-      "exit_date": "2026-06-29",
-      "exit_price": 276.0,
-      "exit_reason": "移動停損",
-      "return_pct": -10.823909531502418,
-      "holding_days": 13
-    },
-    {
-      "stock_id": "6683",
-      "company_name": "雍智科技",
-      "entry_date": "2026-06-16",
-      "entry_price": 1635.0,
-      "quantity": 84,
-      "exit_date": "2026-06-29",
-      "exit_price": 1700.0,
-      "exit_reason": "移動停損",
-      "return_pct": 3.9755351681957096,
-      "holding_days": 13
-    },
-    {
-      "stock_id": "2481",
-      "company_name": "強茂",
-      "entry_date": "2026-06-26",
-      "entry_price": 189.0,
-      "quantity": 710,
-      "exit_date": "2026-06-29",
-      "exit_price": 168.5,
-      "exit_reason": "換強股",
-      "return_pct": -10.846560846560848,
-      "holding_days": 3
-    },
-    {
-      "stock_id": "6191",
-      "company_name": "精成科",
-      "entry_date": "2026-06-29",
-      "entry_price": 104.5,
-      "quantity": 1145,
-      "exit_date": "2026-06-29",
-      "exit_price": 104.5,
-      "exit_reason": "換強股",
-      "return_pct": 0.0,
-      "holding_days": 0
-    },
-    {
-      "stock_id": "5469",
-      "company_name": "瀚宇博",
-      "entry_date": "2026-06-29",
-      "entry_price": 90.80000305175781,
-      "quantity": 1318,
-      "exit_date": "2026-06-29",
-      "exit_price": 90.80000305175781,
-      "exit_reason": "換強股",
-      "return_pct": 0.0,
-      "holding_days": 0
-    },
-    {
-      "stock_id": "6548",
-      "company_name": "長科*",
-      "entry_date": "2026-06-25",
-      "entry_price": 93.69999694824219,
-      "quantity": 1513,
-      "exit_date": "2026-06-26",
-      "exit_price": 84.9000015258789,
-      "exit_reason": "換強股",
-      "return_pct": -9.391670980762367,
-      "holding_days": 1
-    },
-    {
-      "stock_id": "2337",
-      "company_name": "旺宏",
-      "entry_date": "2026-06-24",
-      "entry_price": 169.0,
-      "quantity": 785,
-      "exit_date": "2026-06-25",
-      "exit_price": 179.5,
-      "exit_reason": "換強股",
-      "return_pct": 6.213017751479288,
-      "holding_days": 1
-    },
-    {
-      "stock_id": "3026",
-      "company_name": "禾伸堂",
-      "entry_date": "2026-06-16",
-      "entry_price": 882.0,
-      "quantity": 156,
-      "exit_date": "2026-06-24",
-      "exit_price": 800.0,
-      "exit_reason": "移動停損",
-      "return_pct": -9.297052154195008,
-      "holding_days": 8
-    },
-    {
-      "stock_id": "6526",
-      "company_name": "達發",
-      "entry_date": "2026-06-24",
-      "entry_price": 690.0,
-      "quantity": 192,
-      "exit_date": "2026-06-24",
-      "exit_price": 690.0,
-      "exit_reason": "換強股",
-      "return_pct": 0.0,
-      "holding_days": 0
-    }
-  ]
+  "recent_entries": [],
+  "recent_closed_trades": []
 };
