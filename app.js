@@ -19,21 +19,25 @@ function esc(value) {
 }
 
 function money(value) {
+  if (value === null || value === undefined || value === "") return "-";
   const n = Number(value);
   return Number.isFinite(n) ? fmtMoney.format(n) : "-";
 }
 
 function num(value) {
+  if (value === null || value === undefined || value === "") return "-";
   const n = Number(value);
   return Number.isFinite(n) ? fmtNum.format(n) : "-";
 }
 
 function pct(value) {
+  if (value === null || value === undefined || value === "") return "-";
   const n = Number(value);
   return Number.isFinite(n) ? `${n.toFixed(2)}%` : "-";
 }
 
 function pctClass(value) {
+  if (value === null || value === undefined || value === "") return "";
   const n = Number(value);
   if (!Number.isFinite(n) || n === 0) return "";
   return n > 0 ? "pos" : "neg";

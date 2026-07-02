@@ -18,16 +18,17 @@ window.PUBLIC_FOLLOW_DATA = {
     "initial_capital": 300000.0,
     "final_value": 638781.0007644654,
     "cash": 4620.701188659703,
-    "total_return_pct": 116.20166954091391,
-    "annualized_return_pct": 445.49497770159866,
+    "total_return_pct": 112.9270002548218,
+    "annualized_return_pct": 421.66359530259945,
     "start_date": "2026-01-16",
-    "end_date": "2026-07-01",
-    "closed_trade_count": 45,
+    "end_date": "2026-07-02",
+    "closed_trade_count": null,
     "entry_count": 50,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": 35.55555555555556,
-    "average_closed_trade_return_pct": 9.835858892721538,
-    "max_drawdown_pct": -11.81863871110701
+    "closed_trade_win_rate_pct": null,
+    "average_closed_trade_return_pct": null,
+    "max_drawdown_pct": null,
+    "performance_source": "actual_follow_account"
   },
   "equity_curve": [
     {
