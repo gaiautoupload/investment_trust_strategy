@@ -22,253 +22,25 @@ window.PUBLIC_FOLLOW_DATA = {
     "annualized_return_pct": 421.66359530259945,
     "start_date": "2026-01-16",
     "end_date": "2026-07-02",
-    "closed_trade_count": null,
-    "entry_count": 50,
+    "closed_trade_count": 4,
+    "entry_count": 5,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": null,
-    "average_closed_trade_return_pct": null,
-    "max_drawdown_pct": null,
+    "closed_trade_win_rate_pct": 75.0,
+    "average_closed_trade_return_pct": 3.643039634594594,
+    "max_drawdown_pct": 0,
     "performance_source": "actual_follow_account"
   },
   "equity_curve": [
     {
-      "date": "2026-01-16",
-      "equity": 300000.0,
-      "cash": 240150.0,
-      "position_count": 1
-    },
-    {
-      "date": "2026-01-20",
-      "equity": 296342.5,
-      "cash": 181020.0,
-      "position_count": 2
-    },
-    {
-      "date": "2026-01-23",
-      "equity": 305092.5,
-      "cash": 120060.0,
-      "position_count": 3
-    },
-    {
-      "date": "2026-01-27",
-      "equity": 297593.5,
-      "cash": 60646.0,
-      "position_count": 4
-    },
-    {
-      "date": "2026-01-30",
-      "equity": 304940.5,
-      "cash": 60646.0,
-      "position_count": 4
-    },
-    {
-      "date": "2026-02-03",
-      "equity": 307961.0,
-      "cash": 52566.0,
-      "position_count": 4
-    },
-    {
-      "date": "2026-02-06",
-      "equity": 300599.5,
-      "cash": 109071.5,
-      "position_count": 3
-    },
-    {
-      "date": "2026-02-25",
-      "equity": 317802.0,
-      "cash": 45825.5,
-      "position_count": 4
-    },
-    {
-      "date": "2026-02-26",
-      "equity": 322261.0,
-      "cash": 45825.5,
-      "position_count": 4
-    },
-    {
-      "date": "2026-03-05",
-      "equity": 306011.5,
-      "cash": 33.5,
-      "position_count": 5
-    },
-    {
-      "date": "2026-03-09",
-      "equity": 289917.5,
-      "cash": 15934.5,
-      "position_count": 5
-    },
-    {
-      "date": "2026-03-12",
-      "equity": 311017.0,
-      "cash": 13314.0,
-      "position_count": 5
-    },
-    {
-      "date": "2026-03-16",
-      "equity": 316064.5,
-      "cash": 9001.0,
-      "position_count": 5
-    },
-    {
-      "date": "2026-03-30",
-      "equity": 304611.5,
-      "cash": 91.0,
-      "position_count": 5
-    },
-    {
-      "date": "2026-03-31",
-      "equity": 307380.0,
-      "cash": 91.0,
-      "position_count": 5
-    },
-    {
-      "date": "2026-04-01",
-      "equity": 306549.5,
-      "cash": 91.0,
-      "position_count": 5
-    },
-    {
-      "date": "2026-04-14",
-      "equity": 391164.0,
-      "cash": 91.0,
-      "position_count": 5
-    },
-    {
-      "date": "2026-04-30",
-      "equity": 456576.2,
-      "cash": 91.0,
-      "position_count": 5
-    },
-    {
-      "date": "2026-05-12",
-      "equity": 454610.0,
-      "cash": 363701.0,
-      "position_count": 1
-    },
-    {
-      "date": "2026-05-13",
-      "equity": 453411.2,
-      "cash": 273111.5,
-      "position_count": 2
-    },
-    {
-      "date": "2026-05-20",
-      "equity": 496981.5,
-      "cash": 173739.5,
-      "position_count": 3
-    },
-    {
-      "date": "2026-05-22",
-      "equity": 534788.0,
-      "cash": 66813.5,
-      "position_count": 4
-    },
-    {
-      "date": "2026-05-26",
-      "equity": 549664.6,
-      "cash": 214.5,
-      "position_count": 5
-    },
-    {
-      "date": "2026-05-29",
-      "equity": 595206.4,
-      "cash": 214.5,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-02",
-      "equity": 589978.8,
-      "cash": 24.0,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-03",
-      "equity": 613021.6,
-      "cash": 96469.2,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-05",
-      "equity": 642001.2,
-      "cash": 81712.20000000001,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-11",
-      "equity": 637718.7,
-      "cash": 119676.70000000001,
-      "position_count": 4
-    },
-    {
-      "date": "2026-06-12",
-      "equity": 651695.9,
-      "cash": 356.70000000001164,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-16",
-      "equity": 688313.1000000001,
-      "cash": 33041.100000000035,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-17",
-      "equity": 679071.1000000001,
-      "cash": 33041.100000000035,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-18",
-      "equity": 692785.1000000001,
-      "cash": 33041.100000000035,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-22",
-      "equity": 697451.1000000001,
-      "cash": 33041.100000000035,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-23",
-      "equity": 688253.1000000001,
-      "cash": 33041.100000000035,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-24",
-      "equity": 663551.1000000001,
-      "cash": 25176.100000000035,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-25",
-      "equity": 709213.6000000001,
-      "cash": 24315.504617309605,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-26",
-      "equity": 671049.2069259644,
-      "cash": 18579.20692596439,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-29",
-      "equity": 625394.2069259644,
-      "cash": 43.00862274173414,
-      "position_count": 5
-    },
-    {
-      "date": "2026-06-30",
-      "equity": 637288.0086227418,
-      "cash": 732.0086227417341,
-      "position_count": 5
-    },
-    {
       "date": "2026-07-01",
-      "equity": 648605.0086227418,
-      "cash": 732.0086227417341,
+      "equity": 634504.2448249818,
+      "cash": 4620.701188659703,
+      "position_count": 5
+    },
+    {
+      "date": "2026-07-02",
+      "equity": 638781.0007644654,
+      "cash": 4620.701188659703,
       "position_count": 5
     }
   ],
@@ -415,6 +187,96 @@ window.PUBLIC_FOLLOW_DATA = {
       "action_text": "換股買進"
     }
   ],
-  "recent_entries": [],
-  "recent_closed_trades": []
+  "recent_entries": [
+    {
+      "stock_id": "6669",
+      "company_name": "緯穎",
+      "entry_date": "2026-07-01",
+      "entry_price": 4740.0,
+      "quantity": 26,
+      "cost": 123240.0
+    },
+    {
+      "stock_id": "2610",
+      "company_name": "華航",
+      "entry_date": "2026-07-01",
+      "entry_price": 23.700000762939453,
+      "quantity": 5190,
+      "cost": 123003.00395965576
+    },
+    {
+      "stock_id": "2801",
+      "company_name": "彰銀",
+      "entry_date": "2026-07-01",
+      "entry_price": 24.0,
+      "quantity": 5126,
+      "cost": 123024.0
+    },
+    {
+      "stock_id": "2542",
+      "company_name": "興富發",
+      "entry_date": "2026-07-01",
+      "entry_price": 43.0,
+      "quantity": 2857,
+      "cost": 122851.0
+    },
+    {
+      "stock_id": "4958",
+      "company_name": "臻鼎-KY",
+      "entry_date": "2026-06-16",
+      "entry_price": 596.0,
+      "quantity": 230,
+      "cost": 137080.0
+    }
+  ],
+  "recent_closed_trades": [
+    {
+      "stock_id": "8070",
+      "company_name": "長華*",
+      "entry_date": "2026-06-29",
+      "entry_price": 53.79999923706055,
+      "quantity": 2192,
+      "exit_date": "2026-07-01",
+      "exit_price": 54.099998474121094,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": 0.557619407648402,
+      "holding_days": 2
+    },
+    {
+      "stock_id": "5434",
+      "company_name": "崇越",
+      "entry_date": "2026-06-29",
+      "entry_price": 507.0,
+      "quantity": 229,
+      "exit_date": "2026-07-01",
+      "exit_price": 550.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": 8.481262327416172,
+      "holding_days": 2
+    },
+    {
+      "stock_id": "6409",
+      "company_name": "旭隼",
+      "entry_date": "2026-06-29",
+      "entry_price": 999.0,
+      "quantity": 123,
+      "exit_date": "2026-07-01",
+      "exit_price": 1090.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": 9.109109109109115,
+      "holding_days": 2
+    },
+    {
+      "stock_id": "6691",
+      "company_name": "洋基工程",
+      "entry_date": "2026-06-29",
+      "entry_price": 811.0,
+      "quantity": 151,
+      "exit_date": "2026-07-01",
+      "exit_price": 782.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": -3.5758323057953123,
+      "holding_days": 2
+    }
+  ]
 };
