@@ -62,7 +62,10 @@ window.PUBLIC_FOLLOW_DATA = {
       "market_value": 140990.0,
       "unrealized_return_pct": 2.8523489932885893,
       "holding_days": 17,
-      "concept_tag_names": []
+      "concept_tag_names": [
+        "PCB/HDI",
+        "基礎產業:電子零組件業"
+      ]
     },
     {
       "stock_id": "6669",
@@ -90,7 +93,9 @@ window.PUBLIC_FOLLOW_DATA = {
       "market_value": 117034.49604034424,
       "unrealized_return_pct": -4.852326957209241,
       "holding_days": 2,
-      "concept_tag_names": []
+      "concept_tag_names": [
+        "基礎產業:航運業"
+      ]
     },
     {
       "stock_id": "5289",
@@ -103,7 +108,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "market_value": 120990.0,
       "unrealized_return_pct": -1.5060240963855387,
       "holding_days": 0,
-      "concept_tag_names": []
+      "concept_tag_names": [
+        "記憶體",
+        "記憶體模組",
+        "基礎產業:電腦及週邊設備業"
+      ]
     },
     {
       "stock_id": "6442",
@@ -118,7 +127,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "holding_days": 0,
       "concept_tag_names": [
         "光通訊模組",
-        "矽光子/CPO"
+        "矽光子/CPO",
+        "矽光子/光通訊"
       ]
     }
   ],
@@ -132,7 +142,8 @@ window.PUBLIC_FOLLOW_DATA = {
         "amount": 127920.0,
         "concept_tag_names": [
           "光通訊模組",
-          "矽光子/CPO"
+          "矽光子/CPO",
+          "矽光子/光通訊"
         ]
       },
       {
@@ -141,7 +152,9 @@ window.PUBLIC_FOLLOW_DATA = {
         "quantity": 5190,
         "price": 22.549999237060547,
         "amount": 117034.49604034424,
-        "concept_tag_names": []
+        "concept_tag_names": [
+          "基礎產業:航運業"
+        ]
       }
     ],
     "buy_orders": [
@@ -155,7 +168,8 @@ window.PUBLIC_FOLLOW_DATA = {
         "entry_date": null,
         "concept_tag_names": [
           "光通訊模組",
-          "矽光子/CPO"
+          "矽光子/CPO",
+          "矽光子/光通訊"
         ]
       },
       {
@@ -197,11 +211,13 @@ window.PUBLIC_FOLLOW_DATA = {
       "sell_market_value": 127920.0,
       "concept_tag_names": [
         "光通訊模組",
-        "矽光子/CPO"
+        "矽光子/CPO",
+        "矽光子/光通訊"
       ],
       "sell_concept_tag_names": [
         "光通訊模組",
-        "矽光子/CPO"
+        "矽光子/CPO",
+        "矽光子/光通訊"
       ],
       "action_text": "換股買進"
     },
@@ -223,7 +239,9 @@ window.PUBLIC_FOLLOW_DATA = {
       "concept_tag_names": [
         "PCB/HDI"
       ],
-      "sell_concept_tag_names": [],
+      "sell_concept_tag_names": [
+        "基礎產業:航運業"
+      ],
       "action_text": "換股買進"
     }
   ],
