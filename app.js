@@ -8,6 +8,7 @@ const fmtMoney = new Intl.NumberFormat("zh-TW", {
   maximumFractionDigits: 0,
 });
 const fmtNum = new Intl.NumberFormat("zh-TW", { maximumFractionDigits: 0 });
+const capitalStorageKey = "investmentTrustCapitalSettings";
 
 function esc(value) {
   return String(value ?? "")
@@ -55,11 +56,54 @@ function stockName(row) {
   return `${row.stock_id || ""} ${row.company_name || ""}`.trim();
 }
 
+function finiteNumber(value, fallback = 0) {
+  const n = Number(value);
+  return Number.isFinite(n) ? n : fallback;
+}
+
+function daysBetween(start, end) {
+  const a = new Date(`${shortDate(start)}T00:00:00+08:00`);
+  const b = new Date(`${shortDate(end)}T00:00:00+08:00`);
+  const diff = Math.round((b - a) / 86400000);
+  return Number.isFinite(diff) && diff > 0 ? diff : 1;
+}
+
+function loadCapitalSettings() {
+  try {
+    return JSON.parse(localStorage.getItem(capitalStorageKey) || "{}");
+  } catch {
+    return {};
+  }
+}
+
+function saveCapitalSettings(settings) {
+  localStorage.setItem(capitalStorageKey, JSON.stringify(settings));
+}
+
+function baseInitialCapital() {
+  return finiteNumber(metrics.initial_capital || data.assumptions?.initial_capital, 300000);
+}
+
+function baseCurrentCapital() {
+  return finiteNumber(metrics.final_value, baseInitialCapital());
+}
+
+function adjustedMetrics() {
+  const settings = loadCapitalSettings();
+  const initial = finiteNumber(settings.initialCapital, baseInitialCapital());
+  const current = finiteNumber(settings.currentCapital, baseCurrentCapital());
+  const totalReturn = initial > 0 ? (current / initial - 1) * 100 : null;
+  const days = daysBetween(metrics.start_date, metrics.end_date || status.signal_date);
+  const annualized = initial > 0 ? ((current / initial) ** (365 / days) - 1) * 100 : null;
+  return { initial, current, totalReturn, annualized };
+}
+
 function renderSummary() {
+  const adjusted = adjustedMetrics();
   const items = [
-    ["起始資金", money(data.assumptions?.initial_capital || metrics.initial_capital), `起算 ${shortDate(metrics.start_date)}`],
-    ["目前資產", money(metrics.final_value), `現金 ${money(metrics.cash)}`],
-    ["總報酬", pct(metrics.total_return_pct), `年化 ${pct(metrics.annualized_return_pct)}`],
+    ["起始資金", money(adjusted.initial), `起算 ${shortDate(metrics.start_date)}`],
+    ["目前資產", money(adjusted.current), `系統 ${money(metrics.final_value)}`],
+    ["總報酬", pct(adjusted.totalReturn), `年化 ${pct(adjusted.annualized)}`],
     ["最大回撤", pct(metrics.max_drawdown_pct), "風險參考"],
     ["已出場", num(metrics.closed_trade_count), `勝率 ${pct(metrics.closed_trade_win_rate_pct)}`],
     ["持股", num(metrics.open_position_count), `最多 ${data.assumptions?.max_positions || 5} 檔`],
@@ -74,6 +118,42 @@ function renderSummary() {
       </div>`,
     )
     .join("");
+}
+
+function renderCapitalControls() {
+  const initialInput = document.getElementById("initialCapitalInput");
+  const currentInput = document.getElementById("currentCapitalInput");
+  const resetButton = document.getElementById("resetCapital");
+  const result = document.getElementById("capitalResult");
+  if (!initialInput || !currentInput || !resetButton || !result) return;
+
+  const settings = loadCapitalSettings();
+  initialInput.value = finiteNumber(settings.initialCapital, baseInitialCapital()).toFixed(0);
+  currentInput.value = finiteNumber(settings.currentCapital, baseCurrentCapital()).toFixed(0);
+
+  const update = () => {
+    const next = {
+      initialCapital: finiteNumber(initialInput.value, baseInitialCapital()),
+      currentCapital: finiteNumber(currentInput.value, baseCurrentCapital()),
+    };
+    saveCapitalSettings(next);
+    const adjusted = adjustedMetrics();
+    result.innerHTML = `
+      <strong class="${pctClass(adjusted.totalReturn)}">${pct(adjusted.totalReturn)}</strong>
+      <span>年化 ${pct(adjusted.annualized)}｜系統資產 ${money(metrics.final_value)}</span>
+    `;
+    renderSummary();
+  };
+
+  initialInput.addEventListener("input", update);
+  currentInput.addEventListener("input", update);
+  resetButton.addEventListener("click", () => {
+    localStorage.removeItem(capitalStorageKey);
+    initialInput.value = baseInitialCapital().toFixed(0);
+    currentInput.value = baseCurrentCapital().toFixed(0);
+    update();
+  });
+  update();
 }
 
 function renderMeta() {
@@ -200,7 +280,7 @@ function renderClosedTrades() {
 }
 
 renderMeta();
-renderSummary();
+renderCapitalControls();
 renderActions();
 renderHoldings();
 renderEntries();

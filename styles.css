@@ -98,6 +98,72 @@ h2 {
   margin-bottom: 12px;
 }
 
+.capital-panel {
+  border-color: #d7d0b8;
+}
+
+.capital-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(180px, 240px)) minmax(220px, 1fr);
+  gap: 12px;
+  align-items: end;
+}
+
+.capital-controls label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.capital-controls input {
+  width: 100%;
+  min-height: 38px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+  text-align: right;
+}
+
+.capital-result {
+  min-height: 38px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fbfcfb;
+}
+
+.capital-result strong {
+  font-size: 18px;
+}
+
+.capital-result span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.ghost-button {
+  min-height: 34px;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--muted);
+  font: inherit;
+  cursor: pointer;
+}
+
+.ghost-button:hover {
+  color: var(--text);
+  border-color: #bfc8c1;
+}
+
 .panel-head {
   display: flex;
   justify-content: space-between;
@@ -257,6 +323,7 @@ th {
 
   .grid-2,
   .trade-ledger,
+  .capital-controls,
   .hero-panel .panel-head {
     grid-template-columns: 1fr;
   }
