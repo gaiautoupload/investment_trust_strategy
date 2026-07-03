@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-07-02T17:43:22.285186+08:00",
+  "generated_at": "2026-07-03T17:32:54.399035+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -9,10 +9,10 @@ window.PUBLIC_FOLLOW_DATA = {
   },
   "data_status": {
     "signal_date": "2026-07-02",
-    "latest_chip_date": "2026-07-02",
+    "latest_chip_date": "2026-07-03",
     "latest_price_date": "2026-07-02",
     "candidate_count": 2,
-    "warning": null
+    "warning": "本次只能篩到 2026-07-02；最新籌碼日是 2026-07-03，最新價格日是 2026-07-02。"
   },
   "metrics": {
     "initial_capital": 300000.0,
