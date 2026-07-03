@@ -104,7 +104,7 @@ h2 {
 
 .capital-controls {
   display: grid;
-  grid-template-columns: repeat(2, minmax(180px, 240px)) minmax(220px, 1fr);
+  grid-template-columns: minmax(180px, 260px) minmax(260px, 1fr);
   gap: 12px;
   align-items: end;
 }
@@ -146,6 +146,12 @@ h2 {
 .capital-result span {
   color: var(--muted);
   font-size: 13px;
+}
+
+.user-order {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .ghost-button {

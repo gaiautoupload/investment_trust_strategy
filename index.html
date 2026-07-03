@@ -21,18 +21,14 @@
       <section class="panel capital-panel">
         <div class="panel-head">
           <div>
-            <h2>資金校正</h2>
-            <p>只存在這台瀏覽器，用來換算你的實際成本與目前資產。</p>
+            <h2>下單資金換算</h2>
+            <p>輸入你的目前可操作資金，買賣表會按比例換算你要下幾股。</p>
           </div>
-          <button class="ghost-button" id="resetCapital" type="button">還原系統值</button>
+          <button class="ghost-button" id="resetCapital" type="button">還原系統資金</button>
         </div>
         <div class="capital-controls">
           <label>
-            <span>初始投入成本</span>
-            <input id="initialCapitalInput" inputmode="decimal" type="number" min="1" step="1000" />
-          </label>
-          <label>
-            <span>目前總資產</span>
+            <span>你的目前可操作資金</span>
             <input id="currentCapitalInput" inputmode="decimal" type="number" min="0" step="1000" />
           </label>
           <div class="capital-result" id="capitalResult"></div>
