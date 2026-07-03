@@ -56,6 +56,12 @@ function stockName(row) {
   return `${row.stock_id || ""} ${row.company_name || ""}`.trim();
 }
 
+function conceptTags(row) {
+  const tags = row.concept_tag_names || [];
+  if (!tags.length) return "";
+  return `<br><span class="concept-tags">${tags.slice(0, 3).map(esc).join("、")}</span>`;
+}
+
 function finiteNumber(value, fallback = 0) {
   const n = Number(value);
   return Number.isFinite(n) ? n : fallback;
@@ -172,7 +178,7 @@ function renderActions() {
             const userAmount = userQty * finiteNumber(row.price);
             return `
           <tr>
-            <td>${esc(stockName(row))}</td>
+            <td>${esc(stockName(row))}${conceptTags(row)}</td>
             <td>${num(row.quantity)}<br><span class="user-order">${num(userQty)}</span></td>
             <td>${money(row.price)}</td>
             <td>${money(row.amount)}<br><span class="user-order">${money(userAmount)}</span></td>
@@ -190,7 +196,7 @@ function renderActions() {
             const userAmount = userQty * finiteNumber(row.price);
             return `
           <tr>
-            <td>${esc(stockName(row))}<br><span class="muted">${row.action === "SELL_WEAKEST_BUY_CANDIDATE" ? "換股買進" : "新買進"}</span></td>
+            <td>${esc(stockName(row))}${conceptTags(row)}<br><span class="muted">${row.action === "SELL_WEAKEST_BUY_CANDIDATE" ? "換股買進" : "新買進"}</span></td>
             <td>${num(row.quantity)}<br><span class="user-order">${num(userQty)}</span></td>
             <td>${money(row.price)}</td>
             <td>${money(row.amount)}<br><span class="user-order">${money(userAmount)}</span></td>
@@ -239,7 +245,7 @@ function renderHoldings() {
     .map(
       (row) => `
       <tr>
-        <td>${esc(row.stock_id)} ${esc(row.company_name)}<br><span class="muted">${shortDate(row.entry_date)} 進場</span></td>
+        <td>${esc(row.stock_id)} ${esc(row.company_name)}${conceptTags(row)}<br><span class="muted">${shortDate(row.entry_date)} 進場</span></td>
         <td>${num(row.quantity)}</td>
         <td>${money(row.current_price)}</td>
         <td class="${pctClass(row.unrealized_return_pct)}">${pct(row.unrealized_return_pct)}</td>
@@ -255,7 +261,7 @@ function renderEntries() {
       (row) => `
       <tr>
         <td>${shortDate(row.entry_date)}</td>
-        <td>${esc(row.stock_id)} ${esc(row.company_name)}</td>
+        <td>${esc(row.stock_id)} ${esc(row.company_name)}${conceptTags(row)}</td>
         <td>${money(row.entry_price)}</td>
         <td>${num(row.quantity)}</td>
         <td>${money(row.cost)}</td>
@@ -270,7 +276,7 @@ function renderClosedTrades() {
       (row) => `
       <tr>
         <td>${shortDate(row.exit_date)}</td>
-        <td>${esc(row.stock_id)} ${esc(row.company_name)}</td>
+        <td>${esc(row.stock_id)} ${esc(row.company_name)}${conceptTags(row)}</td>
         <td>${esc(reasonText(row.exit_reason))}</td>
         <td class="${pctClass(row.return_pct)}">${pct(row.return_pct)}</td>
         <td>${num(row.holding_days)}</td>

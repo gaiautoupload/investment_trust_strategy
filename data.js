@@ -61,7 +61,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "current_price": 613.0,
       "market_value": 140990.0,
       "unrealized_return_pct": 2.8523489932885893,
-      "holding_days": 17
+      "holding_days": 17,
+      "concept_tag_names": []
     },
     {
       "stock_id": "6669",
@@ -73,7 +74,10 @@ window.PUBLIC_FOLLOW_DATA = {
       "current_price": 5265.0,
       "market_value": 136890.0,
       "unrealized_return_pct": 11.075949367088601,
-      "holding_days": 2
+      "holding_days": 2,
+      "concept_tag_names": [
+        "AI伺服器"
+      ]
     },
     {
       "stock_id": "2610",
@@ -85,7 +89,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "current_price": 22.549999237060547,
       "market_value": 117034.49604034424,
       "unrealized_return_pct": -4.852326957209241,
-      "holding_days": 2
+      "holding_days": 2,
+      "concept_tag_names": []
     },
     {
       "stock_id": "5289",
@@ -97,7 +102,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "current_price": 1635.0,
       "market_value": 120990.0,
       "unrealized_return_pct": -1.5060240963855387,
-      "holding_days": 0
+      "holding_days": 0,
+      "concept_tag_names": []
     },
     {
       "stock_id": "6442",
@@ -109,7 +115,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "current_price": 1640.0,
       "market_value": 127920.0,
       "unrealized_return_pct": 2.8213166144200663,
-      "holding_days": 0
+      "holding_days": 0,
+      "concept_tag_names": [
+        "光通訊模組",
+        "矽光子/CPO"
+      ]
     }
   ],
   "trade_plan": {
@@ -119,14 +129,19 @@ window.PUBLIC_FOLLOW_DATA = {
         "company_name": "光聖",
         "quantity": 78,
         "price": 1640.0,
-        "amount": 127920.0
+        "amount": 127920.0,
+        "concept_tag_names": [
+          "光通訊模組",
+          "矽光子/CPO"
+        ]
       },
       {
         "stock_id": "2610",
         "company_name": "華航",
         "quantity": 5190,
         "price": 22.549999237060547,
-        "amount": 117034.49604034424
+        "amount": 117034.49604034424,
+        "concept_tag_names": []
       }
     ],
     "buy_orders": [
@@ -137,7 +152,11 @@ window.PUBLIC_FOLLOW_DATA = {
         "price": 468.5,
         "amount": 127900.5,
         "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null
+        "entry_date": null,
+        "concept_tag_names": [
+          "光通訊模組",
+          "矽光子/CPO"
+        ]
       },
       {
         "stock_id": "2368",
@@ -146,7 +165,10 @@ window.PUBLIC_FOLLOW_DATA = {
         "price": 1305.0,
         "amount": 127890.0,
         "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null
+        "entry_date": null,
+        "concept_tag_names": [
+          "PCB/HDI"
+        ]
       }
     ],
     "total_sell_amount": 244954.49604034424,
@@ -173,6 +195,14 @@ window.PUBLIC_FOLLOW_DATA = {
       "sell_quantity": 78,
       "sell_current_price": 1640.0,
       "sell_market_value": 127920.0,
+      "concept_tag_names": [
+        "光通訊模組",
+        "矽光子/CPO"
+      ],
+      "sell_concept_tag_names": [
+        "光通訊模組",
+        "矽光子/CPO"
+      ],
       "action_text": "換股買進"
     },
     {
@@ -190,6 +220,10 @@ window.PUBLIC_FOLLOW_DATA = {
       "sell_quantity": 5190,
       "sell_current_price": 22.549999237060547,
       "sell_market_value": 117034.49604034424,
+      "concept_tag_names": [
+        "PCB/HDI"
+      ],
+      "sell_concept_tag_names": [],
       "action_text": "換股買進"
     }
   ],
@@ -200,7 +234,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "entry_date": "2026-07-03",
       "entry_price": 1660.0,
       "quantity": 74,
-      "cost": 122840.0
+      "cost": 122840.0,
+      "concept_tag_names": []
     },
     {
       "stock_id": "6442",
@@ -208,7 +243,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "entry_date": "2026-07-03",
       "entry_price": 1595.0,
       "quantity": 78,
-      "cost": 124410.0
+      "cost": 124410.0,
+      "concept_tag_names": [
+        "光通訊模組",
+        "矽光子/CPO"
+      ]
     },
     {
       "stock_id": "6669",
@@ -216,7 +255,10 @@ window.PUBLIC_FOLLOW_DATA = {
       "entry_date": "2026-07-01",
       "entry_price": 4740.0,
       "quantity": 26,
-      "cost": 123240.0
+      "cost": 123240.0,
+      "concept_tag_names": [
+        "AI伺服器"
+      ]
     },
     {
       "stock_id": "2610",
@@ -224,7 +266,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "entry_date": "2026-07-01",
       "entry_price": 23.700000762939453,
       "quantity": 5190,
-      "cost": 123003.00395965576
+      "cost": 123003.00395965576,
+      "concept_tag_names": []
     },
     {
       "stock_id": "2801",
@@ -232,7 +275,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "entry_date": "2026-07-01",
       "entry_price": 24.0,
       "quantity": 5126,
-      "cost": 123024.0
+      "cost": 123024.0,
+      "concept_tag_names": []
     },
     {
       "stock_id": "2542",
@@ -240,7 +284,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "entry_date": "2026-07-01",
       "entry_price": 43.0,
       "quantity": 2857,
-      "cost": 122851.0
+      "cost": 122851.0,
+      "concept_tag_names": []
     },
     {
       "stock_id": "4958",
@@ -248,7 +293,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "entry_date": "2026-06-16",
       "entry_price": 596.0,
       "quantity": 230,
-      "cost": 137080.0
+      "cost": 137080.0,
+      "concept_tag_names": []
     }
   ],
   "recent_closed_trades": [
@@ -262,7 +308,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_price": 42.75,
       "exit_reason": "follow_signal_replace",
       "return_pct": -0.5813953488372103,
-      "holding_days": 2
+      "holding_days": 2,
+      "concept_tag_names": []
     },
     {
       "stock_id": "2801",
@@ -274,7 +321,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_price": 23.100000381469727,
       "exit_reason": "follow_signal_replace",
       "return_pct": -3.7499984105428097,
-      "holding_days": 2
+      "holding_days": 2,
+      "concept_tag_names": []
     },
     {
       "stock_id": "8070",
@@ -286,7 +334,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_price": 54.099998474121094,
       "exit_reason": "follow_signal_replace",
       "return_pct": 0.557619407648402,
-      "holding_days": 2
+      "holding_days": 2,
+      "concept_tag_names": []
     },
     {
       "stock_id": "5434",
@@ -298,7 +347,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_price": 550.0,
       "exit_reason": "follow_signal_replace",
       "return_pct": 8.481262327416172,
-      "holding_days": 2
+      "holding_days": 2,
+      "concept_tag_names": []
     },
     {
       "stock_id": "6409",
@@ -310,7 +360,8 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_price": 1090.0,
       "exit_reason": "follow_signal_replace",
       "return_pct": 9.109109109109115,
-      "holding_days": 2
+      "holding_days": 2,
+      "concept_tag_names": []
     },
     {
       "stock_id": "6691",
@@ -322,7 +373,10 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_price": 782.0,
       "exit_reason": "follow_signal_replace",
       "return_pct": -3.5758323057953123,
-      "holding_days": 2
+      "holding_days": 2,
+      "concept_tag_names": [
+        "半導體設備"
+      ]
     }
   ]
 };
