@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-07-09T18:35:37.367300+08:00",
+  "generated_at": "2026-07-14T18:35:39.596387+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,26 +8,26 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-07-09",
-    "latest_chip_date": "2026-07-09",
-    "latest_price_date": "2026-07-09",
-    "candidate_count": 1,
+    "signal_date": "2026-07-14",
+    "latest_chip_date": "2026-07-14",
+    "latest_price_date": "2026-07-14",
+    "candidate_count": 4,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 594546.5551239015,
-    "cash": -2663.944876098598,
-    "total_return_pct": 98.1821850413005,
-    "annualized_return_pct": 319.90667542038125,
+    "final_value": 581019.5551239015,
+    "cash": -8093.944876098598,
+    "total_return_pct": 93.67318504130048,
+    "annualized_return_pct": 284.91529708004623,
     "start_date": "2026-01-16",
-    "end_date": "2026-07-09",
-    "closed_trade_count": 9,
-    "entry_count": 10,
+    "end_date": "2026-07-14",
+    "closed_trade_count": 10,
+    "entry_count": 11,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": 55.55555555555556,
-    "average_closed_trade_return_pct": 1.835806676092783,
-    "max_drawdown_pct": -8.321482521049116,
+    "closed_trade_win_rate_pct": 50.0,
+    "average_closed_trade_return_pct": 0.8690934783630231,
+    "max_drawdown_pct": -9.46220476384002,
     "performance_source": "actual_follow_account"
   },
   "equity_curve": [
@@ -72,6 +72,12 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 594546.5551239015,
       "cash": -2663.944876098598,
       "position_count": 5
+    },
+    {
+      "date": "2026-07-14",
+      "equity": 581019.5551239015,
+      "cash": -8093.944876098598,
+      "position_count": 5
     }
   ],
   "holdings": [
@@ -81,17 +87,18 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 230,
       "entry_date": "2026-06-16",
       "entry_price": 596.0,
-      "current_price_date": "2026-07-09",
-      "current_price": 588.0,
-      "market_value": 135240.0,
-      "unrealized_return_pct": -1.342281879194629,
-      "holding_days": 23,
+      "current_price_date": "2026-07-14",
+      "current_price": 629.0,
+      "market_value": 144670.0,
+      "unrealized_return_pct": 5.536912751677847,
+      "holding_days": 28,
       "concept_tag_names": [
         "ABF載板",
         "PCB/CCL",
         "投資控股",
         "晶圓製程設備零組件",
         "證券券商",
+        "NB/PC代工",
         "PCB/HDI",
         "工具機/自動化設備",
         "工具機零組件",
@@ -101,41 +108,16 @@ window.PUBLIC_FOLLOW_DATA = {
       ]
     },
     {
-      "stock_id": "5289",
-      "company_name": "宜鼎",
-      "quantity": 74,
-      "entry_date": "2026-07-03",
-      "entry_price": 1660.0,
-      "current_price_date": "2026-07-09",
-      "current_price": 1530.0,
-      "market_value": 113220.0,
-      "unrealized_return_pct": -7.831325301204817,
-      "holding_days": 6,
-      "concept_tag_names": [
-        "IPC/邊緣運算",
-        "記憶體",
-        "證券券商",
-        "利基型記憶體/Nor Flash",
-        "工具機/自動化設備",
-        "工業電腦",
-        "投資控股",
-        "晶圓製程設備零組件",
-        "檢測設備/服務",
-        "記憶體模組",
-        "基礎產業:電腦及週邊設備業"
-      ]
-    },
-    {
       "stock_id": "4979",
       "company_name": "華星光",
       "quantity": 273,
       "entry_date": "2026-07-06",
       "entry_price": 472.0,
-      "current_price_date": "2026-07-09",
-      "current_price": 432.5,
-      "market_value": 118072.5,
-      "unrealized_return_pct": -8.368644067796616,
-      "holding_days": 3,
+      "current_price_date": "2026-07-14",
+      "current_price": 403.0,
+      "market_value": 110019.0,
+      "unrealized_return_pct": -14.618644067796616,
+      "holding_days": 8,
       "concept_tag_names": [
         "光通訊模組",
         "矽光子/CPO",
@@ -143,6 +125,8 @@ window.PUBLIC_FOLLOW_DATA = {
         "光纖/光纜",
         "光纖傳輸/光通訊",
         "投資控股",
+        "檢測設備/服務",
+        "測試驗證服務",
         "矽光子/光通訊",
         "網安/網路設備"
       ]
@@ -153,11 +137,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 98,
       "entry_date": "2026-07-06",
       "entry_price": 1335.0,
-      "current_price_date": "2026-07-09",
-      "current_price": 1075.0,
-      "market_value": 105350.0,
-      "unrealized_return_pct": -19.475655430711612,
-      "holding_days": 3,
+      "current_price_date": "2026-07-14",
+      "current_price": 1015.0,
+      "market_value": 99470.0,
+      "unrealized_return_pct": -23.970037453183522,
+      "holding_days": 8,
       "concept_tag_names": [
         "PCB/HDI",
         "證券券商",
@@ -174,90 +158,29 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 373,
       "entry_date": "2026-07-09",
       "entry_price": 320.0,
-      "current_price_date": "2026-07-09",
-      "current_price": 336.0,
-      "market_value": 125328.0,
-      "unrealized_return_pct": 5.000000000000004,
-      "holding_days": 0,
+      "current_price_date": "2026-07-14",
+      "current_price": 331.5,
+      "market_value": 123649.5,
+      "unrealized_return_pct": 3.5937499999999956,
+      "holding_days": 5,
       "concept_tag_names": [
         "證券券商",
         "投資控股",
         "特用化學/材料",
         "基礎產業:化學工業"
       ]
-    }
-  ],
-  "trade_plan": {
-    "sell_orders": [
-      {
-        "stock_id": "5289",
-        "company_name": "宜鼎",
-        "quantity": 74,
-        "price": 1530.0,
-        "amount": 113220.0,
-        "concept_tag_names": [
-          "IPC/邊緣運算",
-          "記憶體",
-          "證券券商",
-          "利基型記憶體/Nor Flash",
-          "工具機/自動化設備",
-          "工業電腦",
-          "投資控股",
-          "晶圓製程設備零組件",
-          "檢測設備/服務",
-          "記憶體模組",
-          "基礎產業:電腦及週邊設備業"
-        ]
-      }
-    ],
-    "buy_orders": [
-      {
-        "stock_id": "6187",
-        "company_name": "萬潤",
-        "quantity": 113,
-        "price": 1050.0,
-        "amount": 118650.0,
-        "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null,
-        "concept_tag_names": [
-          "CoWoS/先進封裝",
-          "證券券商",
-          "MLCC/被動元件",
-          "保護元件/電感",
-          "半導體設備",
-          "工具機/自動化設備",
-          "投資控股",
-          "晶圓製程設備零組件",
-          "檢測設備/服務",
-          "被動元件",
-          "半導體IP/設計服務"
-        ]
-      }
-    ],
-    "total_sell_amount": 113220.0,
-    "total_buy_amount": 118650.0,
-    "starting_cash": -2663.944876098598,
-    "net_cash_change": -5430.0,
-    "cash_after_plan": -8093.944876098598,
-    "needs_extra_cash": 8093.944876098598,
-    "remaining_cash": 0.0
-  },
-  "today_candidates": [
+    },
     {
-      "rank": 1,
-      "signal_date": "2026-07-09",
       "stock_id": "6187",
       "company_name": "萬潤",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 1050.0,
-      "target_amount": 118909.3110247803,
-      "suggested_quantity": 113,
-      "buy_amount": 118650.0,
-      "sell_stock_id": "5289",
-      "sell_company_name": "宜鼎",
-      "sell_quantity": 74,
-      "sell_current_price": 1530.0,
-      "sell_market_value": 113220.0,
+      "quantity": 113,
+      "entry_date": "2026-07-10",
+      "entry_price": 1050.0,
+      "current_price_date": "2026-07-14",
+      "current_price": 985.0,
+      "market_value": 111305.0,
+      "unrealized_return_pct": -6.190476190476191,
+      "holding_days": 4,
       "concept_tag_names": [
         "CoWoS/先進封裝",
         "證券券商",
@@ -270,24 +193,170 @@ window.PUBLIC_FOLLOW_DATA = {
         "檢測設備/服務",
         "被動元件",
         "半導體IP/設計服務"
+      ]
+    }
+  ],
+  "trade_plan": {
+    "sell_orders": [
+      {
+        "stock_id": "2368",
+        "company_name": "金像電",
+        "quantity": 98,
+        "price": 1015.0,
+        "amount": 99470.0,
+        "concept_tag_names": [
+          "PCB/HDI",
+          "證券券商",
+          "NB/PC代工",
+          "工具機零組件",
+          "投資控股",
+          "晶圓製程設備零組件",
+          "PCB/銅箔進階材料"
+        ]
+      }
+    ],
+    "buy_orders": [
+      {
+        "stock_id": "4722",
+        "company_name": "國精化",
+        "quantity": 446,
+        "price": 260.5,
+        "amount": 116183.0,
+        "action": "SELL_WEAKEST_BUY_CANDIDATE",
+        "entry_date": null,
+        "concept_tag_names": [
+          "特用化學/材料",
+          "證券券商",
+          "ASIC設計服務",
+          "半導體IP/設計服務",
+          "塑膠原料/樹脂",
+          "投資控股",
+          "聚酯/紡纖",
+          "基礎產業:化學工業"
+        ]
+      }
+    ],
+    "total_sell_amount": 99470.0,
+    "total_buy_amount": 116183.0,
+    "starting_cash": -8093.944876098598,
+    "net_cash_change": -16713.0,
+    "cash_after_plan": -24806.944876098598,
+    "needs_extra_cash": 24806.944876098598,
+    "remaining_cash": 0.0
+  },
+  "today_candidates": [
+    {
+      "rank": 1,
+      "signal_date": "2026-07-14",
+      "stock_id": "4722",
+      "company_name": "國精化",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 260.5,
+      "target_amount": 116203.91102478029,
+      "suggested_quantity": 446,
+      "buy_amount": 116183.0,
+      "sell_stock_id": "2368",
+      "sell_company_name": "金像電",
+      "sell_quantity": 98,
+      "sell_current_price": 1015.0,
+      "sell_market_value": 99470.0,
+      "concept_tag_names": [
+        "特用化學/材料",
+        "證券券商",
+        "ASIC設計服務",
+        "半導體IP/設計服務",
+        "塑膠原料/樹脂",
+        "投資控股",
+        "聚酯/紡纖",
+        "基礎產業:化學工業"
       ],
       "sell_concept_tag_names": [
-        "IPC/邊緣運算",
-        "記憶體",
+        "PCB/HDI",
         "證券券商",
-        "利基型記憶體/Nor Flash",
+        "NB/PC代工",
+        "工具機零組件",
+        "投資控股",
+        "晶圓製程設備零組件",
+        "PCB/銅箔進階材料"
+      ],
+      "action_text": "換股買進"
+    },
+    {
+      "rank": 2,
+      "signal_date": "2026-07-14",
+      "stock_id": "6613",
+      "company_name": "朋億*",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 358.0,
+      "target_amount": 116203.91102478029,
+      "suggested_quantity": 324,
+      "buy_amount": 115992.0,
+      "concept_tag_names": [
+        "晶圓製程設備零組件",
+        "證券券商",
         "工具機/自動化設備",
-        "工業電腦",
+        "工程營造",
+        "投資控股",
+        "檢測設備/服務",
+        "無塵室/廠務工程",
+        "基礎產業:其他電子業"
+      ],
+      "action_text": "觀察"
+    },
+    {
+      "rank": 3,
+      "signal_date": "2026-07-14",
+      "stock_id": "3008",
+      "company_name": "大立光",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 4265.0,
+      "target_amount": 116203.91102478029,
+      "suggested_quantity": 27,
+      "buy_amount": 115155.0,
+      "concept_tag_names": [
+        "證券券商",
+        "太陽能",
+        "投資控股",
+        "遊戲/VR裝置",
+        "遊戲/數位內容",
+        "基礎產業:光電業"
+      ],
+      "action_text": "觀察"
+    },
+    {
+      "rank": 4,
+      "signal_date": "2026-07-14",
+      "stock_id": "8114",
+      "company_name": "振樺電",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 198.0,
+      "target_amount": 116203.91102478029,
+      "suggested_quantity": 586,
+      "buy_amount": 116028.0,
+      "concept_tag_names": [
+        "支付/POS終端",
+        "證券券商",
+        "工具機/自動化設備",
         "投資控股",
         "晶圓製程設備零組件",
         "檢測設備/服務",
-        "記憶體模組",
-        "基礎產業:電腦及週邊設備業"
+        "汽車/車用零組件",
+        "系統整合/資服",
+        "車用AM零件"
       ],
-      "action_text": "換股買進"
+      "action_text": "觀察"
     }
   ],
   "recent_entries": [
+    {
+      "stock_id": "6187",
+      "company_name": "萬潤",
+      "entry_date": "2026-07-10",
+      "entry_price": 1050.0,
+      "quantity": 113,
+      "cost": 118650.0,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "4764",
       "company_name": "雙鍵",
@@ -385,6 +454,19 @@ window.PUBLIC_FOLLOW_DATA = {
     }
   ],
   "recent_closed_trades": [
+    {
+      "stock_id": "5289",
+      "company_name": "宜鼎",
+      "entry_date": "2026-07-03",
+      "entry_price": 1660.0,
+      "quantity": 74,
+      "exit_date": "2026-07-10",
+      "exit_price": 1530.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": -7.831325301204817,
+      "holding_days": 7,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "6669",
       "company_name": "緯穎",
