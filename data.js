@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-08-05T18:33:27.828077+08:00",
+  "generated_at": "2026-08-06T18:34:09.092460+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,20 +8,20 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-08-05",
-    "latest_chip_date": "2026-08-05",
-    "latest_price_date": "2026-08-05",
+    "signal_date": "2026-08-06",
+    "latest_chip_date": "2026-08-06",
+    "latest_price_date": "2026-08-06",
     "candidate_count": 1,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 542102.4528060914,
+    "final_value": 557708.4528060914,
     "cash": -5898.5471939086565,
-    "total_return_pct": 80.70081760203047,
-    "annualized_return_pct": 192.8323946649344,
+    "total_return_pct": 85.90281760203047,
+    "annualized_return_pct": 206.60630985747622,
     "start_date": "2026-01-16",
-    "end_date": "2026-08-05",
+    "end_date": "2026-08-06",
     "closed_trade_count": 28,
     "entry_count": 29,
     "open_position_count": 5,
@@ -156,6 +156,12 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 542102.4528060914,
       "cash": -5898.5471939086565,
       "position_count": 5
+    },
+    {
+      "date": "2026-08-06",
+      "equity": 557708.4528060914,
+      "cash": -5898.5471939086565,
+      "position_count": 5
     }
   ],
   "holdings": [
@@ -165,11 +171,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 817,
       "entry_date": "2026-08-03",
       "entry_price": 117.0,
-      "current_price_date": "2026-08-05",
-      "current_price": 134.0,
-      "market_value": 109478.0,
-      "unrealized_return_pct": 14.529914529914523,
-      "holding_days": 2,
+      "current_price_date": "2026-08-06",
+      "current_price": 139.0,
+      "market_value": 113563.0,
+      "unrealized_return_pct": 18.803418803418804,
+      "holding_days": 3,
       "concept_tag_names": [
         "功率分離式元件",
         "證券券商",
@@ -192,11 +198,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 272,
       "entry_date": "2026-08-03",
       "entry_price": 351.0,
-      "current_price_date": "2026-08-05",
-      "current_price": 372.5,
-      "market_value": 101320.0,
-      "unrealized_return_pct": 6.125356125356118,
-      "holding_days": 2,
+      "current_price_date": "2026-08-06",
+      "current_price": 380.5,
+      "market_value": 103496.0,
+      "unrealized_return_pct": 8.404558404558404,
+      "holding_days": 3,
       "concept_tag_names": [
         "電動車動力/電控",
         "證券券商",
@@ -216,11 +222,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 738,
       "entry_date": "2026-08-03",
       "entry_price": 128.0,
-      "current_price_date": "2026-08-05",
-      "current_price": 158.5,
-      "market_value": 116973.0,
-      "unrealized_return_pct": 23.828125,
-      "holding_days": 2,
+      "current_price_date": "2026-08-06",
+      "current_price": 151.0,
+      "market_value": 111438.0,
+      "unrealized_return_pct": 17.96875,
+      "holding_days": 3,
       "concept_tag_names": [
         "封測",
         "證券券商",
@@ -238,11 +244,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 78,
       "entry_date": "2026-08-05",
       "entry_price": 1470.0,
-      "current_price_date": "2026-08-05",
-      "current_price": 1470.0,
-      "market_value": 114660.0,
-      "unrealized_return_pct": 0.0,
-      "holding_days": 0,
+      "current_price_date": "2026-08-06",
+      "current_price": 1530.0,
+      "market_value": 119340.0,
+      "unrealized_return_pct": 4.081632653061229,
+      "holding_days": 1,
       "concept_tag_names": [
         "CCL/銅箔基板",
         "PCB/HDI",
@@ -254,7 +260,8 @@ window.PUBLIC_FOLLOW_DATA = {
         "工具機零組件",
         "工程營造",
         "投資控股",
-        "檢測設備/服務"
+        "檢測設備/服務",
+        "票券金融"
       ]
     },
     {
@@ -263,11 +270,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 102,
       "entry_date": "2026-08-05",
       "entry_price": 1050.0,
-      "current_price_date": "2026-08-05",
-      "current_price": 1035.0,
-      "market_value": 105570.0,
-      "unrealized_return_pct": -1.4285714285714235,
-      "holding_days": 0,
+      "current_price_date": "2026-08-06",
+      "current_price": 1135.0,
+      "market_value": 115770.0,
+      "unrealized_return_pct": 8.095238095238088,
+      "holding_days": 1,
       "concept_tag_names": [
         "液冷散熱",
         "證券券商",
@@ -293,22 +300,28 @@ window.PUBLIC_FOLLOW_DATA = {
   "today_candidates": [
     {
       "rank": 1,
-      "signal_date": "2026-08-05",
-      "stock_id": "2337",
-      "company_name": "旺宏",
+      "signal_date": "2026-08-06",
+      "stock_id": "3022",
+      "company_name": "威強電",
       "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 117.5,
-      "target_amount": 108420.49056121828,
-      "suggested_quantity": 922,
-      "buy_amount": 108335.0,
+      "reference_price": 100.5,
+      "target_amount": 111541.69056121827,
+      "suggested_quantity": 1109,
+      "buy_amount": 111454.5,
       "concept_tag_names": [
-        "DRAM",
-        "利基型記憶體/Nor Flash",
+        "IPC/邊緣運算",
+        "工業電腦",
+        "機器人",
         "證券券商",
+        "ASIC設計服務",
+        "NB/PC代工",
+        "半導體IP/設計服務",
+        "工具機/自動化設備",
         "投資控股",
-        "晶圓代工",
-        "記憶體",
-        "半導體IP/設計服務"
+        "晶圓製程設備零組件",
+        "機器人/線性傳動",
+        "檢測設備/服務",
+        "基礎產業:電腦及週邊設備業"
       ],
       "action_text": "觀察"
     }
