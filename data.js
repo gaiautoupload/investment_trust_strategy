@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-08-13T18:34:14.281307+08:00",
+  "generated_at": "2026-08-14T18:34:09.743820+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,25 +8,25 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-08-13",
-    "latest_chip_date": "2026-08-13",
-    "latest_price_date": "2026-08-13",
-    "candidate_count": 3,
+    "signal_date": "2026-08-14",
+    "latest_chip_date": "2026-08-14",
+    "latest_price_date": "2026-08-14",
+    "candidate_count": 0,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 610313.8571945191,
-    "cash": 11670.452806091344,
-    "total_return_pct": 103.43795239817304,
-    "annualized_return_pct": 245.66001521032015,
+    "final_value": 580304.0484176637,
+    "cash": 6851.048417663609,
+    "total_return_pct": 93.43468280588789,
+    "annualized_return_pct": 214.79221375181902,
     "start_date": "2026-01-16",
-    "end_date": "2026-08-13",
-    "closed_trade_count": 35,
-    "entry_count": 36,
+    "end_date": "2026-08-14",
+    "closed_trade_count": 36,
+    "entry_count": 37,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": 42.857142857142854,
-    "average_closed_trade_return_pct": -0.8609942757828151,
+    "closed_trade_win_rate_pct": 44.44444444444444,
+    "average_closed_trade_return_pct": -0.8302612395522364,
     "max_drawdown_pct": -29.55548087303479,
     "performance_source": "actual_follow_account"
   },
@@ -192,6 +192,12 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 610313.8571945191,
       "cash": 11670.452806091344,
       "position_count": 5
+    },
+    {
+      "date": "2026-08-14",
+      "equity": 580304.0484176637,
+      "cash": 6851.048417663609,
+      "position_count": 5
     }
   ],
   "holdings": [
@@ -201,11 +207,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 203,
       "entry_date": "2026-08-11",
       "entry_price": 520.0,
-      "current_price_date": "2026-08-13",
-      "current_price": 564.0,
-      "market_value": 114492.0,
-      "unrealized_return_pct": 8.461538461538453,
-      "holding_days": 2,
+      "current_price_date": "2026-08-14",
+      "current_price": 522.0,
+      "market_value": 105966.0,
+      "unrealized_return_pct": 0.38461538461538325,
+      "holding_days": 3,
       "concept_tag_names": [
         "光通訊模組",
         "矽光子/CPO",
@@ -224,11 +230,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 398,
       "entry_date": "2026-08-11",
       "entry_price": 271.0,
-      "current_price_date": "2026-08-13",
-      "current_price": 316.5,
-      "market_value": 125967.0,
-      "unrealized_return_pct": 16.78966789667897,
-      "holding_days": 2,
+      "current_price_date": "2026-08-14",
+      "current_price": 302.5,
+      "market_value": 120395.0,
+      "unrealized_return_pct": 11.62361623616237,
+      "holding_days": 3,
       "concept_tag_names": [
         "MLCC/被動元件",
         "RF前端/功率放大器",
@@ -250,11 +256,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 76,
       "entry_date": "2026-08-11",
       "entry_price": 1380.0,
-      "current_price_date": "2026-08-13",
-      "current_price": 1565.0,
-      "market_value": 118940.0,
-      "unrealized_return_pct": 13.405797101449268,
-      "holding_days": 2,
+      "current_price_date": "2026-08-14",
+      "current_price": 1560.0,
+      "market_value": 118560.0,
+      "unrealized_return_pct": 13.043478260869556,
+      "holding_days": 3,
       "concept_tag_names": [
         "光通訊模組",
         "矽光子/CPO",
@@ -273,11 +279,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 176,
       "entry_date": "2026-08-12",
       "entry_price": 646.0,
-      "current_price_date": "2026-08-13",
-      "current_price": 691.0,
-      "market_value": 121616.0,
-      "unrealized_return_pct": 6.965944272445812,
-      "holding_days": 1,
+      "current_price_date": "2026-08-14",
+      "current_price": 647.0,
+      "market_value": 113872.0,
+      "unrealized_return_pct": 0.1547987616099089,
+      "holding_days": 2,
       "concept_tag_names": [
         "MLCC/被動元件",
         "晶圓製程設備零組件",
@@ -291,86 +297,16 @@ window.PUBLIC_FOLLOW_DATA = {
       ]
     },
     {
-      "stock_id": "5904",
-      "company_name": "寶雅*",
-      "quantity": 1438,
-      "entry_date": "2026-08-13",
-      "entry_price": 81.5,
-      "current_price_date": "2026-08-13",
-      "current_price": 81.80000305175781,
-      "market_value": 117628.40438842773,
-      "unrealized_return_pct": 0.3681019039973199,
-      "holding_days": 0,
-      "concept_tag_names": [
-        "證券券商",
-        "居家生活/家具",
-        "投資控股",
-        "基礎產業:居家生活"
-      ]
-    }
-  ],
-  "trade_plan": {
-    "sell_orders": [
-      {
-        "stock_id": "5904",
-        "company_name": "寶雅*",
-        "quantity": 1438,
-        "price": 81.80000305175781,
-        "amount": 117628.40438842773,
-        "concept_tag_names": [
-          "證券券商",
-          "居家生活/家具",
-          "投資控股",
-          "基礎產業:居家生活"
-        ]
-      }
-    ],
-    "buy_orders": [
-      {
-        "stock_id": "6173",
-        "company_name": "信昌電",
-        "quantity": 546,
-        "price": 223.5,
-        "amount": 122031.0,
-        "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null,
-        "concept_tag_names": [
-          "MLCC/被動元件",
-          "晶圓製程設備零組件",
-          "被動元件",
-          "證券券商",
-          "工具機/自動化設備",
-          "工具機零組件",
-          "投資控股",
-          "檢測設備/服務",
-          "保護元件/電感"
-        ]
-      }
-    ],
-    "total_sell_amount": 117628.40438842773,
-    "total_buy_amount": 122031.0,
-    "starting_cash": 11670.452806091344,
-    "net_cash_change": -4402.595611572266,
-    "cash_after_plan": 7267.857194519078,
-    "needs_extra_cash": 0.0,
-    "remaining_cash": 7267.857194519078
-  },
-  "today_candidates": [
-    {
-      "rank": 1,
-      "signal_date": "2026-08-13",
       "stock_id": "6173",
       "company_name": "信昌電",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 223.5,
-      "target_amount": 122062.77143890383,
-      "suggested_quantity": 546,
-      "buy_amount": 122031.0,
-      "sell_stock_id": "5904",
-      "sell_company_name": "寶雅*",
-      "sell_quantity": 1438,
-      "sell_current_price": 81.80000305175781,
-      "sell_market_value": 117628.40438842773,
+      "quantity": 546,
+      "entry_date": "2026-08-14",
+      "entry_price": 224.0,
+      "current_price_date": "2026-08-14",
+      "current_price": 210.0,
+      "market_value": 114660.0,
+      "unrealized_return_pct": -6.25,
+      "holding_days": 0,
       "concept_tag_names": [
         "MLCC/被動元件",
         "晶圓製程設備零組件",
@@ -381,60 +317,31 @@ window.PUBLIC_FOLLOW_DATA = {
         "投資控股",
         "檢測設備/服務",
         "保護元件/電感"
-      ],
-      "sell_concept_tag_names": [
-        "證券券商",
-        "居家生活/家具",
-        "投資控股",
-        "基礎產業:居家生活"
-      ],
-      "action_text": "換股買進"
-    },
-    {
-      "rank": 2,
-      "signal_date": "2026-08-13",
-      "stock_id": "3231",
-      "company_name": "緯創",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 197.0,
-      "target_amount": 122062.77143890383,
-      "suggested_quantity": 619,
-      "buy_amount": 121943.0,
-      "concept_tag_names": [
-        "AI伺服器",
-        "NB/PC代工",
-        "證券券商",
-        "工具機/自動化設備",
-        "投資控股",
-        "晶圓製程設備零組件",
-        "檢測設備/服務"
-      ],
-      "action_text": "觀察"
-    },
-    {
-      "rank": 3,
-      "signal_date": "2026-08-13",
-      "stock_id": "6693",
-      "company_name": "廣閎科",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 185.0,
-      "target_amount": 122062.77143890383,
-      "suggested_quantity": 659,
-      "buy_amount": 121915.0,
-      "concept_tag_names": [
-        "證券券商",
-        "驅動IC/觸控IC",
-        "功率元件",
-        "投資控股",
-        "遊戲/數位內容",
-        "電動車動力/電控",
-        "半導體IP/設計服務",
-        "基礎產業:半導體業"
-      ],
-      "action_text": "觀察"
+      ]
     }
   ],
+  "trade_plan": {
+    "sell_orders": [],
+    "buy_orders": [],
+    "total_sell_amount": 0,
+    "total_buy_amount": 0,
+    "starting_cash": 6851.048417663609,
+    "net_cash_change": 0,
+    "cash_after_plan": 6851.048417663609,
+    "needs_extra_cash": 0.0,
+    "remaining_cash": 6851.048417663609
+  },
+  "today_candidates": [],
   "recent_entries": [
+    {
+      "stock_id": "6173",
+      "company_name": "信昌電",
+      "entry_date": "2026-08-14",
+      "entry_price": 224.0,
+      "quantity": 546,
+      "cost": 122304.0,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "5904",
       "company_name": "寶雅*",
@@ -533,18 +440,22 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 272,
       "cost": 95472.0,
       "concept_tag_names": null
-    },
-    {
-      "stock_id": "6147",
-      "company_name": "頎邦",
-      "entry_date": "2026-08-03",
-      "entry_price": 128.0,
-      "quantity": 738,
-      "cost": 94464.0,
-      "concept_tag_names": null
     }
   ],
   "recent_closed_trades": [
+    {
+      "stock_id": "5904",
+      "company_name": "寶雅*",
+      "entry_date": "2026-08-13",
+      "entry_price": 81.5,
+      "quantity": 1438,
+      "exit_date": "2026-08-14",
+      "exit_price": 81.69999694824219,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": 0.24539502851801398,
+      "holding_days": 1,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "6274",
       "company_name": "台燿",
@@ -686,19 +597,6 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_reason": "follow_signal_replace",
       "return_pct": -29.86577181208053,
       "holding_days": 48,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "8210",
-      "company_name": "勤誠",
-      "entry_date": "2026-07-30",
-      "entry_price": 970.0,
-      "quantity": 96,
-      "exit_date": "2026-08-03",
-      "exit_price": 1025.0,
-      "exit_reason": "follow_signal_replace",
-      "return_pct": 5.670103092783507,
-      "holding_days": 4,
       "concept_tag_names": null
     }
   ]
