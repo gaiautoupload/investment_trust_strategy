@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-08-20T18:34:03.729018+08:00",
+  "generated_at": "2026-08-21T18:34:27.286964+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,25 +8,25 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-08-20",
-    "latest_chip_date": "2026-08-20",
-    "latest_price_date": "2026-08-20",
-    "candidate_count": 5,
+    "signal_date": "2026-08-21",
+    "latest_chip_date": "2026-08-21",
+    "latest_price_date": "2026-08-21",
+    "candidate_count": 3,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 617333.0484176637,
-    "cash": 11184.04841766361,
-    "total_return_pct": 105.77768280588788,
-    "annualized_return_pct": 238.52055463394265,
+    "final_value": 590951.5484176637,
+    "cash": 4065.548417663609,
+    "total_return_pct": 96.98384947255457,
+    "annualized_return_pct": 212.78105785059975,
     "start_date": "2026-01-16",
-    "end_date": "2026-08-20",
-    "closed_trade_count": 38,
-    "entry_count": 39,
+    "end_date": "2026-08-21",
+    "closed_trade_count": 40,
+    "entry_count": 41,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": 44.73684210526316,
-    "average_closed_trade_return_pct": -0.28139976112139636,
+    "closed_trade_win_rate_pct": 47.5,
+    "average_closed_trade_return_pct": 0.18590313953291157,
     "max_drawdown_pct": -29.55548087303479,
     "performance_source": "actual_follow_account"
   },
@@ -222,66 +222,26 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 617333.0484176637,
       "cash": 11184.04841766361,
       "position_count": 5
+    },
+    {
+      "date": "2026-08-21",
+      "equity": 590951.5484176637,
+      "cash": 4065.548417663609,
+      "position_count": 5
     }
   ],
   "holdings": [
-    {
-      "stock_id": "4979",
-      "company_name": "華星光",
-      "quantity": 203,
-      "entry_date": "2026-08-11",
-      "entry_price": 520.0,
-      "current_price_date": "2026-08-20",
-      "current_price": 570.0,
-      "market_value": 115710.0,
-      "unrealized_return_pct": 9.615384615384626,
-      "holding_days": 9,
-      "concept_tag_names": [
-        "光通訊模組",
-        "矽光子/CPO",
-        "證券券商",
-        "光纖/光纜",
-        "光纖傳輸/光通訊",
-        "投資控股",
-        "矽光子/光通訊",
-        "網安/網路設備",
-        "遊戲/數位內容"
-      ]
-    },
-    {
-      "stock_id": "3026",
-      "company_name": "禾伸堂",
-      "quantity": 176,
-      "entry_date": "2026-08-12",
-      "entry_price": 646.0,
-      "current_price_date": "2026-08-20",
-      "current_price": 710.0,
-      "market_value": 124960.0,
-      "unrealized_return_pct": 9.90712074303406,
-      "holding_days": 8,
-      "concept_tag_names": [
-        "MLCC/被動元件",
-        "晶圓製程設備零組件",
-        "證券券商",
-        "保護元件/電感",
-        "工具機/自動化設備",
-        "工具機零組件",
-        "投資控股",
-        "檢測設備/服務",
-        "被動元件"
-      ]
-    },
     {
       "stock_id": "6173",
       "company_name": "信昌電",
       "quantity": 546,
       "entry_date": "2026-08-14",
       "entry_price": 224.0,
-      "current_price_date": "2026-08-20",
-      "current_price": 221.0,
-      "market_value": 120666.0,
-      "unrealized_return_pct": -1.3392857142857095,
-      "holding_days": 6,
+      "current_price_date": "2026-08-21",
+      "current_price": 212.0,
+      "market_value": 115752.0,
+      "unrealized_return_pct": -5.35714285714286,
+      "holding_days": 7,
       "concept_tag_names": [
         "MLCC/被動元件",
         "被動元件",
@@ -298,11 +258,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 131,
       "entry_date": "2026-08-18",
       "entry_price": 917.0,
-      "current_price_date": "2026-08-20",
-      "current_price": 851.0,
-      "market_value": 111481.0,
-      "unrealized_return_pct": -7.19738276990185,
-      "holding_days": 2,
+      "current_price_date": "2026-08-21",
+      "current_price": 811.0,
+      "market_value": 106241.0,
+      "unrealized_return_pct": -11.55943293347873,
+      "holding_days": 3,
       "concept_tag_names": [
         "ABF載板",
         "證券券商",
@@ -317,11 +277,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 271,
       "entry_date": "2026-08-19",
       "entry_price": 400.0,
-      "current_price_date": "2026-08-20",
-      "current_price": 492.0,
-      "market_value": 133332.0,
-      "unrealized_return_pct": 23.0,
-      "holding_days": 1,
+      "current_price_date": "2026-08-21",
+      "current_price": 448.0,
+      "market_value": 121408.0,
+      "unrealized_return_pct": 12.00000000000001,
+      "holding_days": 2,
       "concept_tag_names": [
         "證券券商",
         "光纖/光纜",
@@ -331,108 +291,18 @@ window.PUBLIC_FOLLOW_DATA = {
         "晶圓製程設備零組件",
         "基礎產業:電子零組件業"
       ]
-    }
-  ],
-  "trade_plan": {
-    "sell_orders": [
-      {
-        "stock_id": "4979",
-        "company_name": "華星光",
-        "quantity": 203,
-        "price": 570.0,
-        "amount": 115710.0,
-        "concept_tag_names": [
-          "光通訊模組",
-          "矽光子/CPO",
-          "證券券商",
-          "光纖/光纜",
-          "光纖傳輸/光通訊",
-          "投資控股",
-          "矽光子/光通訊",
-          "網安/網路設備",
-          "遊戲/數位內容"
-        ]
-      },
-      {
-        "stock_id": "3026",
-        "company_name": "禾伸堂",
-        "quantity": 176,
-        "price": 710.0,
-        "amount": 124960.0,
-        "concept_tag_names": [
-          "MLCC/被動元件",
-          "晶圓製程設備零組件",
-          "證券券商",
-          "保護元件/電感",
-          "工具機/自動化設備",
-          "工具機零組件",
-          "投資控股",
-          "檢測設備/服務",
-          "被動元件"
-        ]
-      }
-    ],
-    "buy_orders": [
-      {
-        "stock_id": "3167",
-        "company_name": "大量",
-        "quantity": 162,
-        "price": 762.0,
-        "amount": 123444.0,
-        "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null,
-        "concept_tag_names": [
-          "半導體設備",
-          "證券券商",
-          "工具機/自動化設備",
-          "投資控股",
-          "晶圓製程設備零組件",
-          "檢測設備/服務",
-          "系統整合/資服"
-        ]
-      },
-      {
-        "stock_id": "6472",
-        "company_name": "保瑞",
-        "quantity": 277,
-        "price": 445.5,
-        "amount": 123403.5,
-        "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null,
-        "concept_tag_names": [
-          "證券券商",
-          "NB/PC代工",
-          "投資控股",
-          "新藥",
-          "鞋業/運動供應鏈",
-          "基礎產業:生技醫療業"
-        ]
-      }
-    ],
-    "total_sell_amount": 240670.0,
-    "total_buy_amount": 246847.5,
-    "starting_cash": 11184.04841766361,
-    "net_cash_change": -6177.5,
-    "cash_after_plan": 5006.548417663609,
-    "needs_extra_cash": 0.0,
-    "remaining_cash": 5006.548417663609
-  },
-  "today_candidates": [
+    },
     {
-      "rank": 1,
-      "signal_date": "2026-08-20",
       "stock_id": "3167",
       "company_name": "大量",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 762.0,
-      "target_amount": 123466.60968353273,
-      "suggested_quantity": 162,
-      "buy_amount": 123444.0,
-      "sell_stock_id": "4979",
-      "sell_company_name": "華星光",
-      "sell_quantity": 203,
-      "sell_current_price": 570.0,
-      "sell_market_value": 115710.0,
+      "quantity": 162,
+      "entry_date": "2026-08-21",
+      "entry_price": 770.0,
+      "current_price_date": "2026-08-21",
+      "current_price": 725.0,
+      "market_value": 117450.0,
+      "unrealized_return_pct": -5.844155844155841,
+      "holding_days": 0,
       "concept_tag_names": [
         "半導體設備",
         "證券券商",
@@ -441,8 +311,52 @@ window.PUBLIC_FOLLOW_DATA = {
         "晶圓製程設備零組件",
         "檢測設備/服務",
         "系統整合/資服"
-      ],
-      "sell_concept_tag_names": [
+      ]
+    },
+    {
+      "stock_id": "6472",
+      "company_name": "保瑞",
+      "quantity": 277,
+      "entry_date": "2026-08-21",
+      "entry_price": 438.5,
+      "current_price_date": "2026-08-21",
+      "current_price": 455.0,
+      "market_value": 126035.0,
+      "unrealized_return_pct": 3.7628278221208733,
+      "holding_days": 0,
+      "concept_tag_names": [
+        "證券券商",
+        "NB/PC代工",
+        "投資控股",
+        "新藥",
+        "鞋業/運動供應鏈",
+        "基礎產業:生技醫療業"
+      ]
+    }
+  ],
+  "trade_plan": {
+    "sell_orders": [],
+    "buy_orders": [],
+    "total_sell_amount": 0,
+    "total_buy_amount": 0,
+    "starting_cash": 4065.548417663609,
+    "net_cash_change": 0,
+    "cash_after_plan": 4065.548417663609,
+    "needs_extra_cash": 0.0,
+    "remaining_cash": 4065.548417663609
+  },
+  "today_candidates": [
+    {
+      "rank": 1,
+      "signal_date": "2026-08-21",
+      "stock_id": "4979",
+      "company_name": "華星光",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 577.0,
+      "target_amount": 118190.30968353273,
+      "suggested_quantity": 204,
+      "buy_amount": 117708.0,
+      "concept_tag_names": [
         "光通訊模組",
         "矽光子/CPO",
         "證券券商",
@@ -453,114 +367,79 @@ window.PUBLIC_FOLLOW_DATA = {
         "網安/網路設備",
         "遊戲/數位內容"
       ],
-      "action_text": "換股買進"
-    },
-    {
-      "rank": 2,
-      "signal_date": "2026-08-20",
-      "stock_id": "6472",
-      "company_name": "保瑞",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 445.5,
-      "target_amount": 123466.60968353273,
-      "suggested_quantity": 277,
-      "buy_amount": 123403.5,
-      "sell_stock_id": "3026",
-      "sell_company_name": "禾伸堂",
-      "sell_quantity": 176,
-      "sell_current_price": 710.0,
-      "sell_market_value": 124960.0,
-      "concept_tag_names": [
-        "證券券商",
-        "NB/PC代工",
-        "投資控股",
-        "新藥",
-        "鞋業/運動供應鏈",
-        "基礎產業:生技醫療業"
-      ],
-      "sell_concept_tag_names": [
-        "MLCC/被動元件",
-        "晶圓製程設備零組件",
-        "證券券商",
-        "保護元件/電感",
-        "工具機/自動化設備",
-        "工具機零組件",
-        "投資控股",
-        "檢測設備/服務",
-        "被動元件"
-      ],
-      "action_text": "換股買進"
-    },
-    {
-      "rank": 3,
-      "signal_date": "2026-08-20",
-      "stock_id": "6223",
-      "company_name": "旺矽",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 5650.0,
-      "target_amount": 123466.60968353273,
-      "suggested_quantity": 21,
-      "buy_amount": 118650.0,
-      "concept_tag_names": [
-        "晶圓製程設備零組件",
-        "檢測設備/服務",
-        "證券券商",
-        "PCB鑽針/探針",
-        "半導體設備",
-        "塑膠原料/樹脂",
-        "封測",
-        "工具機/自動化設備",
-        "投資控股",
-        "測試驗證服務",
-        "系統整合/資服",
-        "半導體IP/設計服務",
-        "基礎產業:半導體業"
-      ],
       "action_text": "觀察"
     },
     {
-      "rank": 4,
-      "signal_date": "2026-08-20",
-      "stock_id": "3135",
-      "company_name": "凌航",
+      "rank": 2,
+      "signal_date": "2026-08-21",
+      "stock_id": "6531",
+      "company_name": "愛普*",
       "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 168.0,
-      "target_amount": 123466.60968353273,
-      "suggested_quantity": 734,
-      "buy_amount": 123312.0,
+      "reference_price": 883.0,
+      "target_amount": 118190.30968353273,
+      "suggested_quantity": 133,
+      "buy_amount": 117439.0,
       "concept_tag_names": [
+        "AI ASIC/高速運算IC",
+        "驅動IC",
         "證券券商",
-        "DRAM",
         "利基型記憶體/Nor Flash",
         "投資控股",
         "汽車/車用零組件",
         "記憶體",
         "車用AM零件",
-        "半導體IP/設計服務",
-        "基礎產業:半導體業"
+        "遊戲/VR裝置",
+        "半導體IP/設計服務"
       ],
       "action_text": "觀察"
     },
     {
-      "rank": 5,
-      "signal_date": "2026-08-20",
-      "stock_id": "2439",
-      "company_name": "美律",
+      "rank": 3,
+      "signal_date": "2026-08-21",
+      "stock_id": "4991",
+      "company_name": "環宇-KY",
       "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 82.0,
-      "target_amount": 123466.60968353273,
-      "suggested_quantity": 1505,
-      "buy_amount": 123410.0,
+      "reference_price": 481.0,
+      "target_amount": 118190.30968353273,
+      "suggested_quantity": 245,
+      "buy_amount": 117845.0,
       "concept_tag_names": [
-        "聲學/音訊元件",
+        "化合物半導體/RF",
         "證券券商",
+        "NB/PC代工",
+        "RF前端/功率放大器",
+        "太陽能",
         "投資控股",
-        "網安/網路設備"
+        "晶圓代工",
+        "晶圓製程設備零組件",
+        "汽車/車用零組件",
+        "系統整合/資服",
+        "車用AM零件",
+        "鞋業/運動供應鏈",
+        "半導體IP/設計服務"
       ],
       "action_text": "觀察"
     }
   ],
   "recent_entries": [
+    {
+      "stock_id": "3167",
+      "company_name": "大量",
+      "entry_date": "2026-08-21",
+      "entry_price": 770.0,
+      "quantity": 162,
+      "cost": 124740.0,
+      "concept_tag_names": null
+    },
+    {
+      "stock_id": "6472",
+      "company_name": "保瑞",
+      "entry_date": "2026-08-21",
+      "entry_price": 438.5,
+      "quantity": 277,
+      "cost": 121464.5,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "6715",
       "company_name": "嘉基",
@@ -650,27 +529,35 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 549,
       "cost": 108702.0,
       "concept_tag_names": null
-    },
-    {
-      "stock_id": "6274",
-      "company_name": "台燿",
-      "entry_date": "2026-08-05",
-      "entry_price": 1470.0,
-      "quantity": 78,
-      "cost": 114660.0,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "8996",
-      "company_name": "高力",
-      "entry_date": "2026-08-05",
-      "entry_price": 1050.0,
-      "quantity": 102,
-      "cost": 107100.0,
-      "concept_tag_names": null
     }
   ],
   "recent_closed_trades": [
+    {
+      "stock_id": "4979",
+      "company_name": "華星光",
+      "entry_date": "2026-08-11",
+      "entry_price": 520.0,
+      "quantity": 203,
+      "exit_date": "2026-08-21",
+      "exit_price": 570.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": 9.615384615384626,
+      "holding_days": 10,
+      "concept_tag_names": null
+    },
+    {
+      "stock_id": "3026",
+      "company_name": "禾伸堂",
+      "entry_date": "2026-08-12",
+      "entry_price": 646.0,
+      "quantity": 176,
+      "exit_date": "2026-08-21",
+      "exit_price": 701.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": 8.513931888544901,
+      "holding_days": 9,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "2492",
       "company_name": "華新科",
@@ -799,32 +686,6 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_reason": "follow_signal_replace",
       "return_pct": 8.119658119658112,
       "holding_days": 7,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "4966",
-      "company_name": "譜瑞-KY",
-      "entry_date": "2026-07-28",
-      "entry_price": 601.0,
-      "quantity": 169,
-      "exit_date": "2026-08-05",
-      "exit_price": 598.0,
-      "exit_reason": "follow_signal_replace",
-      "return_pct": -0.4991680532445919,
-      "holding_days": 8,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "8114",
-      "company_name": "振樺電",
-      "entry_date": "2026-07-23",
-      "entry_price": 224.0,
-      "quantity": 510,
-      "exit_date": "2026-08-05",
-      "exit_price": 227.0,
-      "exit_reason": "follow_signal_replace",
-      "return_pct": 1.3392857142857206,
-      "holding_days": 13,
       "concept_tag_names": null
     }
   ]
