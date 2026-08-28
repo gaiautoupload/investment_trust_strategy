@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-08-27T18:34:28.055529+08:00",
+  "generated_at": "2026-08-28T18:34:03.504392+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,25 +8,25 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-08-27",
-    "latest_chip_date": "2026-08-27",
-    "latest_price_date": "2026-08-27",
-    "candidate_count": 1,
+    "signal_date": "2026-08-28",
+    "latest_chip_date": "2026-08-28",
+    "latest_price_date": "2026-08-28",
+    "candidate_count": 2,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 585243.0484176637,
-    "cash": 7072.048417663609,
-    "total_return_pct": 95.08101613922122,
-    "annualized_return_pct": 198.54898418035947,
+    "final_value": 602493.5484176637,
+    "cash": -14415.95158233639,
+    "total_return_pct": 100.83118280588788,
+    "annualized_return_pct": 211.4960451691152,
     "start_date": "2026-01-16",
-    "end_date": "2026-08-27",
-    "closed_trade_count": 43,
-    "entry_count": 44,
+    "end_date": "2026-08-28",
+    "closed_trade_count": 44,
+    "entry_count": 45,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": 46.51162790697674,
-    "average_closed_trade_return_pct": 0.031283937387772805,
+    "closed_trade_win_rate_pct": 45.45454545454545,
+    "average_closed_trade_return_pct": -0.24215433391649474,
     "max_drawdown_pct": -29.55548087303479,
     "performance_source": "actual_follow_account"
   },
@@ -252,41 +252,26 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 585243.0484176637,
       "cash": 7072.048417663609,
       "position_count": 5
+    },
+    {
+      "date": "2026-08-28",
+      "equity": 602493.5484176637,
+      "cash": -14415.95158233639,
+      "position_count": 5
     }
   ],
   "holdings": [
-    {
-      "stock_id": "6715",
-      "company_name": "嘉基",
-      "quantity": 271,
-      "entry_date": "2026-08-19",
-      "entry_price": 400.0,
-      "current_price_date": "2026-08-27",
-      "current_price": 351.5,
-      "market_value": 95256.5,
-      "unrealized_return_pct": -12.124999999999996,
-      "holding_days": 8,
-      "concept_tag_names": [
-        "證券券商",
-        "光纖/光纜",
-        "光纖傳輸/光通訊",
-        "工具機零組件",
-        "投資控股",
-        "晶圓製程設備零組件",
-        "基礎產業:電子零組件業"
-      ]
-    },
     {
       "stock_id": "3167",
       "company_name": "大量",
       "quantity": 162,
       "entry_date": "2026-08-21",
       "entry_price": 770.0,
-      "current_price_date": "2026-08-27",
-      "current_price": 742.0,
-      "market_value": 120204.0,
-      "unrealized_return_pct": -3.6363636363636376,
-      "holding_days": 6,
+      "current_price_date": "2026-08-28",
+      "current_price": 783.0,
+      "market_value": 126846.0,
+      "unrealized_return_pct": 1.6883116883116944,
+      "holding_days": 7,
       "concept_tag_names": [
         "半導體設備",
         "證券券商",
@@ -303,11 +288,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 277,
       "entry_date": "2026-08-21",
       "entry_price": 438.5,
-      "current_price_date": "2026-08-27",
-      "current_price": 439.5,
-      "market_value": 121741.5,
-      "unrealized_return_pct": 0.22805017103761926,
-      "holding_days": 6,
+      "current_price_date": "2026-08-28",
+      "current_price": 435.0,
+      "market_value": 120495.0,
+      "unrealized_return_pct": -0.7981755986317007,
+      "holding_days": 7,
       "concept_tag_names": [
         "證券券商",
         "NB/PC代工",
@@ -323,11 +308,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 972,
       "entry_date": "2026-08-25",
       "entry_price": 118.0,
-      "current_price_date": "2026-08-27",
-      "current_price": 119.5,
-      "market_value": 116154.0,
-      "unrealized_return_pct": 1.2711864406779627,
-      "holding_days": 2,
+      "current_price_date": "2026-08-28",
+      "current_price": 131.0,
+      "market_value": 127332.0,
+      "unrealized_return_pct": 11.016949152542367,
+      "holding_days": 3,
       "concept_tag_names": [
         "連接器/線束",
         "證券券商",
@@ -343,11 +328,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 314,
       "entry_date": "2026-08-27",
       "entry_price": 368.5,
-      "current_price_date": "2026-08-27",
-      "current_price": 397.5,
-      "market_value": 124815.0,
-      "unrealized_return_pct": 7.869742198100416,
-      "holding_days": 0,
+      "current_price_date": "2026-08-28",
+      "current_price": 400.0,
+      "market_value": 125600.0,
+      "unrealized_return_pct": 8.548168249660781,
+      "holding_days": 1,
       "concept_tag_names": [
         "證券券商",
         "RF前端/功率放大器",
@@ -361,89 +346,137 @@ window.PUBLIC_FOLLOW_DATA = {
         "電池材料",
         "基礎產業:電腦及週邊設備業"
       ]
-    }
-  ],
-  "trade_plan": {
-    "sell_orders": [
-      {
-        "stock_id": "6715",
-        "company_name": "嘉基",
-        "quantity": 271,
-        "price": 351.5,
-        "amount": 95256.5,
-        "concept_tag_names": [
-          "證券券商",
-          "光纖/光纜",
-          "光纖傳輸/光通訊",
-          "工具機零組件",
-          "投資控股",
-          "晶圓製程設備零組件",
-          "基礎產業:電子零組件業"
-        ]
-      }
-    ],
-    "buy_orders": [
-      {
-        "stock_id": "2351",
-        "company_name": "順德",
-        "quantity": 487,
-        "price": 240.0,
-        "amount": 116880.0,
-        "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null,
-        "concept_tag_names": [
-          "導線架/封裝材料",
-          "證券券商",
-          "投資控股",
-          "精密沖壓/金屬件",
-          "半導體IP/設計服務"
-        ]
-      }
-    ],
-    "total_sell_amount": 95256.5,
-    "total_buy_amount": 116880.0,
-    "starting_cash": 7072.048417663609,
-    "net_cash_change": -21623.5,
-    "cash_after_plan": -14551.45158233639,
-    "needs_extra_cash": 14551.45158233639,
-    "remaining_cash": 0.0
-  },
-  "today_candidates": [
+    },
     {
-      "rank": 1,
-      "signal_date": "2026-08-27",
       "stock_id": "2351",
       "company_name": "順德",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 240.0,
-      "target_amount": 117048.60968353273,
-      "suggested_quantity": 487,
-      "buy_amount": 116880.0,
-      "sell_stock_id": "6715",
-      "sell_company_name": "嘉基",
-      "sell_quantity": 271,
-      "sell_current_price": 351.5,
-      "sell_market_value": 95256.5,
+      "quantity": 487,
+      "entry_date": "2026-08-28",
+      "entry_price": 240.0,
+      "current_price_date": "2026-08-28",
+      "current_price": 239.5,
+      "market_value": 116636.5,
+      "unrealized_return_pct": -0.2083333333333326,
+      "holding_days": 0,
       "concept_tag_names": [
         "導線架/封裝材料",
         "證券券商",
         "投資控股",
         "精密沖壓/金屬件",
         "半導體IP/設計服務"
+      ]
+    }
+  ],
+  "trade_plan": {
+    "sell_orders": [
+      {
+        "stock_id": "3605",
+        "company_name": "宏致",
+        "quantity": 972,
+        "price": 131.0,
+        "amount": 127332.0,
+        "concept_tag_names": [
+          "連接器/線束",
+          "證券券商",
+          "工具機零組件",
+          "投資控股",
+          "晶圓製程設備零組件",
+          "精密沖壓/金屬件"
+        ]
+      }
+    ],
+    "buy_orders": [
+      {
+        "stock_id": "3374",
+        "company_name": "精材",
+        "quantity": 312,
+        "price": 386.0,
+        "amount": 120432.0,
+        "action": "SELL_WEAKEST_BUY_CANDIDATE",
+        "entry_date": null,
+        "concept_tag_names": [
+          "封測",
+          "證券券商",
+          "投資控股",
+          "晶圓製程設備零組件",
+          "檢測設備/服務",
+          "測試驗證服務",
+          "半導體IP/設計服務"
+        ]
+      }
+    ],
+    "total_sell_amount": 127332.0,
+    "total_buy_amount": 120432.0,
+    "starting_cash": -14415.95158233639,
+    "net_cash_change": 6900.0,
+    "cash_after_plan": -7515.951582336391,
+    "needs_extra_cash": 7515.951582336391,
+    "remaining_cash": 0.0
+  },
+  "today_candidates": [
+    {
+      "rank": 1,
+      "signal_date": "2026-08-28",
+      "stock_id": "3374",
+      "company_name": "精材",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 386.0,
+      "target_amount": 120498.70968353274,
+      "suggested_quantity": 312,
+      "buy_amount": 120432.0,
+      "sell_stock_id": "3605",
+      "sell_company_name": "宏致",
+      "sell_quantity": 972,
+      "sell_current_price": 131.0,
+      "sell_market_value": 127332.0,
+      "concept_tag_names": [
+        "封測",
+        "證券券商",
+        "投資控股",
+        "晶圓製程設備零組件",
+        "檢測設備/服務",
+        "測試驗證服務",
+        "半導體IP/設計服務"
       ],
       "sell_concept_tag_names": [
+        "連接器/線束",
         "證券券商",
-        "光纖/光纜",
-        "光纖傳輸/光通訊",
         "工具機零組件",
         "投資控股",
         "晶圓製程設備零組件",
-        "基礎產業:電子零組件業"
+        "精密沖壓/金屬件"
       ],
       "action_text": "換股買進"
+    },
+    {
+      "rank": 2,
+      "signal_date": "2026-08-28",
+      "stock_id": "1717",
+      "company_name": "長興",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 77.69999694824219,
+      "target_amount": 120498.70968353274,
+      "suggested_quantity": 1550,
+      "buy_amount": 120434.99526977539,
+      "concept_tag_names": [
+        "特用化學/材料",
+        "證券券商",
+        "塑膠原料/樹脂",
+        "投資控股"
+      ],
+      "action_text": "觀察"
     }
   ],
   "recent_entries": [
+    {
+      "stock_id": "2351",
+      "company_name": "順德",
+      "entry_date": "2026-08-28",
+      "entry_price": 240.0,
+      "quantity": 487,
+      "cost": 116880.0,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "3211",
       "company_name": "順達",
@@ -542,18 +575,22 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 203,
       "cost": 105560.0,
       "concept_tag_names": null
-    },
-    {
-      "stock_id": "2492",
-      "company_name": "華新科",
-      "entry_date": "2026-08-11",
-      "entry_price": 271.0,
-      "quantity": 398,
-      "cost": 107858.0,
-      "concept_tag_names": null
     }
   ],
   "recent_closed_trades": [
+    {
+      "stock_id": "6715",
+      "company_name": "嘉基",
+      "entry_date": "2026-08-19",
+      "entry_price": 400.0,
+      "quantity": 271,
+      "exit_date": "2026-08-28",
+      "exit_price": 352.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": -12.0,
+      "holding_days": 9,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "6147",
       "company_name": "頎邦",
@@ -695,19 +732,6 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_reason": "follow_signal_replace",
       "return_pct": -1.0101010101010055,
       "holding_days": 1,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "2481",
-      "company_name": "強茂",
-      "entry_date": "2026-08-03",
-      "entry_price": 117.0,
-      "quantity": 817,
-      "exit_date": "2026-08-11",
-      "exit_price": 138.0,
-      "exit_reason": "follow_signal_replace",
-      "return_pct": 17.948717948717952,
-      "holding_days": 8,
       "concept_tag_names": null
     }
   ]
