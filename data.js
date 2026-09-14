@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-09-11T18:33:59.189389+08:00",
+  "generated_at": "2026-09-14T18:33:51.182481+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,20 +8,20 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-09-11",
-    "latest_chip_date": "2026-09-11",
-    "latest_price_date": "2026-09-11",
-    "candidate_count": 1,
+    "signal_date": "2026-09-14",
+    "latest_chip_date": "2026-09-14",
+    "latest_price_date": "2026-09-14",
+    "candidate_count": 0,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 598198.2984176637,
+    "final_value": 595213.2984176637,
     "cash": 16996.79841766361,
-    "total_return_pct": 99.3994328058879,
-    "annualized_return_pct": 188.177872954096,
+    "total_return_pct": 98.4044328058879,
+    "annualized_return_pct": 182.25935322707576,
     "start_date": "2026-01-16",
-    "end_date": "2026-09-11",
+    "end_date": "2026-09-14",
     "closed_trade_count": 53,
     "entry_count": 54,
     "open_position_count": 5,
@@ -318,6 +318,12 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 598198.2984176637,
       "cash": 16996.79841766361,
       "position_count": 5
+    },
+    {
+      "date": "2026-09-14",
+      "equity": 595213.2984176637,
+      "cash": 16996.79841766361,
+      "position_count": 5
     }
   ],
   "holdings": [
@@ -327,11 +333,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 198,
       "entry_date": "2026-09-07",
       "entry_price": 630.0,
-      "current_price_date": "2026-09-11",
-      "current_price": 531.0,
-      "market_value": 105138.0,
-      "unrealized_return_pct": -15.714285714285714,
-      "holding_days": 4,
+      "current_price_date": "2026-09-14",
+      "current_price": 547.0,
+      "market_value": 108306.0,
+      "unrealized_return_pct": -13.174603174603172,
+      "holding_days": 7,
       "concept_tag_names": [
         "光通訊模組",
         "矽光子/CPO",
@@ -349,11 +355,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 497,
       "entry_date": "2026-09-08",
       "entry_price": 249.0,
-      "current_price_date": "2026-09-11",
-      "current_price": 225.5,
-      "market_value": 112073.5,
-      "unrealized_return_pct": -9.437751004016059,
-      "holding_days": 3,
+      "current_price_date": "2026-09-14",
+      "current_price": 221.5,
+      "market_value": 110085.5,
+      "unrealized_return_pct": -11.044176706827313,
+      "holding_days": 6,
       "concept_tag_names": [
         "再生晶圓/晶圓服務",
         "證券券商",
@@ -372,11 +378,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 48,
       "entry_date": "2026-09-08",
       "entry_price": 2640.0,
-      "current_price_date": "2026-09-11",
-      "current_price": 2580.0,
-      "market_value": 123840.0,
-      "unrealized_return_pct": -2.2727272727272707,
-      "holding_days": 3,
+      "current_price_date": "2026-09-14",
+      "current_price": 2730.0,
+      "market_value": 131040.0,
+      "unrealized_return_pct": 3.409090909090917,
+      "holding_days": 6,
       "concept_tag_names": [
         "證券券商",
         "投資控股",
@@ -392,11 +398,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 115,
       "entry_date": "2026-09-10",
       "entry_price": 1120.0,
-      "current_price_date": "2026-09-11",
-      "current_price": 1060.0,
-      "market_value": 121900.0,
-      "unrealized_return_pct": -5.35714285714286,
-      "holding_days": 1,
+      "current_price_date": "2026-09-14",
+      "current_price": 954.0,
+      "market_value": 109710.0,
+      "unrealized_return_pct": -14.821428571428575,
+      "holding_days": 4,
       "concept_tag_names": [
         "證券券商",
         "太陽能",
@@ -410,11 +416,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 55,
       "entry_date": "2026-09-10",
       "entry_price": 2260.0,
-      "current_price_date": "2026-09-11",
-      "current_price": 2150.0,
-      "market_value": 118250.0,
-      "unrealized_return_pct": -4.867256637168138,
-      "holding_days": 1,
+      "current_price_date": "2026-09-14",
+      "current_price": 2165.0,
+      "market_value": 119075.0,
+      "unrealized_return_pct": -4.2035398230088505,
+      "holding_days": 4,
       "concept_tag_names": [
         "證券券商",
         "AI伺服器",
@@ -437,29 +443,7 @@ window.PUBLIC_FOLLOW_DATA = {
     "needs_extra_cash": 0.0,
     "remaining_cash": 16996.79841766361
   },
-  "today_candidates": [
-    {
-      "rank": 1,
-      "signal_date": "2026-09-11",
-      "stock_id": "3374",
-      "company_name": "精材",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 463.5,
-      "target_amount": 119639.65968353274,
-      "suggested_quantity": 258,
-      "buy_amount": 119583.0,
-      "concept_tag_names": [
-        "封測",
-        "證券券商",
-        "投資控股",
-        "晶圓製程設備零組件",
-        "檢測設備/服務",
-        "測試驗證服務",
-        "半導體IP/設計服務"
-      ],
-      "action_text": "觀察"
-    }
-  ],
+  "today_candidates": [],
   "recent_entries": [
     {
       "stock_id": "3406",
