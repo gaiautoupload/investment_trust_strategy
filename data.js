@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-09-14T18:33:51.182481+08:00",
+  "generated_at": "2026-09-15T18:33:58.970733+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,20 +8,20 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-09-14",
-    "latest_chip_date": "2026-09-14",
-    "latest_price_date": "2026-09-14",
-    "candidate_count": 0,
+    "signal_date": "2026-09-15",
+    "latest_chip_date": "2026-09-15",
+    "latest_price_date": "2026-09-15",
+    "candidate_count": 1,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 595213.2984176637,
+    "final_value": 572949.2984176637,
     "cash": 16996.79841766361,
-    "total_return_pct": 98.4044328058879,
-    "annualized_return_pct": 182.25935322707576,
+    "total_return_pct": 90.98309947255456,
+    "annualized_return_pct": 165.34730316710312,
     "start_date": "2026-01-16",
-    "end_date": "2026-09-14",
+    "end_date": "2026-09-15",
     "closed_trade_count": 53,
     "entry_count": 54,
     "open_position_count": 5,
@@ -324,6 +324,12 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 595213.2984176637,
       "cash": 16996.79841766361,
       "position_count": 5
+    },
+    {
+      "date": "2026-09-15",
+      "equity": 572949.2984176637,
+      "cash": 16996.79841766361,
+      "position_count": 5
     }
   ],
   "holdings": [
@@ -333,11 +339,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 198,
       "entry_date": "2026-09-07",
       "entry_price": 630.0,
-      "current_price_date": "2026-09-14",
-      "current_price": 547.0,
-      "market_value": 108306.0,
-      "unrealized_return_pct": -13.174603174603172,
-      "holding_days": 7,
+      "current_price_date": "2026-09-15",
+      "current_price": 509.0,
+      "market_value": 100782.0,
+      "unrealized_return_pct": -19.206349206349206,
+      "holding_days": 8,
       "concept_tag_names": [
         "光通訊模組",
         "矽光子/CPO",
@@ -355,11 +361,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 497,
       "entry_date": "2026-09-08",
       "entry_price": 249.0,
-      "current_price_date": "2026-09-14",
-      "current_price": 221.5,
-      "market_value": 110085.5,
-      "unrealized_return_pct": -11.044176706827313,
-      "holding_days": 6,
+      "current_price_date": "2026-09-15",
+      "current_price": 226.5,
+      "market_value": 112570.5,
+      "unrealized_return_pct": -9.036144578313255,
+      "holding_days": 7,
       "concept_tag_names": [
         "再生晶圓/晶圓服務",
         "證券券商",
@@ -378,14 +384,15 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 48,
       "entry_date": "2026-09-08",
       "entry_price": 2640.0,
-      "current_price_date": "2026-09-14",
-      "current_price": 2730.0,
-      "market_value": 131040.0,
-      "unrealized_return_pct": 3.409090909090917,
-      "holding_days": 6,
+      "current_price_date": "2026-09-15",
+      "current_price": 2625.0,
+      "market_value": 126000.0,
+      "unrealized_return_pct": -0.5681818181818232,
+      "holding_days": 7,
       "concept_tag_names": [
         "證券券商",
         "投資控股",
+        "網安/網路設備",
         "遊戲/VR裝置",
         "遊戲/數位內容",
         "半導體IP/設計服務",
@@ -398,11 +405,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 115,
       "entry_date": "2026-09-10",
       "entry_price": 1120.0,
-      "current_price_date": "2026-09-14",
-      "current_price": 954.0,
-      "market_value": 109710.0,
-      "unrealized_return_pct": -14.821428571428575,
-      "holding_days": 4,
+      "current_price_date": "2026-09-15",
+      "current_price": 915.0,
+      "market_value": 105225.0,
+      "unrealized_return_pct": -18.30357142857143,
+      "holding_days": 5,
       "concept_tag_names": [
         "證券券商",
         "太陽能",
@@ -416,11 +423,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 55,
       "entry_date": "2026-09-10",
       "entry_price": 2260.0,
-      "current_price_date": "2026-09-14",
-      "current_price": 2165.0,
-      "market_value": 119075.0,
-      "unrealized_return_pct": -4.2035398230088505,
-      "holding_days": 4,
+      "current_price_date": "2026-09-15",
+      "current_price": 2025.0,
+      "market_value": 111375.0,
+      "unrealized_return_pct": -10.398230088495575,
+      "holding_days": 5,
       "concept_tag_names": [
         "證券券商",
         "AI伺服器",
@@ -433,17 +440,89 @@ window.PUBLIC_FOLLOW_DATA = {
     }
   ],
   "trade_plan": {
-    "sell_orders": [],
-    "buy_orders": [],
-    "total_sell_amount": 0,
-    "total_buy_amount": 0,
+    "sell_orders": [
+      {
+        "stock_id": "3529",
+        "company_name": "力旺",
+        "quantity": 48,
+        "price": 2625.0,
+        "amount": 126000.0,
+        "concept_tag_names": [
+          "證券券商",
+          "投資控股",
+          "網安/網路設備",
+          "遊戲/VR裝置",
+          "遊戲/數位內容",
+          "半導體IP/設計服務",
+          "基礎產業:半導體業"
+        ]
+      }
+    ],
+    "buy_orders": [
+      {
+        "stock_id": "8422",
+        "company_name": "可寧衛*",
+        "quantity": 4415,
+        "price": 25.950000762939453,
+        "amount": 114569.25336837769,
+        "action": "SELL_WEAKEST_BUY_CANDIDATE",
+        "entry_date": null,
+        "concept_tag_names": [
+          "環保/廢棄物處理",
+          "環保/循環經濟",
+          "證券券商",
+          "再生能源工程",
+          "太陽能",
+          "投資控股",
+          "系統整合/資服"
+        ]
+      }
+    ],
+    "total_sell_amount": 126000.0,
+    "total_buy_amount": 114569.25336837769,
     "starting_cash": 16996.79841766361,
-    "net_cash_change": 0,
-    "cash_after_plan": 16996.79841766361,
+    "net_cash_change": 11430.746631622314,
+    "cash_after_plan": 28427.545049285924,
     "needs_extra_cash": 0.0,
-    "remaining_cash": 16996.79841766361
+    "remaining_cash": 28427.545049285924
   },
-  "today_candidates": [],
+  "today_candidates": [
+    {
+      "rank": 1,
+      "signal_date": "2026-09-15",
+      "stock_id": "8422",
+      "company_name": "可寧衛*",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 25.950000762939453,
+      "target_amount": 114589.85968353273,
+      "suggested_quantity": 4415,
+      "buy_amount": 114569.25336837769,
+      "sell_stock_id": "3529",
+      "sell_company_name": "力旺",
+      "sell_quantity": 48,
+      "sell_current_price": 2625.0,
+      "sell_market_value": 126000.0,
+      "concept_tag_names": [
+        "環保/廢棄物處理",
+        "環保/循環經濟",
+        "證券券商",
+        "再生能源工程",
+        "太陽能",
+        "投資控股",
+        "系統整合/資服"
+      ],
+      "sell_concept_tag_names": [
+        "證券券商",
+        "投資控股",
+        "網安/網路設備",
+        "遊戲/VR裝置",
+        "遊戲/數位內容",
+        "半導體IP/設計服務",
+        "基礎產業:半導體業"
+      ],
+      "action_text": "換股買進"
+    }
+  ],
   "recent_entries": [
     {
       "stock_id": "3406",
