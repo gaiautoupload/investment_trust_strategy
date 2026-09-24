@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-09-23T18:33:59.766392+08:00",
+  "generated_at": "2026-09-24T18:34:07.103011+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,20 +8,20 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-09-23",
-    "latest_chip_date": "2026-09-23",
-    "latest_price_date": "2026-09-23",
-    "candidate_count": 0,
+    "signal_date": "2026-09-24",
+    "latest_chip_date": "2026-09-24",
+    "latest_price_date": "2026-09-24",
+    "candidate_count": 1,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 590502.045049286,
+    "final_value": 587664.545049286,
     "cash": 7184.045049285924,
-    "total_return_pct": 96.83401501642865,
-    "annualized_return_pct": 168.77336020496898,
+    "total_return_pct": 95.88818168309533,
+    "annualized_return_pct": 165.8480561008352,
     "start_date": "2026-01-16",
-    "end_date": "2026-09-23",
+    "end_date": "2026-09-24",
     "closed_trade_count": 63,
     "entry_count": 64,
     "open_position_count": 5,
@@ -366,6 +366,12 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 590502.045049286,
       "cash": 7184.045049285924,
       "position_count": 5
+    },
+    {
+      "date": "2026-09-24",
+      "equity": 587664.545049286,
+      "cash": 7184.045049285924,
+      "position_count": 5
     }
   ],
   "holdings": [
@@ -375,11 +381,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 220,
       "entry_date": "2026-09-17",
       "entry_price": 558.0,
-      "current_price_date": "2026-09-23",
-      "current_price": 520.0,
-      "market_value": 114400.0,
-      "unrealized_return_pct": -6.810035842293905,
-      "holding_days": 6,
+      "current_price_date": "2026-09-24",
+      "current_price": 513.0,
+      "market_value": 112860.0,
+      "unrealized_return_pct": -8.064516129032262,
+      "holding_days": 7,
       "concept_tag_names": [
         "矽光子/CPO",
         "光纖傳輸/光通訊",
@@ -400,11 +406,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 567,
       "entry_date": "2026-09-18",
       "entry_price": 204.0,
-      "current_price_date": "2026-09-23",
-      "current_price": 206.0,
-      "market_value": 116802.0,
-      "unrealized_return_pct": 0.9803921568627416,
-      "holding_days": 5,
+      "current_price_date": "2026-09-24",
+      "current_price": 207.0,
+      "market_value": 117369.0,
+      "unrealized_return_pct": 1.4705882352941124,
+      "holding_days": 6,
       "concept_tag_names": [
         "電子通路",
         "證券券商",
@@ -427,11 +433,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 273,
       "entry_date": "2026-09-21",
       "entry_price": 446.5,
-      "current_price_date": "2026-09-23",
-      "current_price": 436.0,
-      "market_value": 119028.0,
-      "unrealized_return_pct": -2.3516237402015694,
-      "holding_days": 2,
+      "current_price_date": "2026-09-24",
+      "current_price": 421.5,
+      "market_value": 115069.5,
+      "unrealized_return_pct": -5.599104143337064,
+      "holding_days": 3,
       "concept_tag_names": [
         "證券券商",
         "ASIC設計服務",
@@ -449,11 +455,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 402,
       "entry_date": "2026-09-22",
       "entry_price": 314.0,
-      "current_price_date": "2026-09-23",
-      "current_price": 304.0,
-      "market_value": 122208.0,
-      "unrealized_return_pct": -3.1847133757961776,
-      "holding_days": 1,
+      "current_price_date": "2026-09-24",
+      "current_price": 311.0,
+      "market_value": 125022.0,
+      "unrealized_return_pct": -0.9554140127388533,
+      "holding_days": 2,
       "concept_tag_names": [
         "CoWoS/先進封裝",
         "證券券商",
@@ -470,11 +476,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 72,
       "entry_date": "2026-09-23",
       "entry_price": 1640.0,
-      "current_price_date": "2026-09-23",
-      "current_price": 1540.0,
-      "market_value": 110880.0,
-      "unrealized_return_pct": -6.0975609756097615,
-      "holding_days": 0,
+      "current_price_date": "2026-09-24",
+      "current_price": 1530.0,
+      "market_value": 110160.0,
+      "unrealized_return_pct": -6.707317073170726,
+      "holding_days": 1,
       "concept_tag_names": [
         "液冷散熱",
         "證券券商",
@@ -485,17 +491,103 @@ window.PUBLIC_FOLLOW_DATA = {
     }
   ],
   "trade_plan": {
-    "sell_orders": [],
-    "buy_orders": [],
-    "total_sell_amount": 0,
-    "total_buy_amount": 0,
+    "sell_orders": [
+      {
+        "stock_id": "3036",
+        "company_name": "文曄",
+        "quantity": 567,
+        "price": 207.0,
+        "amount": 117369.0,
+        "concept_tag_names": [
+          "電子通路",
+          "證券券商",
+          "MLCC/被動元件",
+          "保護元件/電感",
+          "利基型記憶體/Nor Flash",
+          "太陽能",
+          "投資控股",
+          "百貨零售",
+          "被動元件",
+          "記憶體",
+          "連接器/線束",
+          "零售通路",
+          "食品飲料/通路"
+        ]
+      }
+    ],
+    "buy_orders": [
+      {
+        "stock_id": "4770",
+        "company_name": "上品",
+        "quantity": 417,
+        "price": 281.5,
+        "amount": 117385.5,
+        "action": "SELL_WEAKEST_BUY_CANDIDATE",
+        "entry_date": null,
+        "concept_tag_names": [
+          "證券券商",
+          "工具機/自動化設備",
+          "工程營造",
+          "投資控股",
+          "晶圓製程設備零組件",
+          "檢測設備/服務",
+          "特用化學/材料",
+          "基礎產業:化學工業"
+        ]
+      }
+    ],
+    "total_sell_amount": 117369.0,
+    "total_buy_amount": 117385.5,
     "starting_cash": 7184.045049285924,
-    "net_cash_change": 0,
-    "cash_after_plan": 7184.045049285924,
+    "net_cash_change": -16.5,
+    "cash_after_plan": 7167.545049285924,
     "needs_extra_cash": 0.0,
-    "remaining_cash": 7184.045049285924
+    "remaining_cash": 7167.545049285924
   },
-  "today_candidates": [],
+  "today_candidates": [
+    {
+      "rank": 1,
+      "signal_date": "2026-09-24",
+      "stock_id": "4770",
+      "company_name": "上品",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 281.5,
+      "target_amount": 117532.90900985719,
+      "suggested_quantity": 417,
+      "buy_amount": 117385.5,
+      "sell_stock_id": "3036",
+      "sell_company_name": "文曄",
+      "sell_quantity": 567,
+      "sell_current_price": 207.0,
+      "sell_market_value": 117369.0,
+      "concept_tag_names": [
+        "證券券商",
+        "工具機/自動化設備",
+        "工程營造",
+        "投資控股",
+        "晶圓製程設備零組件",
+        "檢測設備/服務",
+        "特用化學/材料",
+        "基礎產業:化學工業"
+      ],
+      "sell_concept_tag_names": [
+        "電子通路",
+        "證券券商",
+        "MLCC/被動元件",
+        "保護元件/電感",
+        "利基型記憶體/Nor Flash",
+        "太陽能",
+        "投資控股",
+        "百貨零售",
+        "被動元件",
+        "記憶體",
+        "連接器/線束",
+        "零售通路",
+        "食品飲料/通路"
+      ],
+      "action_text": "換股買進"
+    }
+  ],
   "recent_entries": [
     {
       "stock_id": "8996",
