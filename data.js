@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-09-29T18:34:06.052981+08:00",
+  "generated_at": "2026-09-30T18:34:30.591523+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,25 +8,25 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-09-29",
-    "latest_chip_date": "2026-09-29",
-    "latest_price_date": "2026-09-29",
-    "candidate_count": 1,
+    "signal_date": "2026-09-30",
+    "latest_chip_date": "2026-09-30",
+    "latest_price_date": "2026-09-30",
+    "candidate_count": 2,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 591582.545049286,
-    "cash": 8760.545049285924,
-    "total_return_pct": 97.19418168309532,
-    "annualized_return_pct": 163.30219150670246,
+    "final_value": 587685.545049286,
+    "cash": 2490.5450492859236,
+    "total_return_pct": 95.89518168309532,
+    "annualized_return_pct": 159.86147995096798,
     "start_date": "2026-01-16",
-    "end_date": "2026-09-29",
-    "closed_trade_count": 64,
-    "entry_count": 65,
+    "end_date": "2026-09-30",
+    "closed_trade_count": 65,
+    "entry_count": 66,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": 50.0,
-    "average_closed_trade_return_pct": 0.30153528424722775,
+    "closed_trade_win_rate_pct": 49.23076923076923,
+    "average_closed_trade_return_pct": 0.23072589112315964,
     "max_drawdown_pct": -29.55548087303479,
     "performance_source": "actual_follow_account"
   },
@@ -378,52 +378,35 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 591582.545049286,
       "cash": 8760.545049285924,
       "position_count": 5
+    },
+    {
+      "date": "2026-09-30",
+      "equity": 587685.545049286,
+      "cash": 2490.5450492859236,
+      "position_count": 5
     }
   ],
   "holdings": [
-    {
-      "stock_id": "3450",
-      "company_name": "聯鈞",
-      "quantity": 220,
-      "entry_date": "2026-09-17",
-      "entry_price": 558.0,
-      "current_price_date": "2026-09-29",
-      "current_price": 525.0,
-      "market_value": 115500.0,
-      "unrealized_return_pct": -5.913978494623651,
-      "holding_days": 12,
-      "concept_tag_names": [
-        "矽光子/CPO",
-        "光纖傳輸/光通訊",
-        "光通訊模組",
-        "矽光子/光通訊",
-        "證券券商",
-        "光纖/光纜",
-        "功率元件",
-        "投資控股",
-        "檢測設備/服務",
-        "測試驗證服務",
-        "半導體IP/設計服務"
-      ]
-    },
     {
       "stock_id": "6472",
       "company_name": "保瑞",
       "quantity": 273,
       "entry_date": "2026-09-21",
       "entry_price": 446.5,
-      "current_price_date": "2026-09-29",
-      "current_price": 422.5,
-      "market_value": 115342.5,
-      "unrealized_return_pct": -5.375139977603583,
-      "holding_days": 8,
+      "current_price_date": "2026-09-30",
+      "current_price": 424.0,
+      "market_value": 115752.0,
+      "unrealized_return_pct": -5.039193729003355,
+      "holding_days": 9,
       "concept_tag_names": [
         "證券券商",
         "ASIC設計服務",
         "NB/PC代工",
         "半導體IP/設計服務",
+        "塑膠原料/樹脂",
         "投資控股",
         "新藥",
+        "系統整合/資服",
         "鞋業/運動供應鏈",
         "基礎產業:生技醫療業"
       ]
@@ -434,11 +417,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 402,
       "entry_date": "2026-09-22",
       "entry_price": 314.0,
-      "current_price_date": "2026-09-29",
+      "current_price_date": "2026-09-30",
       "current_price": 294.5,
       "market_value": 118389.0,
       "unrealized_return_pct": -6.210191082802552,
-      "holding_days": 7,
+      "holding_days": 8,
       "concept_tag_names": [
         "CoWoS/先進封裝",
         "證券券商",
@@ -456,11 +439,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 72,
       "entry_date": "2026-09-23",
       "entry_price": 1640.0,
-      "current_price_date": "2026-09-29",
-      "current_price": 1585.0,
-      "market_value": 114120.0,
-      "unrealized_return_pct": -3.353658536585369,
-      "holding_days": 6,
+      "current_price_date": "2026-09-30",
+      "current_price": 1605.0,
+      "market_value": 115560.0,
+      "unrealized_return_pct": -2.1341463414634165,
+      "holding_days": 7,
       "concept_tag_names": [
         "液冷散熱",
         "證券券商",
@@ -475,11 +458,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 417,
       "entry_date": "2026-09-29",
       "entry_price": 277.0,
-      "current_price_date": "2026-09-29",
-      "current_price": 286.5,
-      "market_value": 119470.5,
-      "unrealized_return_pct": 3.429602888086647,
-      "holding_days": 0,
+      "current_price_date": "2026-09-30",
+      "current_price": 282.0,
+      "market_value": 117594.0,
+      "unrealized_return_pct": 1.8050541516245522,
+      "holding_days": 1,
       "concept_tag_names": [
         "證券券商",
         "工具機/自動化設備",
@@ -490,82 +473,139 @@ window.PUBLIC_FOLLOW_DATA = {
         "特用化學/材料",
         "基礎產業:化學工業"
       ]
+    },
+    {
+      "stock_id": "6187",
+      "company_name": "萬潤",
+      "quantity": 90,
+      "entry_date": "2026-09-30",
+      "entry_price": 1375.0,
+      "current_price_date": "2026-09-30",
+      "current_price": 1310.0,
+      "market_value": 117900.0,
+      "unrealized_return_pct": -4.727272727272725,
+      "holding_days": 0,
+      "concept_tag_names": [
+        "CoWoS/先進封裝",
+        "證券券商",
+        "MLCC/被動元件",
+        "RF前端/功率放大器",
+        "保護元件/電感",
+        "化合物半導體/RF",
+        "半導體設備",
+        "工具機/自動化設備",
+        "投資控股",
+        "晶圓製程設備零組件",
+        "檢測設備/服務",
+        "系統整合/資服",
+        "被動元件",
+        "半導體IP/設計服務"
+      ]
     }
   ],
   "trade_plan": {
     "sell_orders": [
       {
-        "stock_id": "3450",
-        "company_name": "聯鈞",
-        "quantity": 220,
-        "price": 525.0,
-        "amount": 115500.0,
+        "stock_id": "6472",
+        "company_name": "保瑞",
+        "quantity": 273,
+        "price": 424.0,
+        "amount": 115752.0,
         "concept_tag_names": [
-          "矽光子/CPO",
-          "光纖傳輸/光通訊",
-          "光通訊模組",
-          "矽光子/光通訊",
           "證券券商",
-          "光纖/光纜",
-          "功率元件",
+          "ASIC設計服務",
+          "NB/PC代工",
+          "半導體IP/設計服務",
+          "塑膠原料/樹脂",
           "投資控股",
-          "檢測設備/服務",
-          "測試驗證服務",
-          "半導體IP/設計服務"
+          "新藥",
+          "系統整合/資服",
+          "鞋業/運動供應鏈",
+          "基礎產業:生技醫療業"
         ]
       }
     ],
     "buy_orders": [
       {
-        "stock_id": "6187",
-        "company_name": "萬潤",
-        "quantity": 90,
-        "price": 1310.0,
-        "amount": 117900.0,
+        "stock_id": "7751",
+        "company_name": "竑騰",
+        "quantity": 72,
+        "price": 1625.0,
+        "amount": 117000.0,
         "action": "SELL_WEAKEST_BUY_CANDIDATE",
         "entry_date": null,
         "concept_tag_names": [
-          "CoWoS/先進封裝",
-          "證券券商",
-          "MLCC/被動元件",
-          "RF前端/功率放大器",
-          "保護元件/電感",
-          "化合物半導體/RF",
-          "半導體設備",
-          "工具機/自動化設備",
-          "投資控股",
           "晶圓製程設備零組件",
           "檢測設備/服務",
-          "系統整合/資服",
-          "被動元件",
-          "半導體IP/設計服務"
+          "證券券商",
+          "塑膠原料/樹脂",
+          "工具機/自動化設備",
+          "投資控股",
+          "電子回收/整新品",
+          "半導體IP/設計服務",
+          "基礎產業:半導體業"
         ]
       }
     ],
-    "total_sell_amount": 115500.0,
-    "total_buy_amount": 117900.0,
-    "starting_cash": 8760.545049285924,
-    "net_cash_change": -2400.0,
-    "cash_after_plan": 6360.545049285924,
+    "total_sell_amount": 115752.0,
+    "total_buy_amount": 117000.0,
+    "starting_cash": 2490.5450492859236,
+    "net_cash_change": -1248.0,
+    "cash_after_plan": 1242.5450492859236,
     "needs_extra_cash": 0.0,
-    "remaining_cash": 6360.545049285924
+    "remaining_cash": 1242.5450492859236
   },
   "today_candidates": [
     {
       "rank": 1,
-      "signal_date": "2026-09-29",
+      "signal_date": "2026-09-30",
+      "stock_id": "7751",
+      "company_name": "竑騰",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 1625.0,
+      "target_amount": 117537.1090098572,
+      "suggested_quantity": 72,
+      "buy_amount": 117000.0,
+      "sell_stock_id": "6472",
+      "sell_company_name": "保瑞",
+      "sell_quantity": 273,
+      "sell_current_price": 424.0,
+      "sell_market_value": 115752.0,
+      "concept_tag_names": [
+        "晶圓製程設備零組件",
+        "檢測設備/服務",
+        "證券券商",
+        "塑膠原料/樹脂",
+        "工具機/自動化設備",
+        "投資控股",
+        "電子回收/整新品",
+        "半導體IP/設計服務",
+        "基礎產業:半導體業"
+      ],
+      "sell_concept_tag_names": [
+        "證券券商",
+        "ASIC設計服務",
+        "NB/PC代工",
+        "半導體IP/設計服務",
+        "塑膠原料/樹脂",
+        "投資控股",
+        "新藥",
+        "系統整合/資服",
+        "鞋業/運動供應鏈",
+        "基礎產業:生技醫療業"
+      ],
+      "action_text": "換股買進"
+    },
+    {
+      "rank": 2,
+      "signal_date": "2026-09-30",
       "stock_id": "6187",
       "company_name": "萬潤",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "action": "HOLD_ALREADY_OWNED",
       "reference_price": 1310.0,
-      "target_amount": 118316.5090098572,
-      "suggested_quantity": 90,
-      "buy_amount": 117900.0,
-      "sell_stock_id": "3450",
-      "sell_company_name": "聯鈞",
-      "sell_quantity": 220,
-      "sell_current_price": 525.0,
-      "sell_market_value": 115500.0,
+      "target_amount": 117537.1090098572,
+      "suggested_quantity": 89,
+      "buy_amount": 116590.0,
       "concept_tag_names": [
         "CoWoS/先進封裝",
         "證券券商",
@@ -582,23 +622,19 @@ window.PUBLIC_FOLLOW_DATA = {
         "被動元件",
         "半導體IP/設計服務"
       ],
-      "sell_concept_tag_names": [
-        "矽光子/CPO",
-        "光纖傳輸/光通訊",
-        "光通訊模組",
-        "矽光子/光通訊",
-        "證券券商",
-        "光纖/光纜",
-        "功率元件",
-        "投資控股",
-        "檢測設備/服務",
-        "測試驗證服務",
-        "半導體IP/設計服務"
-      ],
-      "action_text": "換股買進"
+      "action_text": "已持有"
     }
   ],
   "recent_entries": [
+    {
+      "stock_id": "6187",
+      "company_name": "萬潤",
+      "entry_date": "2026-09-30",
+      "entry_price": 1375.0,
+      "quantity": 90,
+      "cost": 123750.0,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "4770",
       "company_name": "上品",
@@ -697,18 +733,22 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 4415,
       "cost": 114569.25336837769,
       "concept_tag_names": null
-    },
-    {
-      "stock_id": "3406",
-      "company_name": "玉晶光",
-      "entry_date": "2026-09-10",
-      "entry_price": 1120.0,
-      "quantity": 115,
-      "cost": 128800.0,
-      "concept_tag_names": null
     }
   ],
   "recent_closed_trades": [
+    {
+      "stock_id": "3450",
+      "company_name": "聯鈞",
+      "entry_date": "2026-09-17",
+      "entry_price": 558.0,
+      "quantity": 220,
+      "exit_date": "2026-09-30",
+      "exit_price": 534.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": -4.3010752688172005,
+      "holding_days": 13,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "3036",
       "company_name": "文曄",
@@ -850,19 +890,6 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_reason": "follow_signal_replace",
       "return_pct": 0.37878787878788955,
       "holding_days": 8,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "3374",
-      "company_name": "精材",
-      "entry_date": "2026-08-31",
-      "entry_price": 390.5,
-      "quantity": 312,
-      "exit_date": "2026-09-10",
-      "exit_price": 481.0,
-      "exit_reason": "follow_signal_replace",
-      "return_pct": 23.175416133162607,
-      "holding_days": 10,
       "concept_tag_names": null
     }
   ]
