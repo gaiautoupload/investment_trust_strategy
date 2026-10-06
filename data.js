@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-10-05T18:33:40.769174+08:00",
+  "generated_at": "2026-10-06T18:33:55.646154+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,25 +8,25 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-10-05",
-    "latest_chip_date": "2026-10-05",
-    "latest_price_date": "2026-10-05",
-    "candidate_count": 3,
+    "signal_date": "2026-10-06",
+    "latest_chip_date": "2026-10-06",
+    "latest_price_date": "2026-10-06",
+    "candidate_count": 2,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 604678.6424613954,
-    "cash": 7730.142461395299,
-    "total_return_pct": 101.55954748713181,
-    "annualized_return_pct": 165.50542763633894,
+    "final_value": 612041.1424613954,
+    "cash": -3649.3575386047014,
+    "total_return_pct": 104.01371415379845,
+    "annualized_return_pct": 169.0019256596782,
     "start_date": "2026-01-16",
-    "end_date": "2026-10-05",
-    "closed_trade_count": 69,
-    "entry_count": 70,
+    "end_date": "2026-10-06",
+    "closed_trade_count": 71,
+    "entry_count": 72,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": 47.82608695652174,
-    "average_closed_trade_return_pct": 0.12332186949103022,
+    "closed_trade_win_rate_pct": 47.88732394366197,
+    "average_closed_trade_return_pct": 0.10386990418029951,
     "max_drawdown_pct": -29.55548087303479,
     "performance_source": "actual_follow_account"
   },
@@ -402,42 +402,26 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 604678.6424613954,
       "cash": 7730.142461395299,
       "position_count": 5
+    },
+    {
+      "date": "2026-10-06",
+      "equity": 612041.1424613954,
+      "cash": -3649.3575386047014,
+      "position_count": 5
     }
   ],
   "holdings": [
-    {
-      "stock_id": "4770",
-      "company_name": "上品",
-      "quantity": 417,
-      "entry_date": "2026-09-29",
-      "entry_price": 277.0,
-      "current_price_date": "2026-10-05",
-      "current_price": 274.5,
-      "market_value": 114466.5,
-      "unrealized_return_pct": -0.9025270758122761,
-      "holding_days": 6,
-      "concept_tag_names": [
-        "證券券商",
-        "工具機/自動化設備",
-        "工程營造",
-        "投資控股",
-        "晶圓製程設備零組件",
-        "檢測設備/服務",
-        "特用化學/材料",
-        "基礎產業:化學工業"
-      ]
-    },
     {
       "stock_id": "6187",
       "company_name": "萬潤",
       "quantity": 90,
       "entry_date": "2026-09-30",
       "entry_price": 1375.0,
-      "current_price_date": "2026-10-05",
-      "current_price": 1490.0,
-      "market_value": 134100.0,
-      "unrealized_return_pct": 8.363636363636374,
-      "holding_days": 5,
+      "current_price_date": "2026-10-06",
+      "current_price": 1535.0,
+      "market_value": 138150.0,
+      "unrealized_return_pct": 11.636363636363644,
+      "holding_days": 6,
       "concept_tag_names": [
         "CoWoS/先進封裝",
         "證券券商",
@@ -456,39 +440,16 @@ window.PUBLIC_FOLLOW_DATA = {
       ]
     },
     {
-      "stock_id": "7751",
-      "company_name": "竑騰",
-      "quantity": 72,
-      "entry_date": "2026-10-01",
-      "entry_price": 1615.0,
-      "current_price_date": "2026-10-05",
-      "current_price": 1605.0,
-      "market_value": 115560.0,
-      "unrealized_return_pct": -0.6191950464396245,
-      "holding_days": 4,
-      "concept_tag_names": [
-        "晶圓製程設備零組件",
-        "檢測設備/服務",
-        "證券券商",
-        "塑膠原料/樹脂",
-        "工具機/自動化設備",
-        "投資控股",
-        "電子回收/整新品",
-        "半導體IP/設計服務",
-        "基礎產業:半導體業"
-      ]
-    },
-    {
       "stock_id": "3293",
       "company_name": "鈊象",
       "quantity": 143,
       "entry_date": "2026-10-02",
       "entry_price": 819.0,
-      "current_price_date": "2026-10-05",
-      "current_price": 794.0,
-      "market_value": 113542.0,
-      "unrealized_return_pct": -3.0525030525030528,
-      "holding_days": 3,
+      "current_price_date": "2026-10-06",
+      "current_price": 780.0,
+      "market_value": 111540.0,
+      "unrealized_return_pct": -4.761904761904767,
+      "holding_days": 4,
       "concept_tag_names": [
         "網安/網路設備",
         "證券券商",
@@ -504,118 +465,28 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 213,
       "entry_date": "2026-10-05",
       "entry_price": 560.0,
-      "current_price_date": "2026-10-05",
-      "current_price": 560.0,
-      "market_value": 119280.0,
-      "unrealized_return_pct": 0.0,
-      "holding_days": 0,
+      "current_price_date": "2026-10-06",
+      "current_price": 561.0,
+      "market_value": 119493.0,
+      "unrealized_return_pct": 0.17857142857142794,
+      "holding_days": 1,
       "concept_tag_names": [
         "PCB鑽針/探針",
         "證券券商",
         "投資控股"
       ]
-    }
-  ],
-  "trade_plan": {
-    "sell_orders": [
-      {
-        "stock_id": "4770",
-        "company_name": "上品",
-        "quantity": 417,
-        "price": 274.5,
-        "amount": 114466.5,
-        "concept_tag_names": [
-          "證券券商",
-          "工具機/自動化設備",
-          "工程營造",
-          "投資控股",
-          "晶圓製程設備零組件",
-          "檢測設備/服務",
-          "特用化學/材料",
-          "基礎產業:化學工業"
-        ]
-      },
-      {
-        "stock_id": "7751",
-        "company_name": "竑騰",
-        "quantity": 72,
-        "price": 1605.0,
-        "amount": 115560.0,
-        "concept_tag_names": [
-          "晶圓製程設備零組件",
-          "檢測設備/服務",
-          "證券券商",
-          "塑膠原料/樹脂",
-          "工具機/自動化設備",
-          "投資控股",
-          "電子回收/整新品",
-          "半導體IP/設計服務",
-          "基礎產業:半導體業"
-        ]
-      }
-    ],
-    "buy_orders": [
-      {
-        "stock_id": "6715",
-        "company_name": "嘉基",
-        "quantity": 251,
-        "price": 480.5,
-        "amount": 120605.5,
-        "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null,
-        "concept_tag_names": [
-          "證券券商",
-          "光纖/光纜",
-          "光纖傳輸/光通訊",
-          "工具機零組件",
-          "投資控股",
-          "晶圓製程設備零組件",
-          "基礎產業:電子零組件業"
-        ]
-      },
-      {
-        "stock_id": "3661",
-        "company_name": "世芯-KY",
-        "quantity": 30,
-        "price": 3950.0,
-        "amount": 118500.0,
-        "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null,
-        "concept_tag_names": [
-          "AI ASIC/高速運算IC",
-          "證券券商",
-          "ASIC設計服務",
-          "半導體IP/設計服務",
-          "投資控股",
-          "晶圓製程設備零組件",
-          "系統整合/資服"
-        ]
-      }
-    ],
-    "total_sell_amount": 230026.5,
-    "total_buy_amount": 239105.5,
-    "starting_cash": 7730.142461395299,
-    "net_cash_change": -9079.0,
-    "cash_after_plan": -1348.8575386047014,
-    "needs_extra_cash": 1348.8575386047014,
-    "remaining_cash": 0.0
-  },
-  "today_candidates": [
+    },
     {
-      "rank": 1,
-      "signal_date": "2026-10-05",
       "stock_id": "6715",
       "company_name": "嘉基",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 480.5,
-      "target_amount": 120935.72849227907,
-      "suggested_quantity": 251,
-      "buy_amount": 120605.5,
-      "sell_stock_id": "4770",
-      "sell_company_name": "上品",
-      "sell_quantity": 417,
-      "sell_current_price": 274.5,
-      "sell_market_value": 114466.5,
+      "quantity": 251,
+      "entry_date": "2026-10-06",
+      "entry_price": 485.5,
+      "current_price_date": "2026-10-06",
+      "current_price": 482.5,
+      "market_value": 121107.5,
+      "unrealized_return_pct": -0.6179196704428458,
+      "holding_days": 0,
       "concept_tag_names": [
         "證券券商",
         "光纖/光纜",
@@ -624,34 +495,19 @@ window.PUBLIC_FOLLOW_DATA = {
         "投資控股",
         "晶圓製程設備零組件",
         "基礎產業:電子零組件業"
-      ],
-      "sell_concept_tag_names": [
-        "證券券商",
-        "工具機/自動化設備",
-        "工程營造",
-        "投資控股",
-        "晶圓製程設備零組件",
-        "檢測設備/服務",
-        "特用化學/材料",
-        "基礎產業:化學工業"
-      ],
-      "action_text": "換股買進"
+      ]
     },
     {
-      "rank": 2,
-      "signal_date": "2026-10-05",
       "stock_id": "3661",
       "company_name": "世芯-KY",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 3950.0,
-      "target_amount": 120935.72849227907,
-      "suggested_quantity": 30,
-      "buy_amount": 118500.0,
-      "sell_stock_id": "7751",
-      "sell_company_name": "竑騰",
-      "sell_quantity": 72,
-      "sell_current_price": 1605.0,
-      "sell_market_value": 115560.0,
+      "quantity": 30,
+      "entry_date": "2026-10-06",
+      "entry_price": 4000.0,
+      "current_price_date": "2026-10-06",
+      "current_price": 4180.0,
+      "market_value": 125400.0,
+      "unrealized_return_pct": 4.499999999999993,
+      "holding_days": 0,
       "concept_tag_names": [
         "AI ASIC/高速運算IC",
         "證券券商",
@@ -660,45 +516,80 @@ window.PUBLIC_FOLLOW_DATA = {
         "投資控股",
         "晶圓製程設備零組件",
         "系統整合/資服"
-      ],
-      "sell_concept_tag_names": [
-        "晶圓製程設備零組件",
-        "檢測設備/服務",
+      ]
+    }
+  ],
+  "trade_plan": {
+    "sell_orders": [],
+    "buy_orders": [],
+    "total_sell_amount": 0,
+    "total_buy_amount": 0,
+    "starting_cash": -3649.3575386047014,
+    "net_cash_change": 0,
+    "cash_after_plan": -3649.3575386047014,
+    "needs_extra_cash": 3649.3575386047014,
+    "remaining_cash": 0.0
+  },
+  "today_candidates": [
+    {
+      "rank": 1,
+      "signal_date": "2026-10-06",
+      "stock_id": "3443",
+      "company_name": "創意",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 8375.0,
+      "target_amount": 122408.22849227907,
+      "suggested_quantity": 14,
+      "buy_amount": 117250.0,
+      "concept_tag_names": [
+        "AI ASIC/高速運算IC",
+        "ASIC設計服務",
         "證券券商",
-        "塑膠原料/樹脂",
-        "工具機/自動化設備",
-        "投資控股",
-        "電子回收/整新品",
         "半導體IP/設計服務",
-        "基礎產業:半導體業"
+        "投資控股",
+        "晶圓製程設備零組件",
+        "系統整合/資服"
       ],
-      "action_text": "換股買進"
+      "action_text": "觀察"
     },
     {
-      "rank": 3,
-      "signal_date": "2026-10-05",
-      "stock_id": "8070",
-      "company_name": "長華*",
+      "rank": 2,
+      "signal_date": "2026-10-06",
+      "stock_id": "1709",
+      "company_name": "和益",
       "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 51.70000076293945,
-      "target_amount": 120935.72849227907,
-      "suggested_quantity": 2339,
-      "buy_amount": 120926.30178451538,
+      "reference_price": 63.29999923706055,
+      "target_amount": 122408.22849227907,
+      "suggested_quantity": 1933,
+      "buy_amount": 122358.89852523804,
       "concept_tag_names": [
-        "電子通路",
+        "特用化學/材料",
         "證券券商",
         "塑膠原料/樹脂",
-        "導線架/封裝材料",
-        "投資控股",
-        "百貨零售",
-        "租賃金融",
-        "零售通路",
-        "食品飲料/通路"
+        "投資控股"
       ],
       "action_text": "觀察"
     }
   ],
   "recent_entries": [
+    {
+      "stock_id": "6715",
+      "company_name": "嘉基",
+      "entry_date": "2026-10-06",
+      "entry_price": 485.5,
+      "quantity": 251,
+      "cost": 121860.5,
+      "concept_tag_names": null
+    },
+    {
+      "stock_id": "3661",
+      "company_name": "世芯-KY",
+      "entry_date": "2026-10-06",
+      "entry_price": 4000.0,
+      "quantity": 30,
+      "cost": 120000.0,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "8021",
       "company_name": "尖點",
@@ -788,27 +679,35 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 567,
       "cost": 115668.0,
       "concept_tag_names": null
-    },
-    {
-      "stock_id": "2455",
-      "company_name": "全新",
-      "entry_date": "2026-09-18",
-      "entry_price": 545.0,
-      "quantity": 216,
-      "cost": 117720.0,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "6805",
-      "company_name": "富世達",
-      "entry_date": "2026-09-18",
-      "entry_price": 2195.0,
-      "quantity": 55,
-      "cost": 120725.0,
-      "concept_tag_names": null
     }
   ],
   "recent_closed_trades": [
+    {
+      "stock_id": "4770",
+      "company_name": "上品",
+      "entry_date": "2026-09-29",
+      "entry_price": 277.0,
+      "quantity": 417,
+      "exit_date": "2026-10-06",
+      "exit_price": 273.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": -1.4440433212996373,
+      "holding_days": 7,
+      "concept_tag_names": null
+    },
+    {
+      "stock_id": "7751",
+      "company_name": "竑騰",
+      "entry_date": "2026-10-01",
+      "entry_price": 1615.0,
+      "quantity": 72,
+      "exit_date": "2026-10-06",
+      "exit_price": 1620.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": 0.3095975232198178,
+      "holding_days": 5,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "3714",
       "company_name": "富采",
@@ -937,32 +836,6 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_reason": "follow_signal_replace",
       "return_pct": -8.253968253968258,
       "holding_days": 11,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "3406",
-      "company_name": "玉晶光",
-      "entry_date": "2026-09-10",
-      "entry_price": 1120.0,
-      "quantity": 115,
-      "exit_date": "2026-09-18",
-      "exit_price": 996.0,
-      "exit_reason": "follow_signal_replace",
-      "return_pct": -11.071428571428577,
-      "holding_days": 8,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "5469",
-      "company_name": "瀚宇博",
-      "entry_date": "2026-09-17",
-      "entry_price": 75.5999984741211,
-      "quantity": 1597,
-      "exit_date": "2026-09-18",
-      "exit_price": 74.0999984741211,
-      "exit_reason": "follow_signal_replace",
-      "return_pct": -1.9841270241737763,
-      "holding_days": 1,
       "concept_tag_names": null
     }
   ]
