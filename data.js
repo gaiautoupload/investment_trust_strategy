@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-10-06T18:33:55.646154+08:00",
+  "generated_at": "2026-10-07T18:34:32.130784+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,20 +8,20 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-10-06",
-    "latest_chip_date": "2026-10-06",
-    "latest_price_date": "2026-10-06",
+    "signal_date": "2026-10-07",
+    "latest_chip_date": "2026-10-07",
+    "latest_price_date": "2026-10-07",
     "candidate_count": 2,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 612041.1424613954,
+    "final_value": 611903.6424613954,
     "cash": -3649.3575386047014,
-    "total_return_pct": 104.01371415379845,
-    "annualized_return_pct": 169.0019256596782,
+    "total_return_pct": 103.96788082046511,
+    "annualized_return_pct": 167.91227831551058,
     "start_date": "2026-01-16",
-    "end_date": "2026-10-06",
+    "end_date": "2026-10-07",
     "closed_trade_count": 71,
     "entry_count": 72,
     "open_position_count": 5,
@@ -408,6 +408,12 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 612041.1424613954,
       "cash": -3649.3575386047014,
       "position_count": 5
+    },
+    {
+      "date": "2026-10-07",
+      "equity": 611903.6424613954,
+      "cash": -3649.3575386047014,
+      "position_count": 5
     }
   ],
   "holdings": [
@@ -417,11 +423,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 90,
       "entry_date": "2026-09-30",
       "entry_price": 1375.0,
-      "current_price_date": "2026-10-06",
+      "current_price_date": "2026-10-07",
       "current_price": 1535.0,
       "market_value": 138150.0,
       "unrealized_return_pct": 11.636363636363644,
-      "holding_days": 6,
+      "holding_days": 7,
       "concept_tag_names": [
         "CoWoS/先進封裝",
         "證券券商",
@@ -445,11 +451,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 143,
       "entry_date": "2026-10-02",
       "entry_price": 819.0,
-      "current_price_date": "2026-10-06",
+      "current_price_date": "2026-10-07",
       "current_price": 780.0,
       "market_value": 111540.0,
       "unrealized_return_pct": -4.761904761904767,
-      "holding_days": 4,
+      "holding_days": 5,
       "concept_tag_names": [
         "網安/網路設備",
         "證券券商",
@@ -465,11 +471,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 213,
       "entry_date": "2026-10-05",
       "entry_price": 560.0,
-      "current_price_date": "2026-10-06",
-      "current_price": 561.0,
-      "market_value": 119493.0,
-      "unrealized_return_pct": 0.17857142857142794,
-      "holding_days": 1,
+      "current_price_date": "2026-10-07",
+      "current_price": 556.0,
+      "market_value": 118428.0,
+      "unrealized_return_pct": -0.7142857142857117,
+      "holding_days": 2,
       "concept_tag_names": [
         "PCB鑽針/探針",
         "證券券商",
@@ -482,11 +488,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 251,
       "entry_date": "2026-10-06",
       "entry_price": 485.5,
-      "current_price_date": "2026-10-06",
-      "current_price": 482.5,
-      "market_value": 121107.5,
-      "unrealized_return_pct": -0.6179196704428458,
-      "holding_days": 0,
+      "current_price_date": "2026-10-07",
+      "current_price": 485.0,
+      "market_value": 121735.0,
+      "unrealized_return_pct": -0.1029866117404743,
+      "holding_days": 1,
       "concept_tag_names": [
         "證券券商",
         "光纖/光纜",
@@ -503,11 +509,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 30,
       "entry_date": "2026-10-06",
       "entry_price": 4000.0,
-      "current_price_date": "2026-10-06",
-      "current_price": 4180.0,
-      "market_value": 125400.0,
-      "unrealized_return_pct": 4.499999999999993,
-      "holding_days": 0,
+      "current_price_date": "2026-10-07",
+      "current_price": 4190.0,
+      "market_value": 125700.0,
+      "unrealized_return_pct": 4.75000000000001,
+      "holding_days": 1,
       "concept_tag_names": [
         "AI ASIC/高速運算IC",
         "證券券商",
@@ -520,55 +526,168 @@ window.PUBLIC_FOLLOW_DATA = {
     }
   ],
   "trade_plan": {
-    "sell_orders": [],
-    "buy_orders": [],
-    "total_sell_amount": 0,
-    "total_buy_amount": 0,
+    "sell_orders": [
+      {
+        "stock_id": "6187",
+        "company_name": "萬潤",
+        "quantity": 90,
+        "price": 1535.0,
+        "amount": 138150.0,
+        "concept_tag_names": [
+          "CoWoS/先進封裝",
+          "證券券商",
+          "MLCC/被動元件",
+          "RF前端/功率放大器",
+          "保護元件/電感",
+          "化合物半導體/RF",
+          "半導體設備",
+          "工具機/自動化設備",
+          "投資控股",
+          "晶圓製程設備零組件",
+          "檢測設備/服務",
+          "系統整合/資服",
+          "被動元件",
+          "半導體IP/設計服務"
+        ]
+      },
+      {
+        "stock_id": "3293",
+        "company_name": "鈊象",
+        "quantity": 143,
+        "price": 780.0,
+        "amount": 111540.0,
+        "concept_tag_names": [
+          "網安/網路設備",
+          "證券券商",
+          "投資控股",
+          "遊戲/VR裝置",
+          "遊戲/數位內容",
+          "基礎產業:文化創意業"
+        ]
+      }
+    ],
+    "buy_orders": [
+      {
+        "stock_id": "6672",
+        "company_name": "騰輝電子-KY",
+        "quantity": 242,
+        "price": 505.0,
+        "amount": 122210.0,
+        "action": "SELL_WEAKEST_BUY_CANDIDATE",
+        "entry_date": null,
+        "concept_tag_names": [
+          "CCL/銅箔基板",
+          "PCB/CCL",
+          "證券券商",
+          "PCB/HDI",
+          "PCB/銅箔進階材料",
+          "工具機零組件",
+          "投資控股",
+          "晶圓製程設備零組件",
+          "基礎產業:電子零組件業"
+        ]
+      },
+      {
+        "stock_id": "1301",
+        "company_name": "台塑",
+        "quantity": 1623,
+        "price": 75.4000015258789,
+        "amount": 122374.20247650146,
+        "action": "SELL_WEAKEST_BUY_CANDIDATE",
+        "entry_date": null,
+        "concept_tag_names": [
+          "石化上游",
+          "證券券商",
+          "NB/PC代工",
+          "塑膠原料/樹脂",
+          "投資控股"
+        ]
+      }
+    ],
+    "total_sell_amount": 249690.0,
+    "total_buy_amount": 244584.20247650146,
     "starting_cash": -3649.3575386047014,
-    "net_cash_change": 0,
-    "cash_after_plan": -3649.3575386047014,
-    "needs_extra_cash": 3649.3575386047014,
-    "remaining_cash": 0.0
+    "net_cash_change": 5105.797523498535,
+    "cash_after_plan": 1456.4399848938338,
+    "needs_extra_cash": 0.0,
+    "remaining_cash": 1456.4399848938338
   },
   "today_candidates": [
     {
       "rank": 1,
-      "signal_date": "2026-10-06",
-      "stock_id": "3443",
-      "company_name": "創意",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 8375.0,
-      "target_amount": 122408.22849227907,
-      "suggested_quantity": 14,
-      "buy_amount": 117250.0,
+      "signal_date": "2026-10-07",
+      "stock_id": "6672",
+      "company_name": "騰輝電子-KY",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 505.0,
+      "target_amount": 122380.72849227907,
+      "suggested_quantity": 242,
+      "buy_amount": 122210.0,
+      "sell_stock_id": "6187",
+      "sell_company_name": "萬潤",
+      "sell_quantity": 90,
+      "sell_current_price": 1535.0,
+      "sell_market_value": 138150.0,
       "concept_tag_names": [
-        "AI ASIC/高速運算IC",
-        "ASIC設計服務",
+        "CCL/銅箔基板",
+        "PCB/CCL",
         "證券券商",
-        "半導體IP/設計服務",
+        "PCB/HDI",
+        "PCB/銅箔進階材料",
+        "工具機零組件",
         "投資控股",
         "晶圓製程設備零組件",
-        "系統整合/資服"
+        "基礎產業:電子零組件業"
       ],
-      "action_text": "觀察"
+      "sell_concept_tag_names": [
+        "CoWoS/先進封裝",
+        "證券券商",
+        "MLCC/被動元件",
+        "RF前端/功率放大器",
+        "保護元件/電感",
+        "化合物半導體/RF",
+        "半導體設備",
+        "工具機/自動化設備",
+        "投資控股",
+        "晶圓製程設備零組件",
+        "檢測設備/服務",
+        "系統整合/資服",
+        "被動元件",
+        "半導體IP/設計服務"
+      ],
+      "action_text": "換股買進"
     },
     {
       "rank": 2,
-      "signal_date": "2026-10-06",
-      "stock_id": "1709",
-      "company_name": "和益",
-      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
-      "reference_price": 63.29999923706055,
-      "target_amount": 122408.22849227907,
-      "suggested_quantity": 1933,
-      "buy_amount": 122358.89852523804,
+      "signal_date": "2026-10-07",
+      "stock_id": "1301",
+      "company_name": "台塑",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 75.4000015258789,
+      "target_amount": 122380.72849227907,
+      "suggested_quantity": 1623,
+      "buy_amount": 122374.20247650146,
+      "sell_stock_id": "3293",
+      "sell_company_name": "鈊象",
+      "sell_quantity": 143,
+      "sell_current_price": 780.0,
+      "sell_market_value": 111540.0,
       "concept_tag_names": [
-        "特用化學/材料",
+        "石化上游",
         "證券券商",
+        "NB/PC代工",
         "塑膠原料/樹脂",
         "投資控股"
       ],
-      "action_text": "觀察"
+      "sell_concept_tag_names": [
+        "網安/網路設備",
+        "證券券商",
+        "投資控股",
+        "遊戲/VR裝置",
+        "遊戲/數位內容",
+        "基礎產業:文化創意業"
+      ],
+      "action_text": "換股買進"
     }
   ],
   "recent_entries": [
