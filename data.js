@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-10-21T18:34:27.787844+08:00",
+  "generated_at": "2026-10-22T18:34:44.125330+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,20 +8,20 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-10-21",
-    "latest_chip_date": "2026-10-21",
-    "latest_price_date": "2026-10-21",
-    "candidate_count": 0,
+    "signal_date": "2026-10-22",
+    "latest_chip_date": "2026-10-22",
+    "latest_price_date": "2026-10-22",
+    "candidate_count": 1,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 604653.4534049989,
+    "final_value": 563350.4534049989,
     "cash": 18080.453404998814,
-    "total_return_pct": 101.55115113499961,
-    "annualized_return_pct": 150.98198380361265,
+    "total_return_pct": 87.78348446833294,
+    "annualized_return_pct": 128.03975645972807,
     "start_date": "2026-01-16",
-    "end_date": "2026-10-21",
+    "end_date": "2026-10-22",
     "closed_trade_count": 83,
     "entry_count": 84,
     "open_position_count": 5,
@@ -468,6 +468,12 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 604653.4534049989,
       "cash": 18080.453404998814,
       "position_count": 5
+    },
+    {
+      "date": "2026-10-22",
+      "equity": 563350.4534049989,
+      "cash": 18080.453404998814,
+      "position_count": 5
     }
   ],
   "holdings": [
@@ -477,11 +483,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 216,
       "entry_date": "2026-10-15",
       "entry_price": 560.0,
-      "current_price_date": "2026-10-21",
-      "current_price": 488.0,
-      "market_value": 105408.0,
-      "unrealized_return_pct": -12.857142857142856,
-      "holding_days": 6,
+      "current_price_date": "2026-10-22",
+      "current_price": 450.0,
+      "market_value": 97200.0,
+      "unrealized_return_pct": -19.64285714285714,
+      "holding_days": 7,
       "concept_tag_names": [
         "光通訊模組",
         "矽光子/CPO",
@@ -499,11 +505,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 254,
       "entry_date": "2026-10-15",
       "entry_price": 482.5,
-      "current_price_date": "2026-10-21",
-      "current_price": 470.5,
-      "market_value": 119507.0,
-      "unrealized_return_pct": -2.4870466321243567,
-      "holding_days": 6,
+      "current_price_date": "2026-10-22",
+      "current_price": 463.5,
+      "market_value": 117729.0,
+      "unrealized_return_pct": -3.9378238341968963,
+      "holding_days": 7,
       "concept_tag_names": [
         "封測",
         "證券券商",
@@ -520,11 +526,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 242,
       "entry_date": "2026-10-20",
       "entry_price": 501.0,
-      "current_price_date": "2026-10-21",
-      "current_price": 482.0,
-      "market_value": 116644.0,
-      "unrealized_return_pct": -3.792415169660679,
-      "holding_days": 1,
+      "current_price_date": "2026-10-22",
+      "current_price": 438.5,
+      "market_value": 106117.0,
+      "unrealized_return_pct": -12.475049900199597,
+      "holding_days": 2,
       "concept_tag_names": [
         "PCB/銅箔進階材料",
         "證券券商",
@@ -539,15 +545,16 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 84,
       "entry_date": "2026-10-20",
       "entry_price": 1395.0,
-      "current_price_date": "2026-10-21",
-      "current_price": 1430.0,
-      "market_value": 120120.0,
-      "unrealized_return_pct": 2.508960573476693,
-      "holding_days": 1,
+      "current_price_date": "2026-10-22",
+      "current_price": 1320.0,
+      "market_value": 110880.0,
+      "unrealized_return_pct": -5.376344086021501,
+      "holding_days": 2,
       "concept_tag_names": [
         "衛星通訊/寬頻設備",
-        "證券券商",
         "RF前端/功率放大器",
+        "證券券商",
+        "化合物半導體/RF",
         "工程營造",
         "投資控股",
         "網安/網路設備"
@@ -559,11 +566,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 308,
       "entry_date": "2026-10-21",
       "entry_price": 387.5,
-      "current_price_date": "2026-10-21",
-      "current_price": 405.5,
-      "market_value": 124894.0,
-      "unrealized_return_pct": 4.645161290322575,
-      "holding_days": 0,
+      "current_price_date": "2026-10-22",
+      "current_price": 368.0,
+      "market_value": 113344.0,
+      "unrealized_return_pct": -5.032258064516126,
+      "holding_days": 1,
       "concept_tag_names": [
         "MLCC/被動元件",
         "RF前端/功率放大器",
@@ -581,17 +588,93 @@ window.PUBLIC_FOLLOW_DATA = {
     }
   ],
   "trade_plan": {
-    "sell_orders": [],
-    "buy_orders": [],
-    "total_sell_amount": 0,
-    "total_buy_amount": 0,
+    "sell_orders": [
+      {
+        "stock_id": "3491",
+        "company_name": "昇達科",
+        "quantity": 84,
+        "price": 1320.0,
+        "amount": 110880.0,
+        "concept_tag_names": [
+          "衛星通訊/寬頻設備",
+          "RF前端/功率放大器",
+          "證券券商",
+          "化合物半導體/RF",
+          "工程營造",
+          "投資控股",
+          "網安/網路設備"
+        ]
+      }
+    ],
+    "buy_orders": [
+      {
+        "stock_id": "3090",
+        "company_name": "日電貿",
+        "quantity": 719,
+        "price": 156.5,
+        "amount": 112523.5,
+        "action": "SELL_WEAKEST_BUY_CANDIDATE",
+        "entry_date": null,
+        "concept_tag_names": [
+          "MLCC/被動元件",
+          "證券券商",
+          "功率分離式元件",
+          "工具機零組件",
+          "投資控股",
+          "晶圓製程設備零組件",
+          "磁磚/陶瓷建材",
+          "被動元件",
+          "保護元件/電感"
+        ]
+      }
+    ],
+    "total_sell_amount": 110880.0,
+    "total_buy_amount": 112523.5,
     "starting_cash": 18080.453404998814,
-    "net_cash_change": 0,
-    "cash_after_plan": 18080.453404998814,
+    "net_cash_change": -1643.5,
+    "cash_after_plan": 16436.953404998814,
     "needs_extra_cash": 0.0,
-    "remaining_cash": 18080.453404998814
+    "remaining_cash": 16436.953404998814
   },
-  "today_candidates": [],
+  "today_candidates": [
+    {
+      "rank": 1,
+      "signal_date": "2026-10-22",
+      "stock_id": "3090",
+      "company_name": "日電貿",
+      "action": "SELL_WEAKEST_BUY_CANDIDATE",
+      "reference_price": 156.5,
+      "target_amount": 112670.09068099977,
+      "suggested_quantity": 719,
+      "buy_amount": 112523.5,
+      "sell_stock_id": "3491",
+      "sell_company_name": "昇達科",
+      "sell_quantity": 84,
+      "sell_current_price": 1320.0,
+      "sell_market_value": 110880.0,
+      "concept_tag_names": [
+        "MLCC/被動元件",
+        "證券券商",
+        "功率分離式元件",
+        "工具機零組件",
+        "投資控股",
+        "晶圓製程設備零組件",
+        "磁磚/陶瓷建材",
+        "被動元件",
+        "保護元件/電感"
+      ],
+      "sell_concept_tag_names": [
+        "衛星通訊/寬頻設備",
+        "RF前端/功率放大器",
+        "證券券商",
+        "化合物半導體/RF",
+        "工程營造",
+        "投資控股",
+        "網安/網路設備"
+      ],
+      "action_text": "換股買進"
+    }
+  ],
   "recent_entries": [
     {
       "stock_id": "2492",
