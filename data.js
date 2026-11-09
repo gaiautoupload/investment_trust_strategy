@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-11-06T18:34:12.063442+08:00",
+  "generated_at": "2026-11-09T18:34:38.841433+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,25 +8,25 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-11-06",
-    "latest_chip_date": "2026-11-06",
-    "latest_price_date": "2026-11-06",
-    "candidate_count": 2,
+    "signal_date": "2026-11-09",
+    "latest_chip_date": "2026-11-09",
+    "latest_price_date": "2026-11-09",
+    "candidate_count": 0,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 433229.9534049988,
-    "cash": -13861.643892669643,
-    "total_return_pct": 44.40998446833293,
-    "annualized_return_pct": 57.81177599903411,
+    "final_value": 460675.1597457886,
+    "cash": -11914.84025421139,
+    "total_return_pct": 53.558386581929526,
+    "annualized_return_pct": 69.4033630197419,
     "start_date": "2026-01-16",
-    "end_date": "2026-11-06",
-    "closed_trade_count": 94,
-    "entry_count": 95,
+    "end_date": "2026-11-09",
+    "closed_trade_count": 96,
+    "entry_count": 97,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": 43.61702127659575,
-    "average_closed_trade_return_pct": -1.214999630742065,
+    "closed_trade_win_rate_pct": 42.70833333333333,
+    "average_closed_trade_return_pct": -1.4910505289028333,
     "max_drawdown_pct": -33.38139294659943,
     "performance_source": "actual_follow_account"
   },
@@ -522,45 +522,26 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 433229.9534049988,
       "cash": -13861.643892669643,
       "position_count": 5
+    },
+    {
+      "date": "2026-11-09",
+      "equity": 460675.1597457886,
+      "cash": -11914.84025421139,
+      "position_count": 5
     }
   ],
   "holdings": [
-    {
-      "stock_id": "3450",
-      "company_name": "聯鈞",
-      "quantity": 271,
-      "entry_date": "2026-10-30",
-      "entry_price": 413.0,
-      "current_price_date": "2026-11-06",
-      "current_price": 309.0,
-      "market_value": 83739.0,
-      "unrealized_return_pct": -25.18159806295399,
-      "holding_days": 7,
-      "concept_tag_names": [
-        "矽光子/CPO",
-        "光纖傳輸/光通訊",
-        "光通訊模組",
-        "矽光子/光通訊",
-        "證券券商",
-        "光纖/光纜",
-        "功率元件",
-        "投資控股",
-        "檢測設備/服務",
-        "測試驗證服務",
-        "半導體IP/設計服務"
-      ]
-    },
     {
       "stock_id": "6957",
       "company_name": "裕慶-KY",
       "quantity": 215,
       "entry_date": "2026-11-04",
       "entry_price": 430.0,
-      "current_price_date": "2026-11-06",
-      "current_price": 418.5,
-      "market_value": 89977.5,
-      "unrealized_return_pct": -2.674418604651163,
-      "holding_days": 2,
+      "current_price_date": "2026-11-09",
+      "current_price": 460.0,
+      "market_value": 98900.0,
+      "unrealized_return_pct": 6.976744186046502,
+      "holding_days": 5,
       "concept_tag_names": [
         "證券券商",
         "投資控股",
@@ -569,35 +550,16 @@ window.PUBLIC_FOLLOW_DATA = {
       ]
     },
     {
-      "stock_id": "4915",
-      "company_name": "致伸",
-      "quantity": 1771,
-      "entry_date": "2026-11-05",
-      "entry_price": 55.099998474121094,
-      "current_price_date": "2026-11-06",
-      "current_price": 52.599998474121094,
-      "market_value": 93154.59729766846,
-      "unrealized_return_pct": -4.537205207318074,
-      "holding_days": 1,
-      "concept_tag_names": [
-        "連接器/線束",
-        "證券券商",
-        "工具機零組件",
-        "投資控股",
-        "晶圓製程設備零組件"
-      ]
-    },
-    {
       "stock_id": "3023",
       "company_name": "信邦",
       "quantity": 357,
       "entry_date": "2026-11-06",
       "entry_price": 247.0,
-      "current_price_date": "2026-11-06",
-      "current_price": 258.5,
-      "market_value": 92284.5,
-      "unrealized_return_pct": 4.6558704453441235,
-      "holding_days": 0,
+      "current_price_date": "2026-11-09",
+      "current_price": 257.5,
+      "market_value": 91927.5,
+      "unrealized_return_pct": 4.251012145748989,
+      "holding_days": 3,
       "concept_tag_names": [
         "儲能",
         "充電樁",
@@ -618,11 +580,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 256,
       "entry_date": "2026-11-06",
       "entry_price": 322.5,
-      "current_price_date": "2026-11-06",
-      "current_price": 343.5,
-      "market_value": 87936.0,
-      "unrealized_return_pct": 6.511627906976747,
-      "holding_days": 0,
+      "current_price_date": "2026-11-09",
+      "current_price": 377.5,
+      "market_value": 96640.0,
+      "unrealized_return_pct": 17.054263565891482,
+      "holding_days": 3,
       "concept_tag_names": [
         "精密沖壓/金屬件",
         "晶圓製程設備零組件",
@@ -632,111 +594,18 @@ window.PUBLIC_FOLLOW_DATA = {
         "投資控股",
         "檢測設備/服務"
       ]
-    }
-  ],
-  "trade_plan": {
-    "sell_orders": [
-      {
-        "stock_id": "4915",
-        "company_name": "致伸",
-        "quantity": 1771,
-        "price": 52.599998474121094,
-        "amount": 93154.59729766846,
-        "concept_tag_names": [
-          "連接器/線束",
-          "證券券商",
-          "工具機零組件",
-          "投資控股",
-          "晶圓製程設備零組件"
-        ]
-      },
-      {
-        "stock_id": "3450",
-        "company_name": "聯鈞",
-        "quantity": 271,
-        "price": 309.0,
-        "amount": 83739.0,
-        "concept_tag_names": [
-          "矽光子/CPO",
-          "光纖傳輸/光通訊",
-          "光通訊模組",
-          "矽光子/光通訊",
-          "證券券商",
-          "光纖/光纜",
-          "功率元件",
-          "投資控股",
-          "檢測設備/服務",
-          "測試驗證服務",
-          "半導體IP/設計服務"
-        ]
-      }
-    ],
-    "buy_orders": [
-      {
-        "stock_id": "4966",
-        "company_name": "譜瑞-KY",
-        "quantity": 224,
-        "price": 385.5,
-        "amount": 86352.0,
-        "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null,
-        "concept_tag_names": [
-          "證券券商",
-          "RF前端/功率放大器",
-          "化合物半導體/RF",
-          "投資控股",
-          "遊戲/VR裝置",
-          "半導體IP/設計服務",
-          "基礎產業:半導體業"
-        ]
-      },
-      {
-        "stock_id": "6548",
-        "company_name": "長科*",
-        "quantity": 1499,
-        "price": 57.79999923706055,
-        "amount": 86642.19885635376,
-        "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null,
-        "concept_tag_names": [
-          "封測",
-          "導線架/封裝材料",
-          "證券券商",
-          "塑膠原料/樹脂",
-          "工程營造",
-          "投資控股",
-          "無塵室/廠務工程",
-          "特用化學/材料",
-          "矽晶圓",
-          "租賃金融",
-          "半導體IP/設計服務"
-        ]
-      }
-    ],
-    "total_sell_amount": 176893.59729766846,
-    "total_buy_amount": 172994.19885635376,
-    "starting_cash": -13861.643892669643,
-    "net_cash_change": 3899.3984413146973,
-    "cash_after_plan": -9962.245451354946,
-    "needs_extra_cash": 9962.245451354946,
-    "remaining_cash": 0.0
-  },
-  "today_candidates": [
+    },
     {
-      "rank": 1,
-      "signal_date": "2026-11-06",
       "stock_id": "4966",
       "company_name": "譜瑞-KY",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 385.5,
-      "target_amount": 86645.99068099976,
-      "suggested_quantity": 224,
-      "buy_amount": 86352.0,
-      "sell_stock_id": "4915",
-      "sell_company_name": "致伸",
-      "sell_quantity": 1771,
-      "sell_current_price": 52.599998474121094,
-      "sell_market_value": 93154.59729766846,
+      "quantity": 224,
+      "entry_date": "2026-11-09",
+      "entry_price": 390.5,
+      "current_price_date": "2026-11-09",
+      "current_price": 401.5,
+      "market_value": 89936.0,
+      "unrealized_return_pct": 2.8169014084507005,
+      "holding_days": 0,
       "concept_tag_names": [
         "證券券商",
         "RF前端/功率放大器",
@@ -745,31 +614,19 @@ window.PUBLIC_FOLLOW_DATA = {
         "遊戲/VR裝置",
         "半導體IP/設計服務",
         "基礎產業:半導體業"
-      ],
-      "sell_concept_tag_names": [
-        "連接器/線束",
-        "證券券商",
-        "工具機零組件",
-        "投資控股",
-        "晶圓製程設備零組件"
-      ],
-      "action_text": "換股買進"
+      ]
     },
     {
-      "rank": 2,
-      "signal_date": "2026-11-06",
       "stock_id": "6548",
       "company_name": "長科*",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 57.79999923706055,
-      "target_amount": 86645.99068099976,
-      "suggested_quantity": 1499,
-      "buy_amount": 86642.19885635376,
-      "sell_stock_id": "3450",
-      "sell_company_name": "聯鈞",
-      "sell_quantity": 271,
-      "sell_current_price": 309.0,
-      "sell_market_value": 83739.0,
+      "quantity": 1499,
+      "entry_date": "2026-11-09",
+      "entry_price": 59.099998474121094,
+      "current_price_date": "2026-11-09",
+      "current_price": 63.5,
+      "market_value": 95186.5,
+      "unrealized_return_pct": 7.445011234316001,
+      "holding_days": 0,
       "concept_tag_names": [
         "封測",
         "導線架/封裝材料",
@@ -782,24 +639,40 @@ window.PUBLIC_FOLLOW_DATA = {
         "矽晶圓",
         "租賃金融",
         "半導體IP/設計服務"
-      ],
-      "sell_concept_tag_names": [
-        "矽光子/CPO",
-        "光纖傳輸/光通訊",
-        "光通訊模組",
-        "矽光子/光通訊",
-        "證券券商",
-        "光纖/光纜",
-        "功率元件",
-        "投資控股",
-        "檢測設備/服務",
-        "測試驗證服務",
-        "半導體IP/設計服務"
-      ],
-      "action_text": "換股買進"
+      ]
     }
   ],
+  "trade_plan": {
+    "sell_orders": [],
+    "buy_orders": [],
+    "total_sell_amount": 0,
+    "total_buy_amount": 0,
+    "starting_cash": -11914.84025421139,
+    "net_cash_change": 0,
+    "cash_after_plan": -11914.84025421139,
+    "needs_extra_cash": 11914.84025421139,
+    "remaining_cash": 0.0
+  },
+  "today_candidates": [],
   "recent_entries": [
+    {
+      "stock_id": "4966",
+      "company_name": "譜瑞-KY",
+      "entry_date": "2026-11-09",
+      "entry_price": 390.5,
+      "quantity": 224,
+      "cost": 87472.0,
+      "concept_tag_names": null
+    },
+    {
+      "stock_id": "6548",
+      "company_name": "長科*",
+      "entry_date": "2026-11-09",
+      "entry_price": 59.099998474121094,
+      "quantity": 1499,
+      "cost": 88590.89771270752,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "3023",
       "company_name": "信邦",
@@ -889,27 +762,35 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 87,
       "cost": 115710.0,
       "concept_tag_names": null
-    },
-    {
-      "stock_id": "3090",
-      "company_name": "日電貿",
-      "entry_date": "2026-10-23",
-      "entry_price": 156.5,
-      "quantity": 719,
-      "cost": 112523.5,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "2492",
-      "company_name": "華新科",
-      "entry_date": "2026-10-21",
-      "entry_price": 387.5,
-      "quantity": 308,
-      "cost": 119350.0,
-      "concept_tag_names": null
     }
   ],
   "recent_closed_trades": [
+    {
+      "stock_id": "4915",
+      "company_name": "致伸",
+      "entry_date": "2026-11-05",
+      "entry_price": 55.099998474121094,
+      "quantity": 1771,
+      "exit_date": "2026-11-09",
+      "exit_price": 51.70000076293945,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": -6.170594928017148,
+      "holding_days": 4,
+      "concept_tag_names": null
+    },
+    {
+      "stock_id": "3450",
+      "company_name": "聯鈞",
+      "entry_date": "2026-10-30",
+      "entry_price": 413.0,
+      "quantity": 271,
+      "exit_date": "2026-11-09",
+      "exit_price": 319.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": -22.76029055690073,
+      "holding_days": 10,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "2351",
       "company_name": "順德",
@@ -1038,32 +919,6 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_reason": "follow_signal_replace",
       "return_pct": 0.9584664536741228,
       "holding_days": 5,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "3491",
-      "company_name": "昇達科",
-      "entry_date": "2026-10-20",
-      "entry_price": 1395.0,
-      "quantity": 84,
-      "exit_date": "2026-10-23",
-      "exit_price": 1320.0,
-      "exit_reason": "follow_signal_replace",
-      "return_pct": -5.376344086021501,
-      "holding_days": 3,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "6770",
-      "company_name": "力積電",
-      "entry_date": "2026-10-20",
-      "entry_price": 64.69999694824219,
-      "quantity": 1793,
-      "exit_date": "2026-10-21",
-      "exit_price": 66.30000305175781,
-      "exit_reason": "follow_signal_replace",
-      "return_pct": 2.472961636761095,
-      "holding_days": 1,
       "concept_tag_names": null
     }
   ]
