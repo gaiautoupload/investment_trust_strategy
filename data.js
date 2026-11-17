@@ -1,5 +1,5 @@
 window.PUBLIC_FOLLOW_DATA = {
-  "generated_at": "2026-11-16T18:31:23.028237+08:00",
+  "generated_at": "2026-11-17T18:31:33.778065+08:00",
   "public_note": "Static follow dashboard only. Backend code, database, cache, and parameter search files are local-only.",
   "assumptions": {
     "initial_capital": 300000.0,
@@ -8,26 +8,26 @@ window.PUBLIC_FOLLOW_DATA = {
     "position_sizing": "Capital is split across up to 5 positions with integer-share sizing."
   },
   "data_status": {
-    "signal_date": "2026-11-16",
-    "latest_chip_date": "2026-11-16",
-    "latest_price_date": "2026-11-16",
-    "candidate_count": 2,
+    "signal_date": "2026-11-17",
+    "latest_chip_date": "2026-11-17",
+    "latest_price_date": "2026-11-17",
+    "candidate_count": 7,
     "warning": null
   },
   "metrics": {
     "initial_capital": 300000.0,
-    "final_value": 412105.1597457886,
-    "cash": 726.6597457886091,
-    "total_return_pct": 37.368386581929535,
-    "annualized_return_pct": 46.40465040176749,
+    "final_value": 389074.65786895755,
+    "cash": -12986.338377380336,
+    "total_return_pct": 29.69155262298586,
+    "annualized_return_pct": 36.49722592011941,
     "start_date": "2026-01-16",
-    "end_date": "2026-11-16",
-    "closed_trade_count": 102,
-    "entry_count": 103,
+    "end_date": "2026-11-17",
+    "closed_trade_count": 104,
+    "entry_count": 105,
     "open_position_count": 5,
-    "closed_trade_win_rate_pct": 44.11764705882353,
-    "average_closed_trade_return_pct": -1.127931104605416,
-    "max_drawdown_pct": -36.62979328643349,
+    "closed_trade_win_rate_pct": 43.269230769230774,
+    "average_closed_trade_return_pct": -1.471525243207225,
+    "max_drawdown_pct": -40.17123806123863,
     "performance_source": "actual_follow_account"
   },
   "equity_curve": [
@@ -552,62 +552,26 @@ window.PUBLIC_FOLLOW_DATA = {
       "equity": 412105.1597457886,
       "cash": 726.6597457886091,
       "position_count": 5
+    },
+    {
+      "date": "2026-11-17",
+      "equity": 389074.65786895755,
+      "cash": -12986.338377380336,
+      "position_count": 5
     }
   ],
   "holdings": [
-    {
-      "stock_id": "3081",
-      "company_name": "聯亞",
-      "quantity": 42,
-      "entry_date": "2026-11-12",
-      "entry_price": 2255.0,
-      "current_price_date": "2026-11-16",
-      "current_price": 1900.0,
-      "market_value": 79800.0,
-      "unrealized_return_pct": -15.742793791574282,
-      "holding_days": 4,
-      "concept_tag_names": [
-        "光通訊模組",
-        "矽光子/CPO",
-        "證券券商",
-        "塑膠原料/樹脂",
-        "投資控股",
-        "網安/網路設備"
-      ]
-    },
-    {
-      "stock_id": "8210",
-      "company_name": "勤誠",
-      "quantity": 147,
-      "entry_date": "2026-11-13",
-      "entry_price": 615.0,
-      "current_price_date": "2026-11-16",
-      "current_price": 545.0,
-      "market_value": 80115.0,
-      "unrealized_return_pct": -11.382113821138207,
-      "holding_days": 3,
-      "concept_tag_names": [
-        "證券券商",
-        "AI伺服器",
-        "利基型記憶體/Nor Flash",
-        "工具機/自動化設備",
-        "投資控股",
-        "晶圓製程設備零組件",
-        "檢測設備/服務",
-        "基礎產業:電腦及週邊設備業"
-      ]
-    },
     {
       "stock_id": "3617",
       "company_name": "碩天",
       "quantity": 317,
       "entry_date": "2026-11-16",
       "entry_price": 279.0,
-      "current_price_date": "2026-11-16",
-      "current_price": 266.5,
-      "market_value": 84480.5,
-      "unrealized_return_pct": -4.480286738351258,
-      "holding_days": 0,
+      "current_price_date": "2026-11-17",
+      "current_price": 255.0,
+      "market_value": 80835.0,
+      "unrealized_return_pct": -8.602150537634412,
+      "holding_days": 1,
       "concept_tag_names": [
         "工業電源/電源供應",
         "證券券商",
@@ -627,11 +591,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 310,
       "entry_date": "2026-11-16",
       "entry_price": 287.5,
-      "current_price_date": "2026-11-16",
-      "current_price": 273.0,
-      "market_value": 84630.0,
-      "unrealized_return_pct": -5.043478260869561,
-      "holding_days": 0,
+      "current_price_date": "2026-11-17",
+      "current_price": 267.5,
+      "market_value": 82925.0,
+      "unrealized_return_pct": -6.956521739130439,
+      "holding_days": 1,
       "concept_tag_names": [
         "證券券商",
         "投資控股",
@@ -647,11 +611,11 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 283,
       "entry_date": "2026-11-16",
       "entry_price": 308.5,
-      "current_price_date": "2026-11-16",
-      "current_price": 291.0,
-      "market_value": 82353.0,
-      "unrealized_return_pct": -5.672609400324147,
-      "holding_days": 0,
+      "current_price_date": "2026-11-17",
+      "current_price": 284.0,
+      "market_value": 80372.0,
+      "unrealized_return_pct": -7.94165316045381,
+      "holding_days": 1,
       "concept_tag_names": [
         "電動車動力/電控",
         "證券券商",
@@ -663,71 +627,59 @@ window.PUBLIC_FOLLOW_DATA = {
         "遊戲/數位內容",
         "電池材料"
       ]
+    },
+    {
+      "stock_id": "4770",
+      "company_name": "上品",
+      "quantity": 279,
+      "entry_date": "2026-11-17",
+      "entry_price": 290.0,
+      "current_price_date": "2026-11-17",
+      "current_price": 272.0,
+      "market_value": 75888.0,
+      "unrealized_return_pct": -6.206896551724139,
+      "holding_days": 0,
+      "concept_tag_names": [
+        "證券券商",
+        "工具機/自動化設備",
+        "工程營造",
+        "投資控股",
+        "晶圓製程設備零組件",
+        "檢測設備/服務",
+        "特用化學/材料",
+        "基礎產業:化學工業"
+      ]
+    },
+    {
+      "stock_id": "4739",
+      "company_name": "康普",
+      "quantity": 1230,
+      "entry_date": "2026-11-17",
+      "entry_price": 67.0999984741211,
+      "current_price_date": "2026-11-17",
+      "current_price": 66.69999694824219,
+      "market_value": 82040.99624633789,
+      "unrealized_return_pct": -0.5961274738824018,
+      "holding_days": 0,
+      "concept_tag_names": [
+        "電池材料",
+        "特用化學/材料",
+        "證券券商",
+        "RF前端/功率放大器",
+        "化合物半導體/RF",
+        "投資控股",
+        "電動車"
+      ]
     }
   ],
   "trade_plan": {
     "sell_orders": [
       {
-        "stock_id": "3081",
-        "company_name": "聯亞",
-        "quantity": 42,
-        "price": 1900.0,
-        "amount": 79800.0,
-        "concept_tag_names": [
-          "光通訊模組",
-          "矽光子/CPO",
-          "證券券商",
-          "塑膠原料/樹脂",
-          "投資控股",
-          "網安/網路設備"
-        ]
-      },
-      {
-        "stock_id": "8210",
-        "company_name": "勤誠",
-        "quantity": 147,
-        "price": 545.0,
-        "amount": 80115.0,
-        "concept_tag_names": [
-          "證券券商",
-          "AI伺服器",
-          "利基型記憶體/Nor Flash",
-          "工具機/自動化設備",
-          "投資控股",
-          "晶圓製程設備零組件",
-          "檢測設備/服務",
-          "基礎產業:電腦及週邊設備業"
-        ]
-      }
-    ],
-    "buy_orders": [
-      {
-        "stock_id": "4770",
-        "company_name": "上品",
-        "quantity": 279,
-        "price": 295.0,
-        "amount": 82305.0,
-        "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null,
-        "concept_tag_names": [
-          "證券券商",
-          "工具機/自動化設備",
-          "工程營造",
-          "投資控股",
-          "晶圓製程設備零組件",
-          "檢測設備/服務",
-          "特用化學/材料",
-          "基礎產業:化學工業"
-        ]
-      },
-      {
         "stock_id": "4739",
         "company_name": "康普",
         "quantity": 1230,
-        "price": 67.0,
-        "amount": 82410.0,
-        "action": "SELL_WEAKEST_BUY_CANDIDATE",
-        "entry_date": null,
+        "price": 66.69999694824219,
+        "amount": 82040.99624633789,
         "concept_tag_names": [
           "電池材料",
           "特用化學/材料",
@@ -739,66 +691,60 @@ window.PUBLIC_FOLLOW_DATA = {
         ]
       }
     ],
-    "total_sell_amount": 159915.0,
-    "total_buy_amount": 164715.0,
-    "starting_cash": 726.6597457886091,
-    "net_cash_change": -4800.0,
-    "cash_after_plan": -4073.340254211391,
-    "needs_extra_cash": 4073.340254211391,
+    "buy_orders": [
+      {
+        "stock_id": "3030",
+        "company_name": "德律",
+        "quantity": 367,
+        "price": 212.0,
+        "amount": 77804.0,
+        "action": "SELL_WEAKEST_BUY_CANDIDATE",
+        "entry_date": null,
+        "concept_tag_names": [
+          "AOI/檢測設備",
+          "檢測設備/服務",
+          "證券券商",
+          "工具機/自動化設備",
+          "投資控股",
+          "晶圓製程設備零組件",
+          "電子回收/整新品"
+        ]
+      }
+    ],
+    "total_sell_amount": 82040.99624633789,
+    "total_buy_amount": 77804.0,
+    "starting_cash": -12986.338377380336,
+    "net_cash_change": 4236.996246337891,
+    "cash_after_plan": -8749.342131042446,
+    "needs_extra_cash": 8749.342131042446,
     "remaining_cash": 0.0
   },
   "today_candidates": [
     {
       "rank": 1,
-      "signal_date": "2026-11-16",
-      "stock_id": "4770",
-      "company_name": "上品",
+      "signal_date": "2026-11-17",
+      "stock_id": "3030",
+      "company_name": "德律",
       "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 295.0,
-      "target_amount": 82421.03194915772,
-      "suggested_quantity": 279,
-      "buy_amount": 82305.0,
-      "sell_stock_id": "3081",
-      "sell_company_name": "聯亞",
-      "sell_quantity": 42,
-      "sell_current_price": 1900.0,
-      "sell_market_value": 79800.0,
+      "reference_price": 212.0,
+      "target_amount": 77814.93157379152,
+      "suggested_quantity": 367,
+      "buy_amount": 77804.0,
+      "sell_stock_id": "4739",
+      "sell_company_name": "康普",
+      "sell_quantity": 1230,
+      "sell_current_price": 66.69999694824219,
+      "sell_market_value": 82040.99624633789,
       "concept_tag_names": [
+        "AOI/檢測設備",
+        "檢測設備/服務",
         "證券券商",
         "工具機/自動化設備",
-        "工程營造",
         "投資控股",
         "晶圓製程設備零組件",
-        "檢測設備/服務",
-        "特用化學/材料",
-        "基礎產業:化學工業"
+        "電子回收/整新品"
       ],
       "sell_concept_tag_names": [
-        "光通訊模組",
-        "矽光子/CPO",
-        "證券券商",
-        "塑膠原料/樹脂",
-        "投資控股",
-        "網安/網路設備"
-      ],
-      "action_text": "換股買進"
-    },
-    {
-      "rank": 2,
-      "signal_date": "2026-11-16",
-      "stock_id": "4739",
-      "company_name": "康普",
-      "action": "SELL_WEAKEST_BUY_CANDIDATE",
-      "reference_price": 67.0,
-      "target_amount": 82421.03194915772,
-      "suggested_quantity": 1230,
-      "buy_amount": 82410.0,
-      "sell_stock_id": "8210",
-      "sell_company_name": "勤誠",
-      "sell_quantity": 147,
-      "sell_current_price": 545.0,
-      "sell_market_value": 80115.0,
-      "concept_tag_names": [
         "電池材料",
         "特用化學/材料",
         "證券券商",
@@ -807,20 +753,167 @@ window.PUBLIC_FOLLOW_DATA = {
         "投資控股",
         "電動車"
       ],
-      "sell_concept_tag_names": [
+      "action_text": "換股買進"
+    },
+    {
+      "rank": 2,
+      "signal_date": "2026-11-17",
+      "stock_id": "2451",
+      "company_name": "創見",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 212.0,
+      "target_amount": 77814.93157379152,
+      "suggested_quantity": 367,
+      "buy_amount": 77804.0,
+      "concept_tag_names": [
+        "記憶體模組",
         "證券券商",
-        "AI伺服器",
+        "NAND/Nor Flash",
+        "利基型記憶體/Nor Flash",
+        "投資控股",
+        "汽車/車用零組件",
+        "車用AM零件",
+        "半導體IP/設計服務"
+      ],
+      "action_text": "觀察"
+    },
+    {
+      "rank": 3,
+      "signal_date": "2026-11-17",
+      "stock_id": "5536",
+      "company_name": "聖暉*",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 681.0,
+      "target_amount": 77814.93157379152,
+      "suggested_quantity": 114,
+      "buy_amount": 77634.0,
+      "concept_tag_names": [
+        "無塵室/廠務工程",
+        "證券券商",
+        "工具機/自動化設備",
+        "工程營造",
+        "投資控股",
+        "新藥",
+        "晶圓製程設備零組件",
+        "檢測設備/服務",
+        "特用化學/材料"
+      ],
+      "action_text": "觀察"
+    },
+    {
+      "rank": 4,
+      "signal_date": "2026-11-17",
+      "stock_id": "5289",
+      "company_name": "宜鼎",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 838.0,
+      "target_amount": 77814.93157379152,
+      "suggested_quantity": 92,
+      "buy_amount": 77096.0,
+      "concept_tag_names": [
+        "IPC/邊緣運算",
+        "記憶體",
+        "證券券商",
         "利基型記憶體/Nor Flash",
         "工具機/自動化設備",
+        "工業電腦",
         "投資控股",
         "晶圓製程設備零組件",
         "檢測設備/服務",
+        "記憶體模組",
         "基礎產業:電腦及週邊設備業"
       ],
-      "action_text": "換股買進"
+      "action_text": "觀察"
+    },
+    {
+      "rank": 5,
+      "signal_date": "2026-11-17",
+      "stock_id": "8112",
+      "company_name": "至上",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 78.5999984741211,
+      "target_amount": 77814.93157379152,
+      "suggested_quantity": 990,
+      "buy_amount": 77813.99848937988,
+      "concept_tag_names": [
+        "證券券商",
+        "利基型記憶體/Nor Flash",
+        "投資控股",
+        "百貨零售",
+        "石英元件",
+        "系統整合/資服",
+        "表面處理/塗佈材料",
+        "記憶體",
+        "零售通路",
+        "電子通路",
+        "食品飲料/通路",
+        "驅動IC/觸控IC",
+        "基礎產業:電子通路業"
+      ],
+      "action_text": "觀察"
+    },
+    {
+      "rank": 6,
+      "signal_date": "2026-11-17",
+      "stock_id": "1326",
+      "company_name": "台化",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 70.5,
+      "target_amount": 77814.93157379152,
+      "suggested_quantity": 1103,
+      "buy_amount": 77761.5,
+      "concept_tag_names": [
+        "石化上游",
+        "證券券商",
+        "NB/PC代工",
+        "再生能源工程",
+        "塑膠原料/樹脂",
+        "投資控股",
+        "環保/循環經濟",
+        "聚酯/紡纖"
+      ],
+      "action_text": "觀察"
+    },
+    {
+      "rank": 7,
+      "signal_date": "2026-11-17",
+      "stock_id": "1301",
+      "company_name": "台塑",
+      "action": "WATCH_WEAKER_THAN_CURRENT_HOLDING",
+      "reference_price": 67.5,
+      "target_amount": 77814.93157379152,
+      "suggested_quantity": 1152,
+      "buy_amount": 77760.0,
+      "concept_tag_names": [
+        "石化上游",
+        "證券券商",
+        "NB/PC代工",
+        "再生能源工程",
+        "塑膠原料/樹脂",
+        "投資控股"
+      ],
+      "action_text": "觀察"
     }
   ],
   "recent_entries": [
+    {
+      "stock_id": "4770",
+      "company_name": "上品",
+      "entry_date": "2026-11-17",
+      "entry_price": 290.0,
+      "quantity": 279,
+      "cost": 80910.0,
+      "concept_tag_names": null
+    },
+    {
+      "stock_id": "4739",
+      "company_name": "康普",
+      "entry_date": "2026-11-17",
+      "entry_price": 67.0999984741211,
+      "quantity": 1230,
+      "cost": 82532.99812316895,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "3617",
       "company_name": "碩天",
@@ -910,27 +1003,35 @@ window.PUBLIC_FOLLOW_DATA = {
       "quantity": 256,
       "cost": 82560.0,
       "concept_tag_names": null
-    },
-    {
-      "stock_id": "4915",
-      "company_name": "致伸",
-      "entry_date": "2026-11-05",
-      "entry_price": 55.099998474121094,
-      "quantity": 1771,
-      "cost": 97582.09729766846,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "6957",
-      "company_name": "裕慶-KY",
-      "entry_date": "2026-11-04",
-      "entry_price": 430.0,
-      "quantity": 215,
-      "cost": 92450.0,
-      "concept_tag_names": null
     }
   ],
   "recent_closed_trades": [
+    {
+      "stock_id": "3081",
+      "company_name": "聯亞",
+      "entry_date": "2026-11-12",
+      "entry_price": 2255.0,
+      "quantity": 42,
+      "exit_date": "2026-11-17",
+      "exit_price": 1710.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": -24.168514412416854,
+      "holding_days": 5,
+      "concept_tag_names": null
+    },
+    {
+      "stock_id": "8210",
+      "company_name": "勤誠",
+      "entry_date": "2026-11-13",
+      "entry_price": 615.0,
+      "quantity": 147,
+      "exit_date": "2026-11-17",
+      "exit_price": 530.0,
+      "exit_reason": "follow_signal_replace",
+      "return_pct": -13.821138211382111,
+      "holding_days": 4,
+      "concept_tag_names": null
+    },
     {
       "stock_id": "4966",
       "company_name": "譜瑞-KY",
@@ -1059,32 +1160,6 @@ window.PUBLIC_FOLLOW_DATA = {
       "exit_reason": "follow_signal_replace",
       "return_pct": -35.0375939849624,
       "holding_days": 9,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "6693",
-      "company_name": "廣閎科",
-      "entry_date": "2026-11-04",
-      "entry_price": 145.5,
-      "quantity": 696,
-      "exit_date": "2026-11-05",
-      "exit_price": 139.0,
-      "exit_reason": "follow_signal_replace",
-      "return_pct": -4.467353951890029,
-      "holding_days": 1,
-      "concept_tag_names": null
-    },
-    {
-      "stock_id": "2492",
-      "company_name": "華新科",
-      "entry_date": "2026-10-21",
-      "entry_price": 387.5,
-      "quantity": 308,
-      "exit_date": "2026-11-04",
-      "exit_price": 326.5,
-      "exit_reason": "follow_signal_replace",
-      "return_pct": -15.741935483870972,
-      "holding_days": 14,
       "concept_tag_names": null
     }
   ]
